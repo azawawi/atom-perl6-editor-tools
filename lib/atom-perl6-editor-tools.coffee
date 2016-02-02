@@ -9,7 +9,7 @@ module.exports = AtomPerl6EditorTools =
 
   activate: (state) ->
     @atomPerl6EditorToolsView = new AtomPerl6EditorToolsView(state.atomPerl6EditorToolsViewState)
-    @modalPanel = atom.workspace.addModalPanel(item: @atomPerl6EditorToolsView.getElement(), visible: false)
+    @modalPanel = atom.workspace.addTopPanel(item: @atomPerl6EditorToolsView.getElement(), visible: false)
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
@@ -26,30 +26,50 @@ module.exports = AtomPerl6EditorTools =
     atomPerl6EditorToolsViewState: @atomPerl6EditorToolsView.serialize()
 
   toggle: ->
-    #console.log 'AtomPerl6EditorTools was toggled!'
-    #atom.notifications.addInfo("Perl 6 Editor tools was toggled!");
-    #textEditor = atom.workspace.getActiveTextEditor()
-    #console.log textEditor
-
+    editor = atom.workspace.getActiveTextEditor()
+    
     #atom.workspace.observeTextEditors (editor) ->
     #  atom.notifications.addInfo("Filename :" + editor.getTitle() );
-      
+
     #textEditor.onDidStopChanging () ->
     #  console.log "changed!"
+      
+    atom.workspace.addOpener (uriToOpen) ->
+      try
+        {protocol, host, pathname} = url.parse(uriToOpen)
+      catch error
+        return
 
-    #TODO File::Which perl6
-    command = 'perl6'
-    args    = ['--doc=HTML', '-']
-    stdout  = (output) ->
-      console.log(output)
-      atom.notifications.addSuccess(output)
+      return unless protocol is 'perl6-pod-preview:'
+      
+      try
+        pathname = decodeURI(pathname) if pathname
+      catch error
+        return
 
-    exit    = (code) ->
-      console.log("perl6 --doc exited with #{code}")
-      atom.notifications.addInfo("perl6 --doc exited with #{code}")
-    data = '=begin pod\nHello\=end pod'
-    process = new BufferedProcess({command, args, stdout, exit, data})
-    #if @modalPanel.isVisible()
-    #  @modalPanel.hide()
-    #else
-    #  @modalPanel.show()
+      if host is 'editor'
+        new AtomPerl6EditorToolsView(editorId: pathname.substring(1))
+      else
+        console.log "Not an editor?"
+
+    options =
+      split: 'right'
+    atom.workspace.open("perl6-pod-preview://editor/#{editor.id}", options).then (podPreviewEditor) ->
+      podPreviewEditor.setText "Hello world!"
+      #TODO File::Which perl6
+      command = 'perl6'
+      args    = ['--doc=HTML', 'Sample.pm6']
+      stdout  = (output) ->
+        #console.log(output)
+        podPreviewEditor.setText output
+        #atom.notifications.addSuccess(output)
+      exit    = (code) ->
+        console.log("perl6 --doc exited with #{code}")
+        atom.notifications.addInfo("perl6 --doc exited with #{code}")
+      process = new BufferedProcess({command, args, stdout, exit})
+
+
+    if @modalPanel.isVisible()
+      @modalPanel.hide()
+    else
+      @modalPanel.show()
