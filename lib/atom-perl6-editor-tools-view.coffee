@@ -16,7 +16,7 @@ class AtomHtmlPreviewView extends ScrollView
     new AtomHtmlPreviewView(state)
 
   @content: ->
-    @div class: 'atom-html-preview native-key-bindings', tabindex: -1
+    @div class: 'atom-perl6-editor-tools native-key-bindings', tabindex: -1
 
   constructor: ({@editorId, filePath}) ->
     super
@@ -82,7 +82,7 @@ class AtomHtmlPreviewView extends ScrollView
     @editorSub = new CompositeDisposable
 
     if @editor?
-      if atom.config.get("atom-html-preview.triggerOnSave")
+      if atom.config.get("atom-perl6-editor-tools.triggerOnSave")
         @editorSub.add @editor.onDidSave changeHandler
       else
         @editorSub.add @editor.onDidStopChanging changeHandler
@@ -103,15 +103,15 @@ class AtomHtmlPreviewView extends ScrollView
     fs.writeFile outPath, out, callback
 
   renderHTMLCode: (text) ->
-    if not atom.config.get("atom-html-preview.triggerOnSave") and @editor.getPath()? then @save () =>
+    if not atom.config.get("atom-perl6-editor-tools.triggerOnSave") and @editor.getPath()? then @save () =>
       iframe = document.createElement("iframe")
-      # Fix from @kwaak (https://github.com/webBoxio/atom-html-preview/issues/1/#issuecomment-49639162)
+      # Fix from @kwaak (https://github.com/webBoxio/atom-perl6-editor-tools/issues/1/#issuecomment-49639162)
       # Allows for the use of relative resources (scripts, styles)
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
       iframe.src = @tmpPath
       @html $ iframe
-      # @trigger('atom-html-preview:html-changed')
-      atom.commands.dispatch 'atom-html-preview', 'html-changed'
+      # @trigger('atom-perl6-editor-tools:html-changed')
+      atom.commands.dispatch 'atom-perl6-editor-tools', 'html-changed'
 
   getTitle: ->
     if @editor?
