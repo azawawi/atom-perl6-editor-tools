@@ -1,0 +1,18 @@
+{
+  "name": "atom-perl6-editor-tools",
+  "main": "./lib/atom-perl6-editor-tools",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "atom-perl6-editor-tools:toggle"
+  },
+  "repository": "https://github.com/atom/atom-perl6-editor-tools",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
