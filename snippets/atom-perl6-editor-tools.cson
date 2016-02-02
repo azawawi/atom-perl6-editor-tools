@@ -1,0 +1,13 @@
+'.source.perl6':
+  'script':
+    'prefix': 'script'
+    'body': '#!/usr/bin/env perl6\n\nuse v6;\n\nsay "Hello world;"'
+  'for':
+    'prefix': 'for'
+    'body': 'for $1 -> $2 {\n$3\n}'
+  'pod':
+    'prefix': 'pod'
+    'body': '=begin pod\n$1\n=end pod'
+  'method':
+    'prefix': 'method'
+    'body': 'method $1( $2 ) { $3 }'
