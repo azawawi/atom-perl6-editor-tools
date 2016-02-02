@@ -1,4 +1,8 @@
-# atom-perl6-editor-tools package
+# Atom Perl 6 Editor Tools
+
+[![apm package][apm-ver-link]][releases]
+[![][dl-badge]][apm-pkg-link]
+[![][mit-badge]][mit]
 
 A collection of useful Perl 6 editor tools
 

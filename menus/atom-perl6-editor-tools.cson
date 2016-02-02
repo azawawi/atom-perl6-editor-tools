@@ -10,7 +10,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'atom-perl6-editor-tools'
+      'label': 'Perl 6 Editor Tools'
       'submenu': [
         {
           'label': 'Toggle'
