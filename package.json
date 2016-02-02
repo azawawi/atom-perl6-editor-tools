@@ -1,8 +1,8 @@
 {
   "name": "atom-perl6-editor-tools",
   "main": "./lib/atom-perl6-editor-tools",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "0.1.0",
+  "description": "A collection of useful Perl 6 editor tools",
   "keywords": [
   ],
   "activationCommands": {
