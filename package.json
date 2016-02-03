@@ -1,10 +1,9 @@
 {
   "name": "atom-perl6-editor-tools",
   "main": "./lib/atom-perl6-editor-tools",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collection of useful Perl 6 editor tools",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-perl6-editor-tools:toggle"
   },
@@ -14,7 +13,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views" : "^2.0.0",
-    "tmp"                  : "^0.0.28"
+    "atom-space-pen-views": "^2.0.0",
+    "tmp": "^0.0.28"
   }
 }
