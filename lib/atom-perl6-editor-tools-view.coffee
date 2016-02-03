@@ -105,12 +105,10 @@ class AtomHtmlPreviewView extends ScrollView
   renderHTMLCode: (text) ->
     if not atom.config.get("atom-perl6-editor-tools.triggerOnSave") and @editor.getPath()? then @save () =>
       iframe = document.createElement("iframe")
-      # Fix from @kwaak (https://github.com/webBoxio/atom-perl6-editor-tools/issues/1/#issuecomment-49639162)
       # Allows for the use of relative resources (scripts, styles)
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
       iframe.src = @tmpPath
       @html $ iframe
-      # @trigger('atom-perl6-editor-tools:html-changed')
       atom.commands.dispatch 'atom-perl6-editor-tools', 'html-changed'
 
   getTitle: ->
