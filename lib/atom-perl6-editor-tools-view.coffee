@@ -1,5 +1,5 @@
 fs                    = require 'fs'
-{CompositeDisposable, Disposable} = require 'atom'
+{BufferedProcess, CompositeDisposable, Disposable} = require 'atom'
 {$, $$$, ScrollView}  = require 'atom-space-pen-views'
 path                  = require 'path'
 os                    = require 'os'
@@ -82,10 +82,7 @@ class AtomHtmlPreviewView extends ScrollView
     @editorSub = new CompositeDisposable
 
     if @editor?
-      if atom.config.get("atom-perl6-editor-tools.triggerOnSave")
-        @editorSub.add @editor.onDidSave changeHandler
-      else
-        @editorSub.add @editor.onDidStopChanging changeHandler
+      @editorSub.add @editor.onDidStopChanging changeHandler
       @editorSub.add @editor.onDidChangePath => @trigger 'title-changed'
 
   renderHTML: ->
@@ -93,17 +90,55 @@ class AtomHtmlPreviewView extends ScrollView
     if @editor?
       @renderHTMLCode()
 
+  # Renders the Perl 6 code to HTML via Pod::To::Html
+  renderPOD62HTML: (onSuccess) ->
+    tmpFileName = "Temp.pm6";
+
+    onSave = (err) ->
+      # throw an exception on file save failure
+      throw err if err
+
+      atom.notifications.addSuccess("It's saved!")
+
+      #TODO take command from config parameter
+      command   = 'perl6'
+      args      = ['--doc=HTML', tmpFileName]
+
+      stdout  = (output) ->
+        #atom.notifications.addInfo(output)
+        onSuccess(output)
+
+      exit    = (code) ->
+        atom.notifications.addInfo("'#{command} #{args.join(" ")}' exited with #{code}")
+
+      # Run perl6 --doc=HTML #{tmp_editor_snapshot}
+      process   = new BufferedProcess({command, args, stdout, exit})
+
+    fs.writeFile tmpFileName, @editor.getText(), onSave
+
   save: (callback) ->
-    # Temp file path
-    outPath = path.resolve path.join(os.tmpdir(), @editor.getTitle())
-    # Add base tag; allow relative links to work despite being loaded
-    # as the src of an iframe
-    out = "<base href=\"" + @getPath() + "\">" + @editor.getText()
-    @tmpPath = outPath
-    fs.writeFile outPath, out, callback
+    self = this
+
+    onSaveTempHTMLFile = (html) ->
+      # Temp file path
+      outPath = path.resolve( path.join(os.tmpdir(), self.editor.getTitle()) )
+
+      atom.notifications.addInfo(html)
+      # Add base tag; allow relative links to work despite being loaded
+      # as the src of an iframe
+      out = "<base href=\"" + self.getPath() + "\">" + html
+      self.tmpPath = outPath
+
+      # And we're back
+      #callback()
+
+      # Save it!
+      fs.writeFile(outPath, out, onSaveTempHTMLFile)
+
+    @renderPOD62HTML(onSaveTempHTMLFile)
 
   renderHTMLCode: (text) ->
-    if not atom.config.get("atom-perl6-editor-tools.triggerOnSave") and @editor.getPath()? then @save () =>
+    if @editor.getPath()? then @save () =>
       iframe = document.createElement("iframe")
       # Allows for the use of relative resources (scripts, styles)
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
@@ -118,7 +153,7 @@ class AtomHtmlPreviewView extends ScrollView
       "HTML Preview"
 
   getURI: ->
-    "html-preview://editor/#{@editorId}"
+    "pod-preview://editor/#{@editorId}"
 
   getPath: ->
     if @editor?
