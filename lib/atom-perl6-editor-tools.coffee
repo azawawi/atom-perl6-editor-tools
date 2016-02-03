@@ -37,6 +37,39 @@ module.exports =
       else
         new HtmlPreviewView(filePath: pathname)
 
+    '''
+    #atom.workspace.observeTextEditors (editor) ->
+    #  atom.notifications.addInfo("Filename :" + editor.getTitle() );
+
+    #textEditor.onDidStopChanging () ->
+    #  console.log "changed!"
+
+    err = (err) ->
+      throw err if err
+      console.log("It's saved!");
+    fs.writeFile 'Sample.pm6', editor.getText(), err
+
+    #TODO write to temporary file
+    #tmp.file _tempFileCreated -> (err, path, fd, cleanupCallback)
+    #  throw err if err
+    #  console.log "File: ", path
+    #  console.log "Filedescriptor: ", fd;
+    #  cleanupCallback();
+
+    atom.workspace.open("p//editor/#{editor.id}", options).then (podPreviewEditor) ->
+      #TODO File::Which perl6
+      command = 'perl6'
+      args    = ['--doc=HTML', 'Sample.pm6']
+      stdout  = (output) ->
+        console.log(output)
+        atom.notifications.addSuccess(output)
+        podPreviewEditor.setText output
+      exit    = (code) ->
+        console.log("perl6 --doc exited with #{code}")
+        atom.notifications.addInfo("'#{command} #{args.join(" ")}' exited with #{code}")
+      process = new BufferedProcess({command, args, stdout, exit})
+    '''
+
   toggle: ->
     editor = atom.workspace.getActiveTextEditor()
     return unless editor?
