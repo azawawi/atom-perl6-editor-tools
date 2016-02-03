@@ -5,7 +5,7 @@ path                  = require 'path'
 os                    = require 'os'
 
 module.exports =
-class AtomHtmlPreviewView extends ScrollView
+class AtomPodPreviewView extends ScrollView
   atom.deserializers.add(this)
 
   editorSub           : null
@@ -13,7 +13,7 @@ class AtomHtmlPreviewView extends ScrollView
   onDidChangeModified : -> new Disposable()
 
   @deserialize: (state) ->
-    new AtomHtmlPreviewView(state)
+    new AtomPodPreviewView(state)
 
   @content: ->
     @div class: 'atom-perl6-editor-tools native-key-bindings', tabindex: -1
@@ -33,7 +33,7 @@ class AtomHtmlPreviewView extends ScrollView
           @subscribeToFilePath(filePath)
 
   serialize: ->
-    deserializer : 'AtomHtmlPreviewView'
+    deserializer : 'AtomPodPreviewView'
     filePath     : @getPath()
     editorId     : @editorId
 
@@ -86,7 +86,7 @@ class AtomHtmlPreviewView extends ScrollView
       @editorSub.add @editor.onDidChangePath => @trigger 'title-changed'
 
   renderHTML: ->
-    @showLoading()
+    #@showLoading()
     if @editor?
       @renderHTMLCode()
 
@@ -98,18 +98,17 @@ class AtomHtmlPreviewView extends ScrollView
       # throw an exception on file save failure
       throw err if err
 
-      atom.notifications.addSuccess("It's saved!")
-
       #TODO take command from config parameter
       command   = 'perl6'
       args      = ['--doc=HTML', tmpFileName]
 
       stdout  = (output) ->
-        #atom.notifications.addInfo(output)
         onSuccess(output)
+        return
 
       exit    = (code) ->
-        atom.notifications.addInfo("'#{command} #{args.join(" ")}' exited with #{code}")
+        console.log("'#{command} #{args.join(" ")}' exited with #{code}")
+        return
 
       # Run perl6 --doc=HTML #{tmp_editor_snapshot}
       process   = new BufferedProcess({command, args, stdout, exit})
@@ -123,23 +122,23 @@ class AtomHtmlPreviewView extends ScrollView
       # Temp file path
       outPath = path.resolve( path.join(os.tmpdir(), self.editor.getTitle()) )
 
-      atom.notifications.addInfo(html)
       # Add base tag; allow relative links to work despite being loaded
       # as the src of an iframe
       out = "<base href=\"" + self.getPath() + "\">" + html
       self.tmpPath = outPath
 
-      # And we're back
-      #callback()
+      # Save the temporary HTML file
+      fs.writeFile(outPath, out, callback)
 
-      # Save it!
-      fs.writeFile(outPath, out, onSaveTempHTMLFile)
+      return
 
     @renderPOD62HTML(onSaveTempHTMLFile)
 
   renderHTMLCode: (text) ->
     if @editor.getPath()? then @save () =>
+      console.log("here")
       iframe = document.createElement("iframe")
+
       # Allows for the use of relative resources (scripts, styles)
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
       iframe.src = @tmpPath
@@ -148,9 +147,9 @@ class AtomHtmlPreviewView extends ScrollView
 
   getTitle: ->
     if @editor?
-      "#{@editor.getTitle()} Preview"
+      "#{@editor.getTitle()} - POD Preview"
     else
-      "HTML Preview"
+      "POD Preview"
 
   getURI: ->
     "pod-preview://editor/#{@editorId}"
@@ -168,4 +167,4 @@ class AtomHtmlPreviewView extends ScrollView
 
   showLoading: ->
     @html $$$ ->
-      @div class: 'atom-html-spinner', 'Loading HTML Preview\u2026'
+      @div class: 'atom-html-spinner', 'Loading POD Preview\u2026'

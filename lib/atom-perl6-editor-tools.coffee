@@ -1,7 +1,7 @@
 url                   = require 'url'
 {CompositeDisposable} = require 'atom'
 
-HtmlPreviewView       = require './atom-perl6-editor-tools-view'
+PodPreviewView        = require './atom-perl6-editor-tools-view'
 
 module.exports =
   #config:
@@ -33,9 +33,9 @@ module.exports =
         return
 
       if host is 'editor'
-        new HtmlPreviewView(editorId: pathname.substring(1))
+        new PodPreviewView(editorId: pathname.substring(1))
       else
-        new HtmlPreviewView(filePath: pathname)
+        new PodPreviewView(filePath: pathname)
 
   toggle: ->
     editor = atom.workspace.getActiveTextEditor()
@@ -50,7 +50,7 @@ module.exports =
 
     previousActivePane = atom.workspace.getActivePane()
     atom.workspace.open(uri, split: 'right', searchAllPanes: true).done (htmlPreviewView) ->
-      if htmlPreviewView instanceof HtmlPreviewView
+      if htmlPreviewView instanceof PodPreviewView
         htmlPreviewView.renderHTML()
         previousActivePane.activate()
 
