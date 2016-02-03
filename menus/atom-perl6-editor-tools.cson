@@ -13,7 +13,7 @@
       'label': 'Perl 6 Editor Tools'
       'submenu': [
         {
-          'label': 'Toggle'
+          'label': 'POD Preview'
           'command': 'atom-perl6-editor-tools:toggle'
         }
       ]
