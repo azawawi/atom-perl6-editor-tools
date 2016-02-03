@@ -1,8 +1,4 @@
-#!/usr/bin/env perl6
-
 use v6;
-
-say "Hello world;"
 
 =begin pod
 
@@ -38,8 +34,8 @@ LEAVE {
 
 =head1 DESCRIPTION
 
-This provides a Perl 6 object-oriented [NativeCall](
-http://doc.perl6.org/language/nativecall)-based API for ImageMagick's
-[MagickWand C API](http://www.imagemagick.org/script/magick-wand.php).
+This provides a Perl 6 object-oriented NativeCall
+L<NativeCall|http://doc.perl6.org/language/nativecall>-based API for ImageMagick's
+L<MagickWand C API|http://www.imagemagick.org/script/magick-wand.php>.
 
 =end pod
