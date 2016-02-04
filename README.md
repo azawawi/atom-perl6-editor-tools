@@ -7,7 +7,7 @@ A collection of useful Perl 6 editor tools
 This allows you to preview Perl 6 POD while typing your POD documentation in
 near real-time.
 
-![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-screeshot.png)
+![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-screenshot.png)
 
 ## Notes
 
