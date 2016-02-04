@@ -61,6 +61,7 @@ module.exports =
       return
 
     # Run `prove -v -e "perl6 -Ilib"`
+    atom.notifications.addInfo("Starting running #{command} #{args.join(" ")}'...")
     new BufferedProcess({command, args, options, stdout, stderr, exit})
 
   toggle: ->
