@@ -1,5 +1,5 @@
 url                   = require 'url'
-{CompositeDisposable} = require 'atom'
+{BufferedProcess, CompositeDisposable} = require 'atom'
 
 PodPreviewView        = require './atom-perl6-editor-tools-view'
 
@@ -18,6 +18,7 @@ module.exports =
 
     # Register command that toggles this view
     @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:toggle': => @toggle()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:run-tests': => @run_tests()
 
     atom.workspace.addOpener (uriToOpen) ->
       try
@@ -36,6 +37,31 @@ module.exports =
         new PodPreviewView(editorId: pathname.substring(1))
       else
         new PodPreviewView(filePath: pathname)
+
+  run_tests: ->
+    #TODO take command from config parameter
+    command   = 'prove'
+    args      = ['-v', '-e', 'perl6']
+
+    #TODO more robust detection of cwd
+    options =
+      cwd: cwd = atom.project.getDirectories()[0].path
+      env: process.env
+
+    stdout  = (text) ->
+      atom.notifications.addSuccess(text)
+      return
+
+    stderr  = (text) ->
+      atom.notifications.addError(text)
+      return
+
+    exit    = (code) ->
+      atom.notifications.addInfo("'#{command} #{args.join(" ")}' exited with #{code}")
+      return
+
+    # Run `prove -v -e "perl6 -Ilib"`
+    new BufferedProcess({command, args, options, stdout, stderr, exit})
 
   toggle: ->
     editor = atom.workspace.getActiveTextEditor()

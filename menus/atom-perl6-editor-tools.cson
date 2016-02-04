@@ -4,6 +4,10 @@
     {
       'label': 'Toggle atom-perl6-editor-tools'
       'command': 'atom-perl6-editor-tools:toggle'
+    },
+    {
+      'label': 'Toggle atom-perl6-editor-tools'
+      'command': 'atom-perl6-editor-tools:run-tests'
     }
   ]
 'menu': [
@@ -15,6 +19,10 @@
         {
           'label': 'POD Preview'
           'command': 'atom-perl6-editor-tools:toggle'
+        },
+        {
+          'label': 'Run tests'
+          'command': 'atom-perl6-editor-tools:run-tests'
         }
       ]
     ]

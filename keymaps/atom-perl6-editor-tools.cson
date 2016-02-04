@@ -9,3 +9,4 @@
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 'atom-workspace':
   'ctrl-alt-o': 'atom-perl6-editor-tools:toggle'
+  'ctrl-alt-p': 'atom-perl6-editor-tools:run-tests'

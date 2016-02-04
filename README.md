@@ -18,6 +18,10 @@ Please remember to install [`Pod::To::HTML`](
   $ panda install Pod::To::HTML
 ```
 
+- Runs tests via ``prove -v -e "perl6 -Ilib"`` (Shortcut: `Alt+Ctrl-P`)
+
+This allows you to run tests in your current Perl 6 project
+
 ## TODO
 
 - Check for `Pod::To::HTML` existance and warn if the command fails
@@ -26,3 +30,4 @@ Please remember to install [`Pod::To::HTML`](
 - Add custom perl6 path setting
 - Generate temporary files
 - Less CPU usage when typing fast
+- Open POD Preview only on Perl6 files and warn if otherwise

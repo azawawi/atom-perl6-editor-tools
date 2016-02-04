@@ -7,3 +7,6 @@
 ## 0.4.0
 * More documentation in README.md
 * Fix menu name
+
+## 0.5.0
+* Add run tests via prove (Alt-Ctrl-P)
