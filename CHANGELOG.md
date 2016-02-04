@@ -10,3 +10,7 @@
 
 ## 0.5.0
 * Add run tests via prove (Alt-Ctrl-P)
+
+## 0.6.0
+* Minor fix to usability of run tests
+* Add a screenshot for run tests feature

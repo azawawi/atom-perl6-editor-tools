@@ -22,6 +22,8 @@ Please remember to install [`Pod::To::HTML`](
 
 This allows you to run tests in your current Perl 6 project
 
+![Run Tests (prove) Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-run-tests-screenshot.png)
+
 ## TODO
 
 - Check for `Pod::To::HTML` existance and warn if the command fails
