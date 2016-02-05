@@ -19,13 +19,13 @@ module.exports =
       .then ->
         console.log("All deps are installed, it's good to go")
 
-    # Determine where language-perl is disabled or not
+    # Determine whether language-perl is enabled or not
     disabledPackages = atom.config.get("core.disabledPackages")
     enabled = true
     for pkg in disabledPackages
       enabled = false if (pkg == "language-perl")
 
-    # Warn only when language-perl is enabled!
+    # Warn when language-perl is enabled!
     atom.notifications.addWarning("Please disable language-perl for a better Perl 6 syntax highlighted code") if enabled
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
