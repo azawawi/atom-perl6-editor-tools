@@ -143,4 +143,4 @@ module.exports =
     return new Perl6Linter
 
   provideBuilder: ->
-    return new Perl6Builder
+    return Perl6Builder

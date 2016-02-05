@@ -1,4 +1,5 @@
 fs = require("fs")
+path = require("path")
 
 # This provides linter support for Perl 6 using linter
 # Please see https://atom.io/packages/linter
@@ -8,7 +9,6 @@ class Perl6BuildProvider
   cwd: null
 
   constructor: (cwd) ->
-    console.log("cwd = " + cwd)
     @cwd = cwd
     return
 
@@ -18,12 +18,13 @@ class Perl6BuildProvider
   isEligible: ->
     # REQUIRED: Perform operations to determine if this build provider can
     # build the project in `cwd` (which was specified in `constructor`).
-    return true #fs.existsSync(path.join(@cwd, 't'))
+    return fs.existsSync(path.join(@cwd, 't'))
 
   settings: ->
     # REQUIRED: Return an array of objects which each define a build description.
     return [
-      "name": "panda test"
-      "exec": "panda test ."
+      "name": "Run Perl 6 tests"
+      "exec": "prove"
+      "args": ['-v', '-e', 'perl6', "-Ilib"]
       "sh": false
     ]
