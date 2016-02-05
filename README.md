@@ -31,5 +31,5 @@ Perl 6 project
 - Save user scroll position
 - Respect various editor themes/ custom POD styling
 - Add custom perl6 path setting
-- Generate temporary files
 - Less CPU usage when typing fast
+- Generate only one temporary file instead of two

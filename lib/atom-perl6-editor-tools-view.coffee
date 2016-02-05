@@ -1,8 +1,10 @@
 fs                    = require 'fs'
+Buffer                = (require 'buffer').Buffer
 {BufferedProcess, CompositeDisposable, Disposable} = require 'atom'
 {$, $$$, ScrollView}  = require 'atom-space-pen-views'
 path                  = require 'path'
 os                    = require 'os'
+tmp                   = require 'tmp'
 
 module.exports =
 class AtomPodPreviewView extends ScrollView
@@ -87,53 +89,67 @@ class AtomPodPreviewView extends ScrollView
 
   renderHTML: ->
     if @editor?
-      @renderHTMLCode()
+      @renderHtmlCode()
 
   # Renders the Perl 6 code to HTML via Pod::To::Html
-  renderPOD62HTML: (onSuccess) ->
-    tmpFileName = "Temp.pm6";
+  renderPod6Html: (onSuccess) ->
+    self        = this
 
-    onSave = (err) ->
-      # throw an exception on file save failure
+    tmp.file( (err, path, fd, cleanupCallback) ->
       throw err if err
 
-      #TODO take command from config parameter
-      command   = 'perl6'
-      args      = ['--doc=HTML', tmpFileName]
+      onP6TempFileSaved = (err) ->
+        # throw an exception on file save failure
+        throw err if err
 
-      stdout  = (output) ->
-        onSuccess(output)
+        # Generate HTML from Perl 6 POD
+        #TODO take command from config parameter
+        command   = 'perl6'
+        args      = ['--doc=HTML', path]
+        stdout  = (output) ->
+          onSuccess(output)
+          return
+        stderr  = (output) ->
+          console.warn(output)
+          return
+        exit    = (code) ->
+          unless code == 0
+            atom.notifications.addWarning("Failed to create POD Preview content")
+            return
+          return
+        # Run perl6 --doc=HTML [temp-file-name]
+        process   = new BufferedProcess({command, args, stdout, stderr, exit})
         return
 
-      exit    = (code) ->
-        console.log("'#{command} #{args.join(" ")}' exited with #{code}")
-        return
+      # Write a snapshot of the Perl 6 editor in a temporary file
+      buf = new Buffer(self.editor.getText())
+      fs.write(fd, buf, 0, buf.length, onP6TempFileSaved)
+    )
+    return
 
-      # Run perl6 --doc=HTML #{tmp_editor_snapshot}
-      process   = new BufferedProcess({command, args, stdout, exit})
-
-    fs.writeFile tmpFileName, @editor.getText(), onSave
-
-  save: (callback) ->
+  save: (onHtmlSaved) ->
     self = this
 
-    onSaveTempHTMLFile = (html) ->
-      # Temp file path
-      outPath = path.resolve( path.join(os.tmpdir(), self.editor.getTitle()) )
+    onPod6HtmlReady = (html) ->
+      tmp.file( (err, path, fd, cleanupCallback) ->
+        throw err if err
+        # Add base tag to allow relative links to work despite being loaded
+        # as the src of an iframe
+        modifiedHtml = "<base href=\"" + self.getPath() + "\">" + html
+        self.tmpPath = path
 
-      # Add base tag; allow relative links to work despite being loaded
-      # as the src of an iframe
-      out = "<base href=\"" + self.getPath() + "\">" + html
-      self.tmpPath = outPath
+        # Write the modified generated HTML in a temporary file
+        buf = new Buffer(modifiedHtml)
+        fs.write(fd, buf, 0, buf.length, onHtmlSaved)
 
-      # Save the temporary HTML file
-      fs.writeFile(outPath, out, callback)
-
+        return
+      )
       return
 
-    @renderPOD62HTML(onSaveTempHTMLFile)
+    @renderPod6Html(onPod6HtmlReady)
+    return
 
-  renderHTMLCode: (text) ->
+  renderHtmlCode: (text) ->
     if @editor.getPath()? then @save () =>
       iframe = document.createElement("iframe")
 
@@ -141,7 +157,7 @@ class AtomPodPreviewView extends ScrollView
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
       iframe.src = @tmpPath
       @html $ iframe
-      atom.commands.dispatch 'atom-perl6-editor-tools', 'html-changed'
+      atom.commands.dispatch('atom-perl6-editor-tools', 'html-changed')
 
   getTitle: ->
     if @editor?
