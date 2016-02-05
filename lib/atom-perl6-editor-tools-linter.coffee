@@ -5,7 +5,7 @@ helpers = require('atom-linter')
 # Please see https://atom.io/packages/linter
 module.exports =
 class Perl6Linter
-  name: 'Perl 6 Linter',
+  name: 'Perl 6 Syntax Check',
   grammarScopes: ['source.perl6', 'source.perl6fe'],
   scope: 'file',
   lintOnFly: true,

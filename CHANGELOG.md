@@ -1,6 +1,6 @@
 ## 0.8.0
 * Use current theme in POD Preview
-* Add Perl 6 linter support
+* Add Perl 6 syntax checking linter support
 * Fix documentation
 
 ## 0.7.0
