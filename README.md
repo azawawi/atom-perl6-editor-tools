@@ -43,3 +43,7 @@ https://atom.io/docs/latest/using-atom-snippets) for more information.
 - Add custom perl6 path setting
 - Less CPU usage when typing fast
 - Generate only one temporary file instead of two
+
+## License
+
+[MIT][mit] © [Ahmad M. Zawawi][author]
