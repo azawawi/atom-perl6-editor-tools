@@ -12,7 +12,6 @@ Preview pane to work:
   $ panda install Pod::To::HTML
 ```
 
-
 ![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-screenshot.png)
 
 ## Test Runner (Shortcut: `Alt+Ctrl+P`)
