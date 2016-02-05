@@ -17,3 +17,4 @@
 
 ## 0.7.0
 * Open POD Preview only on a valid Perl6 editor and warn if otherwise
+* Open POD Preview only when `Pod::To::HTML` is installed and warn if otherwise

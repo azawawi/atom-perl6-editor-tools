@@ -28,7 +28,6 @@ Perl 6 project
 ## TODO
 
 - Port https://github.com/honza/vim-snippets/blob/master/snippets/perl6.snippets
-- Check for `Pod::To::HTML` existance and warn if the command fails
 - Save user scroll position
 - Respect various editor themes/ custom POD styling
 - Add custom perl6 path setting
