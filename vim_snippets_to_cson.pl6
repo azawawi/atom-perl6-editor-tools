@@ -4,7 +4,7 @@ use v6;
 
 say "Hello world";
 
-my $fh = "output.cson".IO.open(:w);
+my $fh = "snippets/generated.cson".IO.open(:w);
 $fh.say( q{'.source.perl6':} );
 my $body;
 my $snippet;
@@ -15,9 +15,13 @@ for "snippets/perl6.snippets.txt".IO.lines -> $line {
   if $line ~~ / ^ 'snippet' \s+ (.+?) $ / {
     say "=> $0";
     if $snippet.defined {
+      $body = $body.chomp;
+      $body = $body.subst("\n", "\\n", :g);
+      $body = $body.subst("\t", "  ",  :g);
+      $body = $body.subst("'", "\\'",  :g);
       $fh.say( sprintf("  '%s':", $snippet) );
       $fh.say( sprintf("    'prefix': '%s'", $snippet) );
-      $fh.say( sprintf("    'body': '%s'",   $body.chomp.subst("\n", "\\n", :g).subst("\t", "  ", :g)) );
+      $fh.say( sprintf("    'body': '%s'",   $body ) );
     }
     $snippet = ~$0;
     $body = '';
