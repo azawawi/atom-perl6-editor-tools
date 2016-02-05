@@ -14,6 +14,11 @@ module.exports =
   podPreviewView: null
 
   activate: (state) ->
+    # Install package-deps section in package.json without user intervention
+    require('atom-package-deps').install()
+      .then ->
+        console.log("All deps are installed, it's good to go")
+
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
 

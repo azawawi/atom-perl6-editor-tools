@@ -1,3 +1,7 @@
+## 0.8.2
+* Install package-deps section in package.json without user intervention. This
+  is a patch release to v0.8.1.
+
 ## 0.8.1
 * Install linter dependency automatically using [atom-package-deps](
 https://github.com/steelbrain/package-deps)
