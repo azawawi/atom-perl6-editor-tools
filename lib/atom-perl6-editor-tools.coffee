@@ -65,8 +65,17 @@ module.exports =
     new BufferedProcess({command, args, options, stdout, stderr, exit})
 
   toggle: ->
+    # Open POD Preview on a valid editor and warn if otherwise
     editor = atom.workspace.getActiveTextEditor()
-    return unless editor?
+    unless editor?
+      atom.notifications.addWarning("No editor found. Aborting operation...")
+      return
+
+    # Open POD Preview only on a valid Perl6 editor and warn if otherwise
+    grammar = editor.getGrammar()
+    unless grammar? && grammar.scopeName? && grammar.scopeName.startsWith("source.perl6")
+      atom.notifications.addWarning("No Perl 6 editor found. Aborting operation...")
+      return
 
     uri = "pod-preview://editor/#{editor.id}"
 

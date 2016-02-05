@@ -34,4 +34,3 @@ Perl 6 project
 - Add custom perl6 path setting
 - Generate temporary files
 - Less CPU usage when typing fast
-- Open POD Preview only on Perl6 files and warn if otherwise
