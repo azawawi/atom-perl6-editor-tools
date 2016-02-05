@@ -1,3 +1,6 @@
+## 0.8.3
+* More documentation
+
 ## 0.8.2
 * Install package-deps section in package.json without user intervention. This
   is a patch release to v0.8.1.
