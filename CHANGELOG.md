@@ -1,8 +1,9 @@
 ## 0.8.4
 * Add Perl 6 [builder](https://atom.io/packages/build) support
+* Better documentation
 
 ## 0.8.3
-* More documentation
+* Better documentation
 * Auto-install [Atom Perl 6 Support - Fun Edition! - perl6fe](
   https://github.com/MadcapJake/language-perl6fe)
 * Warn when language-perl core module is enabled

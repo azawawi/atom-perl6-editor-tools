@@ -5,10 +5,17 @@ shown below:
 
 ## Syntax Check Linter
 
-This provides a linter than syntax checks Perl 6 code and provides error
+This provides a linter that syntax checks Perl 6 code and provides error
 messages. Please note that this will run `BEGIN` and `CHECK` blocks.
 
 ![Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-linter-screenshot.png)
+
+## Build Support
+
+This provides a build that tests Perl 6 code and provides build log. More build
+tasks will added in the future.
+
+![Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-builder-screenshot.png)
 
 ## POD Preview (Shortcut: `Alt+Ctrl+O`)
 
