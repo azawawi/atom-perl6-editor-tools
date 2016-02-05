@@ -4,6 +4,7 @@
 * Generate temporary files via [tmp](https://github.com/raszi/node-tmp)
 * Generated more snippets from [vim-snipmate default snippets](
 https://github.com/honza/vim-snippets/blob/master/snippets/perl6.snippets)
+* Fix context menu labels and add more documentation
 
 ## 0.6.0
 * Minor fix to usability of run tests

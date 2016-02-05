@@ -2,11 +2,11 @@
 'context-menu':
   'atom-text-editor': [
     {
-      'label': 'Toggle atom-perl6-editor-tools'
+      'label': 'Perl 6 - POD Preview'
       'command': 'atom-perl6-editor-tools:toggle'
     },
     {
-      'label': 'Toggle atom-perl6-editor-tools'
+      'label': 'Perl 6 - Run Tests (prove)'
       'command': 'atom-perl6-editor-tools:run-tests'
     }
   ]
@@ -21,7 +21,7 @@
           'command': 'atom-perl6-editor-tools:toggle'
         },
         {
-          'label': 'Run tests'
+          'label': 'Run Tests (prove)'
           'command': 'atom-perl6-editor-tools:run-tests'
         }
       ]
