@@ -1,7 +1,7 @@
 '.source.perl6':
   'script':
     'prefix': 'script'
-    'body': '#!/usr/bin/env perl6\n\nuse v6;\n\nsay "Hello world;"'
+    'body': '#!/usr/bin/env perl6\n\nuse v6;\n\nsay "Hello world";'
   'for':
     'prefix': 'for'
     'body': 'for $1 -> $2 {\n$3\n}'
