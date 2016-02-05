@@ -2,6 +2,7 @@ url                   = require 'url'
 {BufferedProcess, CompositeDisposable} = require 'atom'
 
 PodPreviewView        = require './atom-perl6-editor-tools-view'
+Perl6Linter           = require './atom-perl6-editor-tools-linter'
 
 module.exports =
   #config:
@@ -121,3 +122,7 @@ module.exports =
 
     # Run perl6 -e 'use Pod::To::HTML'
     process   = new BufferedProcess({command, args, exit})
+
+  # Perl 6 linter
+  provideLinter: ->
+    return new Perl6Linter

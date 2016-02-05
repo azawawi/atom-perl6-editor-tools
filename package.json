@@ -12,5 +12,15 @@
   "dependencies": {
     "atom-space-pen-views": "^2.0.0",
     "tmp": "^0.0.28"
-  }
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "package-deps": [
+    "linter"
+  ]
 }
