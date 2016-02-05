@@ -3,7 +3,7 @@
 This atom plugin provides a collection of useful Perl 6 editor tools that are
 shown below:
 
-## Linter (syntax checker)
+## Syntax Check Linter
 
 This provides a linter than syntax checks Perl 6 code and provides error
 messages. Please note that this will run `BEGIN` and `CHECK` blocks.
