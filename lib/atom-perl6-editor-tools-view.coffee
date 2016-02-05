@@ -135,6 +135,9 @@ class AtomPodPreviewView extends ScrollView
         throw err if err
         # Add base tag to allow relative links to work despite being loaded
         # as the src of an iframe
+        css = self.makeCssStyles()
+
+        html = html.replace('<link rel="stylesheet" href="//design.perl6.org/perl.css">', "<style>#{css}</style>")
         modifiedHtml = "<base href=\"" + self.getPath() + "\">" + html
         self.tmpPath = path
 
@@ -178,3 +181,15 @@ class AtomPodPreviewView extends ScrollView
     @html $$$ ->
       @h2 'POD Preview Failed'
       @h3 failureMessage if failureMessage?
+
+  makeCssStyles: ->
+    myStyle = ''
+    for style in atom.styles.getStyleElements()
+      continue if style.textContent.indexOf('atom-perl6-editor-tools') == -1
+      myStyle = style.textContent
+    regex = /\.atom-perl6-editor-tools\siframe\.(\w+\s*\{\s*.+?\s*\})/g;
+    match = regex.exec(myStyle)
+    results = []
+    while ((match = regex.exec(myStyle)))?
+      results.push(match[1])
+    css = results.join("\n")

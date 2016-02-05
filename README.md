@@ -31,7 +31,6 @@ https://atom.io/docs/latest/using-atom-snippets) for more information.
 ## TODO
 
 - Save user scroll position
-- Respect various editor themes/ custom POD styling
 - Add custom perl6 path setting
 - Less CPU usage when typing fast
 - Generate only one temporary file instead of two

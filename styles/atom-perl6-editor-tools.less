@@ -3,10 +3,10 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+@import "syntax-variables";
 
 .atom-perl6-editor-tools {
-  background-color: white;
-  color:   black;
+  background-color: @syntax-background-color;
   overflow: scroll;
   box-sizing: border-box;
   padding: 0;
@@ -15,5 +15,20 @@
     width: 100%;
     height: 100%;
     border: 0;
+  }
+
+  /* Customize POD Preview iframe */
+  iframe.html {
+    color: @syntax-text-color;
+  }
+  iframe.body {
+    color: @syntax-text-color;
+  }
+  iframe.a {
+    color: @syntax-text-color;
+  }
+  iframe.pre {
+    background-color: @pane-item-background-color;
+    color: @syntax-text-color;
   }
 }
