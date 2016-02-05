@@ -187,9 +187,9 @@ class AtomPodPreviewView extends ScrollView
     for style in atom.styles.getStyleElements()
       continue if style.textContent.indexOf('atom-perl6-editor-tools') == -1
       myStyle = style.textContent
-    regex = /\.atom-perl6-editor-tools\siframe\.(\w+\s*\{\s*.+?\s*\})/g;
-    match = regex.exec(myStyle)
     results = []
+    regex = /\.atom-perl6-editor-tools\siframe\.(\w+\s*\{\s*(.|\s)+?\})/g;
     while ((match = regex.exec(myStyle)))?
       results.push(match[1])
     css = results.join("\n")
+    return css
