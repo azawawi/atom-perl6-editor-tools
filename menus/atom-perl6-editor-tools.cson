@@ -1,6 +1,7 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
   'atom-text-editor': [
+    { 'type': 'separator' }
     {
       'label': 'Perl 6 - POD Preview'
       'command': 'atom-perl6-editor-tools:toggle'
@@ -8,7 +9,8 @@
     {
       'label': 'Perl 6 - Run Tests (prove)'
       'command': 'atom-perl6-editor-tools:run-tests'
-    }
+    },
+    { 'type': 'separator' }
   ]
 'menu': [
   {
