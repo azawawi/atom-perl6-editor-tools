@@ -26,7 +26,7 @@ module.exports =
       disabled = true if (pkg == "language-perl")
 
     # Warn only when language-perl is enabled!
-    atom.notifications.addWarning("Please disable language-perl to get a better Perl 6 syntax highlighting") unless disabled
+    atom.notifications.addWarning("Please disable language-perl for a better Perl 6 syntax highlighted code") unless disabled
 
     # Events subscribed to in atom's system can be easily cleaned up with a CompositeDisposable
     @subscriptions = new CompositeDisposable
