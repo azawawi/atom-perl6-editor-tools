@@ -135,7 +135,6 @@ class AtomPodPreviewView extends ScrollView
 
   renderHTMLCode: (text) ->
     if @editor.getPath()? then @save () =>
-      console.log("here")
       iframe = document.createElement("iframe")
 
       # Allows for the use of relative resources (scripts, styles)
