@@ -1,3 +1,7 @@
+## 0.9.0
+* Install linter dependency automatically using [atom-package-deps](
+https://github.com/steelbrain/package-deps)
+
 ## 0.8.0
 * Use current theme in POD Preview
 * Add Perl 6 syntax checking linter support
