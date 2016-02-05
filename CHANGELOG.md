@@ -1,3 +1,6 @@
+## 0.8.0
+*
+
 ## 0.7.0
 * Open POD Preview on a valid Perl6 editor and warn if otherwise
 * Open POD Preview when `Pod::To::HTML` is installed and warn if otherwise
