@@ -16,5 +16,4 @@
 * Add a screenshot for run tests feature
 
 ## 0.7.0
-* Open POD Preview on a valid editor and warn if otherwise
 * Open POD Preview only on a valid Perl6 editor and warn if otherwise
