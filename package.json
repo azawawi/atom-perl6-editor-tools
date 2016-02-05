@@ -23,6 +23,7 @@
     }
   },
   "package-deps": [
+    "language-perl6fe",
     "linter"
   ]
 }

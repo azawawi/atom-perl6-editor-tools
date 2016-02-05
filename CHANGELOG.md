@@ -1,5 +1,7 @@
 ## 0.8.3
 * More documentation
+* Auto-install [Atom Perl 6 Support - Fun Edition! - perl6fe](
+  https://github.com/MadcapJake/language-perl6fe)
 
 ## 0.8.2
 * Install package-deps section in package.json without user intervention. This
