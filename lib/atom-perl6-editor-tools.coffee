@@ -3,6 +3,7 @@ url                   = require 'url'
 
 PodPreviewView        = require './atom-perl6-editor-tools-view'
 Perl6Linter           = require './atom-perl6-editor-tools-linter'
+Perl6Builder          = require './atom-perl6-editor-tools-builder'
 
 module.exports =
   #config:
@@ -140,3 +141,6 @@ module.exports =
   # Perl 6 linter
   provideLinter: ->
     return new Perl6Linter
+
+  provideBuilder: ->
+    return new Perl6Builder

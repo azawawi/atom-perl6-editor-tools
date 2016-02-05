@@ -16,6 +16,12 @@
     "tmp": "^0.0.28"
   },
   "providedServices": {
+    "builder": {
+      "description": "Builds Perl 6 projects",
+      "versions": {
+        "2.0.0": "provideBuilder"
+      }
+    },
     "linter": {
       "versions": {
         "1.0.0": "provideLinter"
@@ -23,6 +29,7 @@
     }
   },
   "package-deps": [
+    "build",
     "language-perl6fe",
     "linter"
   ]
