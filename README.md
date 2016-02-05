@@ -1,6 +1,14 @@
 # Atom Perl 6 Editor Tools
 
-A collection of useful Perl 6 editor tools
+This atom plugin provides a collection of useful Perl 6 editor tools that are
+shown below:
+
+## Linter (syntax checker)
+
+This provides a linter than syntax checks Perl 6 code and provides error
+messages. Please note that this will run `BEGIN` and `CHECK` blocks.
+
+![Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-linter-screenshot.png)
 
 ## POD Preview (Shortcut: `Alt+Ctrl+O`)
 
