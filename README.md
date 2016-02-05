@@ -44,6 +44,10 @@ https://atom.io/docs/latest/using-atom-snippets) for more information.
 - Less CPU usage when typing fast
 - Generate only one temporary file instead of two
 
+## Author
+
+Ahmad M. Zawawi, azawawi on #perl6, https://github.com/azawawi/
+
 ## License
 
-[MIT][mit] © [Ahmad M. Zawawi][author]
+[MIT License](LICENSE.md)
