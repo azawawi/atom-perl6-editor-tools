@@ -86,7 +86,6 @@ class AtomPodPreviewView extends ScrollView
       @editorSub.add @editor.onDidChangePath => @trigger 'title-changed'
 
   renderHTML: ->
-    #@showLoading()
     if @editor?
       @renderHTMLCode()
 
@@ -162,9 +161,5 @@ class AtomPodPreviewView extends ScrollView
     failureMessage = result?.message
 
     @html $$$ ->
-      @h2 'Previewing HTML Failed'
+      @h2 'POD Preview Failed'
       @h3 failureMessage if failureMessage?
-
-  showLoading: ->
-    @html $$$ ->
-      @div class: 'atom-html-spinner', 'Loading POD Preview\u2026'
