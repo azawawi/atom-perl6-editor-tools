@@ -1,4 +1,4 @@
-'.source.perl6':
+'.source.perl6, .source.perl6fe':
   'script':
     'prefix': 'script'
     'body': '#!/usr/bin/env perl6\n\nuse v6;\n\nsay "Hello world";'

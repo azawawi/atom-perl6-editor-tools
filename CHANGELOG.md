@@ -3,6 +3,7 @@
 context-sensitive help
 * Remove old prove option since Perl 6 builder is more generic
 * add lib path to linter - #1 (MadcapJake++)
+* Support perl6fe and perl6 editors in snippets
 
 ## 0.8.4
 * Add Perl 6 [builder](https://atom.io/packages/build) support
