@@ -2,6 +2,7 @@
 * Add Perl 6 [hyperclick](https://atom.io/packages/hyperclick) support for
 context-sensitive help
 * Remove old prove option since Perl 6 builder is more generic
+* add lib path to linter - #1 (MadcapJake++)
 
 ## 0.8.4
 * Add Perl 6 [builder](https://atom.io/packages/build) support
