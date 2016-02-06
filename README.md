@@ -5,15 +5,19 @@ shown below:
 
 ## Syntax Check Linter
 
-This provides a linter that syntax checks Perl 6 code and provides error
-messages. Please note that this will run `BEGIN` and `CHECK` blocks.
+This provides a [linter](https://atom.io/packages/linter) that syntax checks
+Perl 6 code and provides error messages. Please note that this will run `BEGIN`
+and `CHECK` blocks.
 
 ![Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-linter-screenshot.png)
 
 ## Build Support
 
-This provides a build that tests Perl 6 code and provides build log. More build
-tasks will added in the future.
+This provides a [builder](https://atom.io/packages/build) that
+provides the following tasks (More build tasks will added in the future):
+
+- Perl 6 test: This will run ``prove -v -e "perl6 -Ilib"`` in your current Perl
+6 project and provide the build log
 
 ![Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-builder-screenshot.png)
 
@@ -28,13 +32,6 @@ Preview pane to work:
 ```
 
 ![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-screenshot.png)
-
-## Test Runner (Shortcut: `Alt+Ctrl+P`)
-
-This allows you to run tests via ``prove -v -e "perl6 -Ilib"`` in your current
-Perl 6 project
-
-![Run Tests (prove) Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-run-tests-screenshot.png)
 
 ## Snippets
 
