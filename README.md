@@ -21,6 +21,14 @@ provides the following tasks (More build tasks will added in the future):
 
 ![Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-builder-screenshot.png)
 
+
+## Context sensitive help
+
+This provides a [hyperclick](https://atom.io/packages/hyperclick) for context
+sensitive help.
+
+![Help Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-hyperclick-screenshot.png)
+
 ## POD Preview (Shortcut: `Alt+Ctrl+O`)
 
 This allows you to preview Perl 6 POD while typing your POD documentation in
