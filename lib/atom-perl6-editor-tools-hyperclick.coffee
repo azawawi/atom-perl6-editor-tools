@@ -6,13 +6,15 @@ class Perl6HyperclickProvider
 
   providerName:  'perl6-hyperclick'
 
-  getSuggestionForWord: (textEditor, text, range) ->
-    console.log(textEditor)
-    console.log("text = " + text)
-    console.log(range)
-    return
-    #return
-    #  # The range(s) to underline as a visual cue for clicking. 
-    #  range,
-    #  # The function to call when the underlined text is clicked. 
-    #  callback() {}
+  getSuggestionForWord: (editor, text, range) ->
+    # Make sure the editor are valid Perl 6 editors
+    return unless editor?
+    grammar = editor.getGrammar()
+    return unless grammar? && grammar.scopeName? && grammar.scopeName.startsWith("source.perl6")
+
+    return {
+      range: range,
+      callback: () ->
+        atom.notifications.addWarning("TODO perl6doc " + text)
+        return
+    }
