@@ -1,5 +1,12 @@
 
 helpers = require('atom-linter')
+path = require('path')
+
+getLibDir = (p) ->
+  dotdot = path.dirname p
+  return dotdot if dotdot in atom.project.getPaths()
+  return dotdot if path.basename(dotdot) is 'lib'
+  getLibDir dotdot
 
 # This provides linter support for Perl 6 using linter
 # Please see https://atom.io/packages/linter
@@ -11,7 +18,8 @@ class Perl6Linter
   lintOnFly: true,
   lint: (textEditor) ->
     command = "perl6"
-    args = ['-c', "-"]
+    lib = getLibDir textEditor.getPath()
+    args = ["-I#{lib}", '-c', "-"]
     options =
       stream : ""
       stdin  : textEditor.getText()
