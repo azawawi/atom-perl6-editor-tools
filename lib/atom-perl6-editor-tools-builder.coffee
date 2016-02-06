@@ -1,8 +1,8 @@
 fs = require("fs")
 path = require("path")
 
-# This provides linter support for Perl 6 using linter
-# Please see https://atom.io/packages/linter
+# This provides builder support for Perl 6 using linter
+# Please see https://atom.io/packages/build
 module.exports =
 class Perl6BuildProvider
 
@@ -16,12 +16,9 @@ class Perl6BuildProvider
     return 'Perl 6 Builder'
 
   isEligible: ->
-    # REQUIRED: Perform operations to determine if this build provider can
-    # build the project in `cwd` (which was specified in `constructor`).
     return fs.existsSync(path.join(@cwd, 't'))
 
   settings: ->
-    # REQUIRED: Return an array of objects which each define a build description.
     return [
       "name": "Run Perl 6 tests"
       "exec": "prove"
