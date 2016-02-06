@@ -1,3 +1,8 @@
+## 0.8.5
+* Add Perl 6 [hyperclick](https://atom.io/packages/hyperclick) support for
+context-sensitive help
+* Remove old prove option since Perl 6 builder is more generic
+
 ## 0.8.4
 * Add Perl 6 [builder](https://atom.io/packages/build) support
 * Better documentation

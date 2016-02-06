@@ -22,6 +22,11 @@
         "2.0.0": "provideBuilder"
       }
     },
+    "hyperclick.provider": {
+      "versions": {
+        "0.0.0": "provideHyperclick"
+      }
+    },
     "linter": {
       "versions": {
         "1.0.0": "provideLinter"
@@ -31,6 +36,7 @@
   "package-deps": [
     "build",
     "language-perl6fe",
+    "hyperclick",
     "linter"
   ]
 }
