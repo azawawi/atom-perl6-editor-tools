@@ -4,7 +4,7 @@
     { 'type': 'separator' }
     {
       'label': 'Perl 6 - POD Preview'
-      'command': 'atom-perl6-editor-tools:toggle'
+      'command': 'atom-perl6-editor-tools:pod-preview'
     },
     { 'type': 'separator' }
   ]
@@ -16,7 +16,7 @@
       'submenu': [
         {
           'label': 'POD Preview'
-          'command': 'atom-perl6-editor-tools:toggle'
+          'command': 'atom-perl6-editor-tools:pod-preview'
         }
       ]
     ]

@@ -34,8 +34,7 @@ module.exports =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:toggle': => @toggle()
-    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:run-tests': => @run_tests()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:pod-preview': => @podPreview()
 
     atom.workspace.addOpener (uriToOpen) ->
       try
@@ -81,7 +80,7 @@ module.exports =
     atom.notifications.addInfo("Starting running #{command} #{args.join(" ")}'...")
     new BufferedProcess({command, args, options, stdout, stderr, exit})
 
-  toggle: ->
+  podPreview: ->
     # Open POD Preview on a valid editor and warn if otherwise
     editor = atom.workspace.getActiveTextEditor()
     unless editor?
@@ -96,11 +95,7 @@ module.exports =
 
     # Open POD Preview only if Pod::To::HTML is installed and warn if otherwise
     openPodPreview = @openPodPreview
-    onSuccess = ->
-      openPodPreview(editor)
-    onFailure = ->
-      atom.notifications.addWarning("Pod::To::HTML is not installed. Aborting...")
-    @checkForPodToHtml(onSuccess, onFailure)
+    @checkForPodToHtml(-> openPodPreview(editor) )
 
     return
 
@@ -124,7 +119,7 @@ module.exports =
   deactivate: ->
     @subscriptions.dispose()
 
-  checkForPodToHtml: (onSuccess, onFailure) ->
+  checkForPodToHtml: (onSuccess) ->
     #TODO take command from config parameter
     command   = 'perl6'
     args      = ["-e use Pod::To::HTML; 0"]
@@ -133,7 +128,7 @@ module.exports =
       if code == 0
         onSuccess()
       else
-        onFailure()
+        atom.notifications.addWarning("Pod::To::HTML is not installed. Aborting...")
       return
 
     # Run perl6 -e 'use Pod::To::HTML'
