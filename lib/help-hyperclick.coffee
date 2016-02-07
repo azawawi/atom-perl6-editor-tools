@@ -1,6 +1,9 @@
 
 fs   = require 'fs'
 path = require 'path'
+Q    = require('q');
+HTTP = require('http')
+URL  = require('url')
 
 # This provides hyperclick support for Perl 6 using hyperclick
 # Please see https://atom.io/packages/hyperclick
@@ -48,23 +51,57 @@ class Perl6HyperclickProvider
     return unless @keywords?
 
     o = @keywords[word]
-    helpText = null
-    if o?
-      url = "http://doc.perl6.org#{o.url}"
-      helpText = """
-        <strong>Category:</strong>&nbsp;&nbsp;#{o.category}
-        <br><strong>URL:</strong>&nbsp;&nbsp;<a href=\"#{url}\">#{url}</a>
-      """
 
     # Return help callback and ranges to suggestion provider (hyperclick)
+    self = this
+    options =
+      dismissable: true
     return {
       range: range,
-      callback: () ->
-        options =
-          dismissable: true
-        if helpText?
-          atom.notifications.addInfo(helpText, options)
-        else
+      callback: ->
+        unless o?
           atom.notifications.addWarning("Help not found for #{word}")
-        return
+          return
+
+        url = "http://doc.perl6.org#{o.url}"
+        onResolve = (content ) ->
+          regex = /<div id="content-wrapper">\s*<div id="content" class="pretty-box yellow">((.|\s)+?)<\/div>\s*<\/div>\s*<div id="footer-wrapper">/
+          match = regex.exec(content)
+          if match?
+            helpText = """
+              <strong>Category:</strong>&nbsp;&nbsp;#{o.category}
+              <br><strong>URL:</strong>&nbsp;&nbsp;<a href=\"#{url}\">#{url}</a>
+              #{match[1]}
+            """
+            console.log(atom.notifications.addInfo(match[1], options))
+          else
+            atom.notifications.addWarning("Failed to match #{url}")
+          return
+        onReject  = (code) ->
+          atom.notifications.addWarning("Failed to fetch #{url}")
+          return
+
+        # Return a promise
+        return self.fetchURL(url).then(onResolve, onReject)
     }
+
+  fetchURL : ( url ) ->
+    urlObj = URL.parse(url)
+    deferred = Q.defer()
+    onResponse = (response) ->
+      deferred.reject(response.statusCode) unless (response.statusCode == 200)
+      content = ''
+      response.on('data', (chunk) -> content += chunk )
+      response.on('end',          -> deferred.resolve(content) )
+      response.resume()
+      return
+
+    HTTP.get(
+      hostname: urlObj.host,
+      port: 80,
+      path: urlObj.path,
+      agent: false  # create a new agent just for this one request
+    , onResponse)
+
+    # Return a deferred promise :)
+    return deferred.promise

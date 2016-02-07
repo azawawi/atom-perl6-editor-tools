@@ -1,4 +1,7 @@
-## 0.9.3 - Maintenance and bug fixes
+## 0.9.4
+* Implement #4
+
+## 0.9.3
 * Shorten long screenshot names and move them into their own directory
 * Show not-found help popup as a warning
 * Refactor module names to be shorter
