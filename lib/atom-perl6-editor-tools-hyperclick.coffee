@@ -48,7 +48,7 @@ class Perl6HyperclickProvider
     return unless @keywords?
 
     o = @keywords[word]
-    helpText = "Help not found for #{word}"
+    helpText = null
     if o?
       url = "http://doc.perl6.org#{o.url}"
       helpText = """
@@ -62,6 +62,9 @@ class Perl6HyperclickProvider
       callback: () ->
         options =
           dismissable: true
-        atom.notifications.addInfo(helpText, options)
+        if helpText?
+          atom.notifications.addInfo(helpText, options)
+        else
+          atom.notifications.addWarning("Help not found for #{word}")
         return
     }
