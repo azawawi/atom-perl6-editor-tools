@@ -1,3 +1,6 @@
+## 0.9.3
+* Shorten long screenshot names
+
 ## 0.9.2
 * Add Perl 6 [hyperclick](https://atom.io/packages/hyperclick) support for
 context-sensitive help

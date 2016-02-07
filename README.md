@@ -9,7 +9,7 @@ This provides a [linter](https://atom.io/packages/linter) that syntax checks
 Perl 6 code and provides error messages. Please note that this will run `BEGIN`
 and `CHECK` blocks.
 
-![Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-linter-screenshot.png)
+![Syntax Check Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/syntax-check-linter.png)
 
 ## Build Support
 
@@ -19,7 +19,7 @@ provides the following tasks (More build tasks will added in the future):
 - Perl 6 test: This will run ``prove -v -e "perl6 -Ilib"`` in your current Perl
 6 project and provide the build log
 
-![Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-builder-screenshot.png)
+![Test Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/test-runner-build-task.png)
 
 
 ## Context sensitive help
@@ -27,7 +27,7 @@ provides the following tasks (More build tasks will added in the future):
 This provides a [hyperclick](https://atom.io/packages/hyperclick) for context
 sensitive help.
 
-![Help Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-hyperclick-screenshot.png)
+![Context Sensitive Help Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/content-sensitive-help.png)
 
 ## POD Preview (Shortcut: `Alt+Ctrl+O`)
 
@@ -39,7 +39,7 @@ Preview pane to work:
   $ panda install Pod::To::HTML
 ```
 
-![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/atom-perl6-editor-tools-screenshot.png)
+![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/pod-preview.png)
 
 ## Snippets
 
