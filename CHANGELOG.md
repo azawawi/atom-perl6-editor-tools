@@ -1,7 +1,7 @@
-## 0.9.3 - *UNRELEASED*
+## 0.9.3 - Maintenance and bug fixes
 * Shorten long screenshot names and move them into their own directory
 * Show not-found help popup as a warning
-* 
+* Refactor module names to be shorter
 
 ## 0.9.2
 * Add Perl 6 [hyperclick](https://atom.io/packages/hyperclick) support for

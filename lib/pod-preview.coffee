@@ -160,7 +160,7 @@ class AtomPodPreviewView extends ScrollView
       iframe.setAttribute("sandbox", "allow-scripts allow-same-origin")
       iframe.src = @tmpPath
       @html $ iframe
-      atom.commands.dispatch('atom-perl6-editor-tools', 'html-changed')
+      atom.commands.dispatch('main', 'html-changed')
 
   getTitle: ->
     if @editor?

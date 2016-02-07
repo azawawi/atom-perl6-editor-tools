@@ -1,4 +1,4 @@
-AtomPerl6EditorTools = require '../lib/atom-perl6-editor-tools'
+AtomPerl6EditorTools = require '../lib/main'
 
 # Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
 #

@@ -1,10 +1,10 @@
 url                   = require 'url'
 {BufferedProcess, CompositeDisposable} = require 'atom'
 
-PodPreviewView        = require './atom-perl6-editor-tools-view'
-Perl6Linter           = require './atom-perl6-editor-tools-linter'
-Perl6Builder          = require './atom-perl6-editor-tools-builder'
-Perl6Hyperclick       = require './atom-perl6-editor-tools-hyperclick'
+PodPreviewView        = require './pod-preview'
+Perl6Linter           = require './syntax-check-linter'
+Perl6Builder          = require './builder'
+Perl6Hyperclick       = require './help-hyperclick'
 
 module.exports =
   #config:
@@ -34,7 +34,7 @@ module.exports =
     @subscriptions = new CompositeDisposable
 
     # Register command that toggles this view
-    @subscriptions.add atom.commands.add 'atom-workspace', 'atom-perl6-editor-tools:pod-preview': => @podPreview()
+    @subscriptions.add atom.commands.add 'atom-workspace', 'main:pod-preview': => @podPreview()
 
     atom.workspace.addOpener (uriToOpen) ->
       try
