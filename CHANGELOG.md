@@ -1,3 +1,7 @@
+## 0.9.5
+* No changes to code. This only add an animated GIF to explain context-senstive
+help operation
+
 ## 0.9.4
 * Implement #4
 

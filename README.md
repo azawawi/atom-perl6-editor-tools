@@ -27,7 +27,7 @@ provides the following tasks (More build tasks will added in the future):
 This provides a [hyperclick](https://atom.io/packages/hyperclick) for context
 sensitive help.
 
-![Context Sensitive Help Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/content-sensitive-help.png)
+![Context Sensitive Help Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/context_sensitive_help.gif)
 
 ## POD Preview (Shortcut: `Alt+Ctrl+O`)
 
