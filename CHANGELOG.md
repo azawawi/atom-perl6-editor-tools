@@ -1,6 +1,7 @@
-## 0.9.3
+## 0.9.3 - *UNRELEASED*
 * Shorten long screenshot names and move them into their own directory
 * Show not-found help popup as a warning
+* 
 
 ## 0.9.2
 * Add Perl 6 [hyperclick](https://atom.io/packages/hyperclick) support for
