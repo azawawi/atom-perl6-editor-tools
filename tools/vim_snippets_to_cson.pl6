@@ -2,8 +2,6 @@
 
 use v6;
 
-say "Hello world";
-
 my $fh = "snippets/generated.cson".IO.open(:w);
 $fh.say( q{'.source.perl6':} );
 my $body;
