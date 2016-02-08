@@ -39,5 +39,9 @@
     "language-perl6fe",
     "hyperclick",
     "linter"
-  ]
+  ],
+  "devDependencies": {
+    "eslint": "~1.10.3",
+    "babel-eslint": "~4.1.8"
+  }
 }
