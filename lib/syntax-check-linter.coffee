@@ -2,11 +2,18 @@
 helpers = require('atom-linter')
 path = require('path')
 
-getLibDir = (p) ->
-  dotdot = path.dirname(p)
-  return dotdot if dotdot in atom.project.getPaths()
-  return dotdot if path.basename(dotdot) is 'lib'
-  getLibDir(dotdot)
+getLibDir = (filepath) ->
+  projpaths = atom.project.getPaths()
+  home =
+    if process.platform.startsWith 'win'
+    then process.env.HOMEPATH else process.env.HOME
+  curpath = path.dirname filepath
+  while curpath != path.dirname(curpath)
+    return false if curpath in projpaths
+    return false if curpath is home
+    return "-I#{curpath}" if path.basename(curpath) is 'lib'
+    curpath = path.dirname curpath
+  return false
 
 # This provides linter support for Perl 6 using linter
 # Please see https://atom.io/packages/linter
