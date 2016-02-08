@@ -1,3 +1,7 @@
+## 0.9.6
+* Convert source code from [CoffeeScript](http://coffeescript.org/) to ES6
+via [Babel](https://babeljs.io)
+
 ## 0.9.5
 * No changes to code. This only add an animated GIF to explain context-senstive
 help operation
