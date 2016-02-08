@@ -49,13 +49,6 @@ A collection of useful snippets are now available for Perl 6 files. Please use
 is inserted. Please read [Using Atom: Snippets](
 https://atom.io/docs/latest/using-atom-snippets) for more information.
 
-## TODO
-
-- Save user scroll position
-- Add custom perl6 path setting
-- Less CPU usage when typing fast
-- Generate only one temporary file instead of two
-
 ## Author
 
 Ahmad M. Zawawi, azawawi on #perl6, https://github.com/azawawi/

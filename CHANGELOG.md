@@ -2,6 +2,7 @@
 * Convert source code from [CoffeeScript](http://coffeescript.org/) to ES6
 via [Babel](https://babeljs.io)
 * Fix a bug where the help text was not displaying the category and url
+* Add  [eslint](https://github.com/eslint/eslint) and [babel-eslint](https://github.com/babel/babel-eslint) to development dependencies
 
 ## 0.9.5
 * No changes to code. This only add an animated GIF to explain context-senstive
