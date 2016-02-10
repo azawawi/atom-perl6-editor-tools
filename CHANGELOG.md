@@ -2,7 +2,7 @@
 * Fix a regression where linter was not including the project lib folder
 * Remove ANSI escape sequences noise from error messages on non-windows
 platforms
-* syntax check linter now uses the current working directory of the first
+* Syntax check linter now uses the current working directory of the first
 project
 
 ## 0.9.6
