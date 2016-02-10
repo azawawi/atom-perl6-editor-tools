@@ -1,3 +1,6 @@
+## 0.9.8
+*
+
 ## 0.9.7
 * Fix a regression where linter was not including the project lib folder
 * Remove ANSI escape sequences noise from error messages on non-windows
