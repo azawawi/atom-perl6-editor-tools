@@ -9,7 +9,7 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
-- Save user scroll position
-- Add custom perl6 path setting
-- Less CPU usage when typing fast
-- Generate only one temporary file instead of two
+- Save user scroll position (POD Preview)
+- Add custom perl6 path setting (Settings)
+- Less CPU usage when typing fast (Linter)
+- Generate only one temporary file instead of two (POD Preview)
