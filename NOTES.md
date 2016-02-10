@@ -9,6 +9,7 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
+- more robust detection of project current working directory
 - Save user scroll position (POD Preview)
 - Add custom perl6 path setting (Settings)
 - Less CPU usage when typing fast (Linter)
