@@ -3,6 +3,8 @@
 * Remove ANSI escape sequences noise from error messages on non-windows
 platforms
 * Syntax check linter now uses the correct project directory
+* Builder now uses the correct project directory for the active editor instead
+of using the first one
 
 ## 0.9.6
 * Merge #7 (linter)
