@@ -1,3 +1,6 @@
+## 0.9.7
+*
+
 ## 0.9.6
 * Merge #7 (linter)
 * More robust error parsing in syntax check linter
