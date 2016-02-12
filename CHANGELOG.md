@@ -1,7 +1,11 @@
 ## 0.9.8
-* Add Camelia gray icons for Perl 6 file type in tree view
+* Add Camelia gray icons for Perl 6 file type in tree view. You need to collapse
+and then expand the project tree panel for the first time due to an Atom
+environment bug.
 * Disable language-perl (core) for a more Perl 6 fun editing experience on
 startup
+* Improve code quality via refactoring, removing dead code and more delicious
+code comments
 
 ## 0.9.7
 * Fix a regression where linter was not including the project lib folder
