@@ -1,5 +1,7 @@
 ## 0.9.8
-*
+* Add Camelia gray icons for Perl 6 file type in tree view
+* Disable language-perl (core) for a more Perl 6 fun editing experience on
+startup
 
 ## 0.9.7
 * Fix a regression where linter was not including the project lib folder
