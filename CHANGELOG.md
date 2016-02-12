@@ -1,3 +1,6 @@
+## 0.9.9
+*
+
 ## 0.9.8
 * Add Camelia gray icons for Perl 6 file type in tree view. You need to collapse
 and then expand the project tree panel for the first time due to an Atom
