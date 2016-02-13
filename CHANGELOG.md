@@ -1,5 +1,5 @@
 ## 0.9.10
-*
+* Fix syntax check linter ANSI escape sequence removal and error message parsing
 
 ## 0.9.9
 * Fix POD preview double bars
