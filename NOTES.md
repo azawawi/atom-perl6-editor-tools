@@ -11,3 +11,4 @@ npm i --save-dev babel-eslint
 
 - Add custom perl6 path setting (Settings)
 - Generate only one temporary file instead of two (POD Preview)
+- Optimize help index (Help)
