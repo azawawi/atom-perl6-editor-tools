@@ -1,5 +1,7 @@
 ## 0.9.9
-*
+* Fix POD preview double bars
+* Handle also .pm and .pl file types for camelia icons in tree view
+* Fix syntax check linter error "undefined length"
 
 ## 0.9.8
 * Add Camelia gray icons for Perl 6 file type in tree view. You need to collapse
