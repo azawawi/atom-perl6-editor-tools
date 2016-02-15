@@ -14,7 +14,7 @@
     "atom-package-deps": "^3.0.7",
     "atom-space-pen-views": "^2.0.0",
     "fs-plus": "^2.3.0",
-    "q": "^1.0.0",
+    "q": "^2.0.0",
     "tmp": "^0.0.28"
   },
   "providedServices": {
