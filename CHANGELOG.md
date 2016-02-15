@@ -1,3 +1,6 @@
+## 0.9.11
+*
+
 ## 0.9.10
 * Fix syntax check linter ANSI escape sequence removal and error message parsing
 * Refactor the remaining CoffeeScript CSON files to JSON. This includes tests,
