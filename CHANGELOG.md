@@ -1,5 +1,6 @@
 ## 0.9.10
 * Fix syntax check linter ANSI escape sequence removal and error message parsing
+* Tests are now written in ES6... No more coffeescript :)
 
 ## 0.9.9
 * Fix POD preview double bars
