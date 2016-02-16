@@ -1,5 +1,5 @@
 ## 0.9.11
-*
+* Fix issue #12
 
 ## 0.9.10
 * Fix syntax check linter ANSI escape sequence removal and error message parsing
