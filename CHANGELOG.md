@@ -1,5 +1,6 @@
 ## 0.9.11
 * Fix issue #12
+* Require new versions of dependencies namely q and atom-package-deps
 
 ## 0.9.10
 * Fix syntax check linter ANSI escape sequence removal and error message parsing
