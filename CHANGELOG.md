@@ -1,3 +1,6 @@
+## 0.9.12
+*
+
 ## 0.9.11
 * Fix issue #12
 * Require new versions of dependencies namely q and atom-package-deps
