@@ -1,5 +1,5 @@
 ## 0.9.12
-*
+* Add more documentation about file icons and its workaround
 
 ## 0.9.11
 * Fix issue #12
