@@ -21,7 +21,6 @@ provides the following tasks (More build tasks will added in the future):
 
 ![Test Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/test-runner-build-task.png)
 
-
 ## Context sensitive help
 
 This provides a [hyperclick](https://atom.io/packages/hyperclick) for context
@@ -48,6 +47,15 @@ A collection of useful snippets are now available for Perl 6 files. Please use
 `Tab`. For example, by typing `script` followed by `Tab`, a hello world script
 is inserted. Please read [Using Atom: Snippets](
 https://atom.io/docs/latest/using-atom-snippets) for more information.
+
+## File Icons
+
+The official camelia buttefly icon will now be shown in the file explorer
+tree view. A [bug](https://github.com/atom/tree-view/issues/732) in the tree
+view has been reported that prevents showing it on startup.As a workaround,
+please collapse and expand your project for it to work.
+
+![File icons Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/file-icons.png)
 
 ## Author
 
