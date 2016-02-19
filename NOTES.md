@@ -9,6 +9,7 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
+- Optimize help index (Help)
 - Add custom perl6 path setting (Settings)
 - Generate only one temporary file instead of two (POD Preview)
-- Optimize help index (Help)
+- Bundle Pod::To::HTML inside our package and provide an option to override
