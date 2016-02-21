@@ -1,5 +1,9 @@
 ## 0.9.12
 * Add more documentation about file icons and its workaround
+* Add setting options to toggle the following features:
+  * Context-senstive help hyperclick
+  * Syntax check linter
+  * File icons support
 
 ## 0.9.11
 * Fix issue #12
