@@ -1,6 +1,6 @@
 ## 0.9.12
 * Add more documentation about file icons and its workaround
-* Add setting options to toggle the following features:
+* Add setting options to toggle the following features (Atom restart needed):
   * Context-senstive help hyperclick
   * Syntax check linter
   * File icons support
