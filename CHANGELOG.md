@@ -1,5 +1,5 @@
 ## 0.9.13
-*
+* Optimize help index for faster load time
 
 ## 0.9.12
 * Add more documentation about file icons and its workaround

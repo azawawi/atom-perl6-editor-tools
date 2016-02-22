@@ -1,0 +1,8098 @@
+{
+  "WhateverCode": [
+    {
+      "category": "Class",
+      "url": "/type/WhateverCode"
+    }
+  ],
+  ".=": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%3D"
+    }
+  ],
+  "polar": [
+    {
+      "category": "Method",
+      "url": "/routine/polar"
+    }
+  ],
+  "Slip": [
+    {
+      "category": "Class",
+      "url": "/type/Slip"
+    }
+  ],
+  "Subset of or equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "Pair": [
+    {
+      "category": "Class",
+      "url": "/type/Pair"
+    }
+  ],
+  "-e": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "next": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/next"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/next"
+    }
+  ],
+  "column": [
+    {
+      "category": "Method",
+      "url": "/routine/column"
+    }
+  ],
+  "find_method": [
+    {
+      "category": "Method",
+      "url": "/routine/find_method"
+    }
+  ],
+  "X::Method::InvalidQualifier": [
+    {
+      "category": "Class",
+      "url": "/type/X::Method::InvalidQualifier"
+    }
+  ],
+  "CurrentThreadScheduler": [
+    {
+      "category": "Class",
+      "url": "/type/CurrentThreadScheduler"
+    }
+  ],
+  "atan2": [
+    {
+      "category": "Sub",
+      "url": "/routine/atan2"
+    }
+  ],
+  "sigil": [
+    {
+      "category": "Method",
+      "url": "/routine/sigil"
+    }
+  ],
+  "ords": [
+    {
+      "category": "Routine",
+      "url": "/routine/ords"
+    }
+  ],
+  "catpath": [
+    {
+      "category": "Routine",
+      "url": "/routine/catpath"
+    }
+  ],
+  "migrate": [
+    {
+      "category": "Method",
+      "url": "/routine/migrate"
+    }
+  ],
+  "push-all": [
+    {
+      "category": "Method",
+      "url": "/routine/push-all"
+    }
+  ],
+  "roll": [
+    {
+      "category": "Routine",
+      "url": "/routine/roll"
+    }
+  ],
+  "setup_finalization": [
+    {
+      "category": "Method",
+      "url": "/routine/setup_finalization"
+    }
+  ],
+  "values": [
+    {
+      "category": "Routine",
+      "url": "/routine/values"
+    }
+  ],
+  "if": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/if"
+    }
+  ],
+  "year": [
+    {
+      "category": "Method",
+      "url": "/routine/year"
+    }
+  ],
+  "else elsif": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/else%20elsif"
+    }
+  ],
+  "One junction operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "exp": [
+    {
+      "category": "Routine",
+      "url": "/routine/exp"
+    }
+  ],
+  "push-until-lazy": [
+    {
+      "category": "Method",
+      "url": "/routine/push-until-lazy"
+    }
+  ],
+  "Duration": [
+    {
+      "category": "Class",
+      "url": "/type/Duration"
+    }
+  ],
+  "Baggy addition operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "cross product operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "WHY": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/WHY"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/WHY"
+    }
+  ],
+  "subst": [
+    {
+      "category": "Method",
+      "url": "/routine/subst"
+    }
+  ],
+  ":kv (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  "prefix call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "features": [
+    {
+      "category": "Method",
+      "url": "/routine/features"
+    }
+  ],
+  "orelse": [
+    {
+      "category": "Infix",
+      "url": "/routine/orelse"
+    }
+  ],
+  "X::Channel::SendOnClosed": [
+    {
+      "category": "Class",
+      "url": "/type/X::Channel::SendOnClosed"
+    }
+  ],
+  "asin": [
+    {
+      "category": "Sub",
+      "url": "/routine/asin"
+    }
+  ],
+  "interval": [
+    {
+      "category": "Method",
+      "url": "/routine/interval"
+    }
+  ],
+  "univals": [
+    {
+      "category": "Method",
+      "url": "/routine/univals"
+    }
+  ],
+  "Open range operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Input/Output": [
+    {
+      "category": "Language",
+      "url": "/language/io"
+    }
+  ],
+  "âˆŒ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%8C"
+    }
+  ],
+  "keep": [
+    {
+      "category": "Method",
+      "url": "/routine/keep"
+    }
+  ],
+  "placeholder": [
+    {
+      "category": "Routine",
+      "url": "/routine/placeholder"
+    }
+  ],
+  "IO": [
+    {
+      "category": "Role",
+      "url": "/type/IO"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/IO"
+    }
+  ],
+  "(>=)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3E%3D%29"
+    }
+  ],
+  "index": [
+    {
+      "category": "Routine",
+      "url": "/routine/index"
+    }
+  ],
+  "temp": [
+    {
+      "category": "Routine",
+      "url": "/routine/temp"
+    }
+  ],
+  "âˆ…": [
+    {
+      "category": "Term",
+      "url": "/routine/%E2%88%85"
+    }
+  ],
+  "X::Str::Numeric": [
+    {
+      "category": "Class",
+      "url": "/type/X::Str::Numeric"
+    }
+  ],
+  "qq": [
+    {
+      "category": "Quote",
+      "url": "/syntax/qq"
+    }
+  ],
+  "Admonitory stub operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "X::Syntax::Variable::Twigil": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Variable::Twigil"
+    }
+  ],
+  "Numeric": [
+    {
+      "category": "Role",
+      "url": "/type/Numeric"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Numeric"
+    }
+  ],
+  "Binding operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  " is rw (traits)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "relative": [
+    {
+      "category": "Method",
+      "url": "/routine/relative"
+    }
+  ],
+  "clone": [
+    {
+      "category": "Routine",
+      "url": "/routine/clone"
+    }
+  ],
+  "minute": [
+    {
+      "category": "Method",
+      "url": "/routine/minute"
+    }
+  ],
+  ":global": [
+    {
+      "category": "Regex Adverb",
+      "url": "/syntax/%3Aglobal"
+    }
+  ],
+  "flat": [
+    {
+      "category": "Routine",
+      "url": "/routine/flat"
+    }
+  ],
+  "is-leap-year": [
+    {
+      "category": "Method",
+      "url": "/routine/is-leap-year"
+    }
+  ],
+  "reason": [
+    {
+      "category": "Routine",
+      "url": "/routine/reason"
+    }
+  ],
+  "use": [
+    {
+      "category": "Compunit",
+      "url": "/syntax/use"
+    }
+  ],
+  "Numeric less than or equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "!": [
+    {
+      "category": "Twigil",
+      "url": "/syntax/%21"
+    },
+    {
+      "category": "Prefix",
+      "url": "/routine/%21"
+    }
+  ],
+  "X::Syntax::Self::WithoutObject": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Self::WithoutObject"
+    }
+  ],
+  "âŠ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%8D"
+    }
+  ],
+  "Proxy": [
+    {
+      "category": "Class",
+      "url": "/type/Proxy"
+    }
+  ],
+  "Instant": [
+    {
+      "category": "Class",
+      "url": "/type/Instant"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Instant"
+    }
+  ],
+  ":D (type constraint)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  ":sigspace (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "trim-leading": [
+    {
+      "category": "Routine",
+      "url": "/routine/trim-leading"
+    }
+  ],
+  "warn": [
+    {
+      "category": "Sub",
+      "url": "/routine/warn"
+    }
+  ],
+  "parent": [
+    {
+      "category": "Method",
+      "url": "/routine/parent"
+    }
+  ],
+  "X::Attribute::Undeclared": [
+    {
+      "category": "Class",
+      "url": "/type/X::Attribute::Undeclared"
+    }
+  ],
+  "Bool": [
+    {
+      "category": "Class",
+      "url": "/type/Bool"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Bool"
+    }
+  ],
+  "after": [
+    {
+      "category": "Routine",
+      "url": "/routine/after"
+    }
+  ],
+  "cue": [
+    {
+      "category": "Method",
+      "url": "/routine/cue"
+    }
+  ],
+  "Not a superset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "is-routine": [
+    {
+      "category": "Method",
+      "url": "/routine/is-routine"
+    }
+  ],
+  "named_names": [
+    {
+      "category": "Method",
+      "url": "/routine/named_names"
+    }
+  ],
+  "postmatch": [
+    {
+      "category": "Method",
+      "url": "/routine/postmatch"
+    }
+  ],
+  "role (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/objects"
+    }
+  ],
+  "append": [
+    {
+      "category": "Routine",
+      "url": "/routine/append"
+    }
+  ],
+  "asinh": [
+    {
+      "category": "Sub",
+      "url": "/routine/asinh"
+    }
+  ],
+  ".[ ] (postcircumfix)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "line": [
+    {
+      "category": "Routine",
+      "url": "/routine/line"
+    }
+  ],
+  "sleep-until": [
+    {
+      "category": "Sub",
+      "url": "/routine/sleep-until"
+    }
+  ],
+  "allowed": [
+    {
+      "category": "Method",
+      "url": "/routine/allowed"
+    }
+  ],
+  "list": [
+    {
+      "category": "Routine",
+      "url": "/routine/list"
+    }
+  ],
+  "IO::Spec::Unix": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Spec::Unix"
+    }
+  ],
+  "$": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%24"
+    }
+  ],
+  "X::Syntax::UnlessElse": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::UnlessElse"
+    }
+  ],
+  "Numeric inequality operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "\\t (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "roles_to_compose": [
+    {
+      "category": "Method",
+      "url": "/routine/roles_to_compose"
+    }
+  ],
+  "abs": [
+    {
+      "category": "Routine",
+      "url": "/routine/abs"
+    }
+  ],
+  "cosec": [
+    {
+      "category": "Sub",
+      "url": "/routine/cosec"
+    }
+  ],
+  "parameter": [
+    {
+      "category": "Routine",
+      "url": "/routine/parameter"
+    }
+  ],
+  "Baggy superset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "@() (variable)": [
+    {
+      "category": "Reference",
+      "url": "/language/variables"
+    }
+  ],
+  "^fff^": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5Efff%5E"
+    }
+  ],
+  "any": [
+    {
+      "category": "Method",
+      "url": "/routine/any"
+    }
+  ],
+  "postfix call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Modulo operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "comment": [
+    {
+      "category": "Method",
+      "url": "/routine/comment"
+    }
+  ],
+  "Quoting Constructs": [
+    {
+      "category": "Language",
+      "url": "/language/quoting"
+    }
+  ],
+  "tau": [
+    {
+      "category": "Term",
+      "url": "/routine/tau"
+    }
+  ],
+  "X::Method::Private::Permission": [
+    {
+      "category": "Class",
+      "url": "/type/X::Method::Private::Permission"
+    }
+  ],
+  "todo": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "X::AdHoc": [
+    {
+      "category": "Class",
+      "url": "/type/X::AdHoc"
+    }
+  ],
+  "| (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "splice": [
+    {
+      "category": "Sub",
+      "url": "/routine/splice"
+    }
+  ],
+  "EXISTS-KEY": [
+    {
+      "category": "Method",
+      "url": "/routine/EXISTS-KEY"
+    }
+  ],
+  "pickpairs": [
+    {
+      "category": "Method",
+      "url": "/routine/pickpairs"
+    }
+  ],
+  "+ (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "defined": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/defined"
+    }
+  ],
+  "WHERE": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/WHERE"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/WHERE"
+    }
+  ],
+  "X::Temporal::Truncation": [
+    {
+      "category": "Class",
+      "url": "/type/X::Temporal::Truncation"
+    }
+  ],
+  "grab": [
+    {
+      "category": "Routine",
+      "url": "/routine/grab"
+    }
+  ],
+  "poll": [
+    {
+      "category": "Method",
+      "url": "/routine/poll"
+    }
+  ],
+  "twigils": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "signal": [
+    {
+      "category": "Routine",
+      "url": "/routine/signal"
+    }
+  ],
+  "IO::Socket::INET": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Socket::INET"
+    }
+  ],
+  "Variables": [
+    {
+      "category": "Language",
+      "url": "/language/variables"
+    }
+  ],
+  "<-[ ]> (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::Phaser::PrePost": [
+    {
+      "category": "Class",
+      "url": "/type/X::Phaser::PrePost"
+    }
+  ],
+  "Sub": [
+    {
+      "category": "Class",
+      "url": "/type/Sub"
+    }
+  ],
+  "Â» (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "create_type": [
+    {
+      "category": "Method",
+      "url": "/routine/create_type"
+    }
+  ],
+  "does": [
+    {
+      "category": "Infix",
+      "url": "/routine/does"
+    }
+  ],
+  "tc": [
+    {
+      "category": "Routine",
+      "url": "/routine/tc"
+    }
+  ],
+  "âŠ‰": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%89"
+    }
+  ],
+  "$ (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Superset of or equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "condition": [
+    {
+      "category": "Routine",
+      "url": "/routine/condition"
+    }
+  ],
+  "method_table": [
+    {
+      "category": "Method",
+      "url": "/routine/method_table"
+    }
+  ],
+  "role": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/role"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/role"
+    }
+  ],
+  "unwrap": [
+    {
+      "category": "Method",
+      "url": "/routine/unwrap"
+    }
+  ],
+  "<:property> (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Ternary operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "mode": [
+    {
+      "category": "Method",
+      "url": "/routine/mode"
+    }
+  ],
+  "Proc": [
+    {
+      "category": "Class",
+      "url": "/type/Proc"
+    }
+  ],
+  ":ignorecase (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "gather take (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "enclosing": [
+    {
+      "category": "Method",
+      "url": "/routine/enclosing"
+    }
+  ],
+  "uniname": [
+    {
+      "category": "Sub",
+      "url": "/routine/uniname"
+    }
+  ],
+  "method call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "capture": [
+    {
+      "category": "Method",
+      "url": "/routine/capture"
+    }
+  ],
+  "has_accessor": [
+    {
+      "category": "Method",
+      "url": "/routine/has_accessor"
+    }
+  ],
+  "SetHash": [
+    {
+      "category": "Class",
+      "url": "/type/SetHash"
+    }
+  ],
+  "sequence operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "cosh": [
+    {
+      "category": "Sub",
+      "url": "/routine/cosh"
+    }
+  ],
+  "i": [
+    {
+      "category": "Routine",
+      "url": "/routine/i"
+    }
+  ],
+  "lt": [
+    {
+      "category": "Infix",
+      "url": "/routine/lt"
+    }
+  ],
+  "state": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Declarator",
+      "url": "/syntax/state"
+    }
+  ],
+  "<[ ]>": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%3C%5B%20%5D%3E"
+    }
+  ],
+  "canonpath": [
+    {
+      "category": "Routine",
+      "url": "/routine/canonpath"
+    }
+  ],
+  "Mix": [
+    {
+      "category": "Class",
+      "url": "/type/Mix"
+    }
+  ],
+  "VAR": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/VAR"
+    }
+  ],
+  "is dynamic": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20dynamic"
+    }
+  ],
+  "Rat": [
+    {
+      "category": "Class",
+      "url": "/type/Rat"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Rat"
+    }
+  ],
+  "day-of-week": [
+    {
+      "category": "Method",
+      "url": "/routine/day-of-week"
+    }
+  ],
+  "starts-with": [
+    {
+      "category": "Method",
+      "url": "/routine/starts-with"
+    }
+  ],
+  "âŠ‡": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%87"
+    }
+  ],
+  "Pod::Block::Named": [
+    {
+      "category": "Class",
+      "url": "/type/Pod::Block::Named"
+    }
+  ],
+  "^ff": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5Eff"
+    }
+  ],
+  "closing": [
+    {
+      "category": "Method",
+      "url": "/routine/closing"
+    }
+  ],
+  "tclc": [
+    {
+      "category": "Routine",
+      "url": "/routine/tclc"
+    }
+  ],
+  "X::Parameter::MultipleTypeConstraints": [
+    {
+      "category": "Class",
+      "url": "/type/X::Parameter::MultipleTypeConstraints"
+    }
+  ],
+  "but": [
+    {
+      "category": "Infix",
+      "url": "/routine/but"
+    }
+  ],
+  "Phasers": [
+    {
+      "category": "Language",
+      "url": "/language/phasers"
+    }
+  ],
+  "Date": [
+    {
+      "category": "Class",
+      "url": "/type/Date"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Date"
+    }
+  ],
+  "DELETE-POS": [
+    {
+      "category": "Method",
+      "url": "/routine/DELETE-POS"
+    }
+  ],
+  "our": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/our"
+    }
+  ],
+  "is": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "is DEPRECATED": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20DEPRECATED"
+    }
+  ],
+  "kv": [
+    {
+      "category": "Routine",
+      "url": "/routine/kv"
+    }
+  ],
+  "lsb": [
+    {
+      "category": "Method",
+      "url": "/routine/lsb"
+    }
+  ],
+  "X::IO::Unlink": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Unlink"
+    }
+  ],
+  "at": [
+    {
+      "category": "Method",
+      "url": "/routine/at"
+    }
+  ],
+  "exception": [
+    {
+      "category": "Method",
+      "url": "/routine/exception"
+    }
+  ],
+  "fail": [
+    {
+      "category": "Routine",
+      "url": "/routine/fail"
+    }
+  ],
+  "stdout": [
+    {
+      "category": "Method",
+      "url": "/routine/stdout"
+    }
+  ],
+  "Method": [
+    {
+      "category": "Class",
+      "url": "/type/Method"
+    }
+  ],
+  "Defined-or operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "extension": [
+    {
+      "category": "Routine",
+      "url": "/routine/extension"
+    }
+  ],
+  " array subscript operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "configure_type_checking": [
+    {
+      "category": "Method",
+      "url": "/routine/configure_type_checking"
+    }
+  ],
+  "EVAL": [
+    {
+      "category": "Sub",
+      "url": "/routine/EVAL"
+    }
+  ],
+  "base-repeating": [
+    {
+      "category": "Method",
+      "url": "/routine/base-repeating"
+    }
+  ],
+  "hash": [
+    {
+      "category": "Routine",
+      "url": "/routine/hash"
+    }
+  ],
+  "int-bounds": [
+    {
+      "category": "Method",
+      "url": "/routine/int-bounds"
+    }
+  ],
+  "offset-in-hours": [
+    {
+      "category": "Method",
+      "url": "/routine/offset-in-hours"
+    }
+  ],
+  "stderr": [
+    {
+      "category": "Method",
+      "url": "/routine/stderr"
+    }
+  ],
+  "Tap": [
+    {
+      "category": "Class",
+      "url": "/type/Tap"
+    }
+  ],
+  "Metamodel::Finalization": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::Finalization"
+    }
+  ],
+  "declaration": [
+    {
+      "category": "Variable",
+      "url": "/syntax/declaration"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/declaration"
+    }
+  ],
+  "channel": [
+    {
+      "category": "Routine",
+      "url": "/routine/channel"
+    }
+  ],
+  "infix": [
+    {
+      "category": "Method",
+      "url": "/routine/infix"
+    }
+  ],
+  "let": [
+    {
+      "category": "Routine",
+      "url": "/routine/let"
+    }
+  ],
+  "X::Method::NotFound": [
+    {
+      "category": "Class",
+      "url": "/type/X::Method::NotFound"
+    }
+  ],
+  "Proc::Async": [
+    {
+      "category": "Class",
+      "url": "/type/Proc::Async"
+    }
+  ],
+  "Metamodel::PrivateMethodContainer": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::PrivateMethodContainer"
+    }
+  ],
+  " ! (twigils)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "handled": [
+    {
+      "category": "Method",
+      "url": "/routine/handled"
+    }
+  ],
+  "IO::Notification.watch-path": [
+    {
+      "category": "Method",
+      "url": "/routine/IO%3A%3ANotification.watch-path"
+    }
+  ],
+  "nude": [
+    {
+      "category": "Method",
+      "url": "/routine/nude"
+    }
+  ],
+  "log10": [
+    {
+      "category": "Routine",
+      "url": "/routine/log10"
+    }
+  ],
+  "push-at-least": [
+    {
+      "category": "Method",
+      "url": "/routine/push-at-least"
+    }
+  ],
+  "Signature": [
+    {
+      "category": "Class",
+      "url": "/type/Signature"
+    }
+  ],
+  "Positional": [
+    {
+      "category": "Role",
+      "url": "/type/Positional"
+    }
+  ],
+  "goto": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/goto"
+    }
+  ],
+  "composer": [
+    {
+      "category": "Method",
+      "url": "/routine/composer"
+    }
+  ],
+  "expmod": [
+    {
+      "category": "Sub",
+      "url": "/routine/expmod"
+    }
+  ],
+  "last": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/last"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/last"
+    }
+  ],
+  ":_ (type constraint)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "^ (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "qualifier-type": [
+    {
+      "category": "Method",
+      "url": "/routine/qualifier-type"
+    }
+  ],
+  "X::Syntax": [
+    {
+      "category": "Role",
+      "url": "/type/X::Syntax"
+    }
+  ],
+  "X::OutOfRange": [
+    {
+      "category": "Class",
+      "url": "/type/X::OutOfRange"
+    }
+  ],
+  "Terms": [
+    {
+      "category": "Language",
+      "url": "/language/terms"
+    }
+  ],
+  "$0 (variable)": [
+    {
+      "category": "Reference",
+      "url": "/language/variables"
+    }
+  ],
+  "X::Does::TypeObject": [
+    {
+      "category": "Class",
+      "url": "/type/X::Does::TypeObject"
+    }
+  ],
+  "(elem)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28elem%29"
+    }
+  ],
+  "contents": [
+    {
+      "category": "Method",
+      "url": "/routine/contents"
+    }
+  ],
+  "is copy (trait)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "<:property>": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%3C%3Aproperty%3E"
+    }
+  ],
+  "splitdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/splitdir"
+    }
+  ],
+  "categorize-list": [
+    {
+      "category": "Method",
+      "url": "/routine/categorize-list"
+    }
+  ],
+  "chmod": [
+    {
+      "category": "Sub",
+      "url": "/routine/chmod"
+    }
+  ],
+  "day": [
+    {
+      "category": "Method",
+      "url": "/routine/day"
+    }
+  ],
+  "one": [
+    {
+      "category": "Method",
+      "url": "/routine/one"
+    }
+  ],
+  "PositionalBindFailover": [
+    {
+      "category": "Role",
+      "url": "/type/PositionalBindFailover"
+    }
+  ],
+  "Â« Â»": [
+    {
+      "category": "Postcircumfix",
+      "url": "/routine/%C2%AB%20%C2%BB"
+    }
+  ],
+  "WHY (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "greatest commmon demnominator operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "X::Syntax::Signature::InvocantMarker": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Signature::InvocantMarker"
+    }
+  ],
+  "+^": [
+    {
+      "category": "Routine",
+      "url": "/routine/%2B%5E"
+    }
+  ],
+  "exit": [
+    {
+      "category": "Sub",
+      "url": "/routine/exit"
+    }
+  ],
+  "got": [
+    {
+      "category": "Routine",
+      "url": "/routine/got"
+    }
+  ],
+  "X::Constructor::Positional": [
+    {
+      "category": "Class",
+      "url": "/type/X::Constructor::Positional"
+    }
+  ],
+  "X::Assignment::RO": [
+    {
+      "category": "Class",
+      "url": "/type/X::Assignment::RO"
+    }
+  ],
+  "isa-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "*": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/%2A"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%2A"
+    }
+  ],
+  "X::Declaration::Scope": [
+    {
+      "category": "Class",
+      "url": "/type/X::Declaration::Scope"
+    }
+  ],
+  "grammar (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/grammars"
+    }
+  ],
+  "tmpdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/tmpdir"
+    }
+  ],
+  "Parameter": [
+    {
+      "category": "Class",
+      "url": "/type/Parameter"
+    }
+  ],
+  "rootdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/rootdir"
+    }
+  ],
+  "\\v (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X": [
+    {
+      "category": "Infix",
+      "url": "/routine/X"
+    }
+  ],
+  "All junction operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "\\H (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "denominator": [
+    {
+      "category": "Method",
+      "url": "/routine/denominator"
+    }
+  ],
+  "done-testing": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "Membership operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  ":s (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "\\s (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "head": [
+    {
+      "category": "Routine",
+      "url": "/routine/head"
+    }
+  ],
+  "QuantHash": [
+    {
+      "category": "Role",
+      "url": "/type/QuantHash"
+    }
+  ],
+  "Metamodel::MultipleInheritance": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::MultipleInheritance"
+    }
+  ],
+  ".": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/."
+    },
+    {
+      "category": "Postfix",
+      "url": "/routine/."
+    }
+  ],
+  "Seq": [
+    {
+      "category": "Class",
+      "url": "/type/Seq"
+    }
+  ],
+  "install_method_cache": [
+    {
+      "category": "Method",
+      "url": "/routine/install_method_cache"
+    }
+  ],
+  "value": [
+    {
+      "category": "Method",
+      "url": "/routine/value"
+    }
+  ],
+  " attributes (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "==": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3D%3D"
+    }
+  ],
+  "length": [
+    {
+      "category": "Method",
+      "url": "/routine/length"
+    }
+  ],
+  "Set difference operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "sub (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/functions"
+    }
+  ],
+  "ff": [
+    {
+      "category": "Infix",
+      "url": "/routine/ff"
+    }
+  ],
+  "X::Declaration::Scope::Multi": [
+    {
+      "category": "Class",
+      "url": "/type/X::Declaration::Scope::Multi"
+    }
+  ],
+  "* (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Constraining Return Types": [
+    {
+      "category": "-->",
+      "url": "/syntax/Constraining%20Return%20Types"
+    }
+  ],
+  "..^": [
+    {
+      "category": "Infix",
+      "url": "/routine/..%5E"
+    }
+  ],
+  "is copy": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20copy"
+    }
+  ],
+  "min": [
+    {
+      "category": "Routine",
+      "url": "/routine/min"
+    }
+  ],
+  "pull-one": [
+    {
+      "category": "Method",
+      "url": "/routine/pull-one"
+    }
+  ],
+  "IO::Spec::Cygwin": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Spec::Cygwin"
+    }
+  ],
+  "exponentiation operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "for": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/for"
+    }
+  ],
+  "-f": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "Modules": [
+    {
+      "category": "Language",
+      "url": "/language/modules"
+    }
+  ],
+  "lcm": [
+    {
+      "category": "Infix",
+      "url": "/routine/lcm"
+    }
+  ],
+  "range": [
+    {
+      "category": "Method",
+      "url": "/routine/range"
+    }
+  ],
+  "-C": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "X::Syntax::Reserved": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Reserved"
+    }
+  ],
+  "acos": [
+    {
+      "category": "Sub",
+      "url": "/routine/acos"
+    }
+  ],
+  "constraints": [
+    {
+      "category": "Method",
+      "url": "/routine/constraints"
+    }
+  ],
+  "decode": [
+    {
+      "category": "Method",
+      "url": "/routine/decode"
+    }
+  ],
+  "String repetition operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "isnt": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "when": [
+    {
+      "category": "Method",
+      "url": "/routine/when"
+    }
+  ],
+  "class (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/objects"
+    }
+  ],
+  "| (parameter)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "Functions": [
+    {
+      "category": "Language",
+      "url": "/language/functions"
+    }
+  ],
+  "make": [
+    {
+      "category": "Method",
+      "url": "/routine/make"
+    }
+  ],
+  "child-typename": [
+    {
+      "category": "Method",
+      "url": "/routine/child-typename"
+    }
+  ],
+  "increment operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "open": [
+    {
+      "category": "Routine",
+      "url": "/routine/open"
+    }
+  ],
+  "tap": [
+    {
+      "category": "Method",
+      "url": "/routine/tap"
+    }
+  ],
+  "$$ (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "FatRat": [
+    {
+      "category": "Class",
+      "url": "/type/FatRat"
+    }
+  ],
+  ":global (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "$/": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%24%2F"
+    }
+  ],
+  "!=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%21%3D"
+    }
+  ],
+  "=:=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3D%3A%3D"
+    }
+  ],
+  "eof": [
+    {
+      "category": "Method",
+      "url": "/routine/eof"
+    }
+  ],
+  "Rational": [
+    {
+      "category": "Role",
+      "url": "/type/Rational"
+    }
+  ],
+  "hidden": [
+    {
+      "category": "Method",
+      "url": "/routine/hidden"
+    }
+  ],
+  "level": [
+    {
+      "category": "Method",
+      "url": "/routine/level"
+    }
+  ],
+  "not": [
+    {
+      "category": "Routine",
+      "url": "/routine/not"
+    }
+  ],
+  "Failure": [
+    {
+      "category": "Class",
+      "url": "/type/Failure"
+    }
+  ],
+  "Fatal stub operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "? (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::Syntax::Number::RadixOutOfRange": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Number::RadixOutOfRange"
+    }
+  ],
+  "sqrt": [
+    {
+      "category": "Routine",
+      "url": "/routine/sqrt"
+    }
+  ],
+  "die": [
+    {
+      "category": "Sub",
+      "url": "/routine/die"
+    }
+  ],
+  "X::StubCode": [
+    {
+      "category": "Class",
+      "url": "/type/X::StubCode"
+    }
+  ],
+  "^": [
+    {
+      "category": "Twigil",
+      "url": "/syntax/%5E"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%5E"
+    }
+  ],
+  "lazy": [
+    {
+      "category": "Method",
+      "url": "/routine/lazy"
+    }
+  ],
+  "ucfirst": [
+    {
+      "category": "Method",
+      "url": "/routine/ucfirst"
+    }
+  ],
+  "X::Method::Private::Unqualified": [
+    {
+      "category": "Class",
+      "url": "/type/X::Method::Private::Unqualified"
+    }
+  ],
+  "mod": [
+    {
+      "category": "Infix",
+      "url": "/routine/mod"
+    }
+  ],
+  "Stringy": [
+    {
+      "category": "Role",
+      "url": "/type/Stringy"
+    }
+  ],
+  "skip": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "classes": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "add_fallback": [
+    {
+      "category": "Method",
+      "url": "/routine/add_fallback"
+    }
+  ],
+  "lc": [
+    {
+      "category": "Routine",
+      "url": "/routine/lc"
+    }
+  ],
+  "set_rw": [
+    {
+      "category": "Method",
+      "url": "/routine/set_rw"
+    }
+  ],
+  "âˆ‹": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%8B"
+    }
+  ],
+  "IO::Socket": [
+    {
+      "category": "Role",
+      "url": "/type/IO::Socket"
+    }
+  ],
+  "$!": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%24%21"
+    }
+  ],
+  "Real": [
+    {
+      "category": "Role",
+      "url": "/type/Real"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Real"
+    }
+  ],
+  "X::Signature::NameClash": [
+    {
+      "category": "Class",
+      "url": "/type/X::Signature::NameClash"
+    }
+  ],
+  ".*": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%2A"
+    }
+  ],
+  "finish": [
+    {
+      "category": "Method",
+      "url": "/routine/finish"
+    }
+  ],
+  "Entering Unicode Characters": [
+    {
+      "category": "Language",
+      "url": "/language/unicode_entry"
+    }
+  ],
+  "like": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "...": [
+    {
+      "category": "Routine",
+      "url": "/routine/..."
+    }
+  ],
+  "promise": [
+    {
+      "category": "Method",
+      "url": "/routine/promise"
+    }
+  ],
+  "Complex": [
+    {
+      "category": "Class",
+      "url": "/type/Complex"
+    }
+  ],
+  ".defined": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "[ ] (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "atan": [
+    {
+      "category": "Sub",
+      "url": "/routine/atan"
+    }
+  ],
+  "String concatenation operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "pairup": [
+    {
+      "category": "Method",
+      "url": "/routine/pairup"
+    }
+  ],
+  "once": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/once"
+    }
+  ],
+  "throws-like": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "Pod::Item": [
+    {
+      "category": "Class",
+      "url": "/type/Pod::Item"
+    }
+  ],
+  "âŠƒ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%83"
+    }
+  ],
+  "FAQ": [
+    {
+      "category": "Language",
+      "url": "/language/faq"
+    }
+  ],
+  "String equality operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "leg": [
+    {
+      "category": "Infix",
+      "url": "/routine/leg"
+    }
+  ],
+  "scheduler": [
+    {
+      "category": "Method",
+      "url": "/routine/scheduler"
+    }
+  ],
+  "X::Attribute::NoPackage": [
+    {
+      "category": "Class",
+      "url": "/type/X::Attribute::NoPackage"
+    }
+  ],
+  ":w": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "full": [
+    {
+      "category": "Method",
+      "url": "/routine/full"
+    }
+  ],
+  "Empty": [
+    {
+      "category": "Reference",
+      "url": "/type/Slip"
+    }
+  ],
+  "Grammar (class)": [
+    {
+      "category": "Reference",
+      "url": "/language/grammars"
+    }
+  ],
+  "class-qualified method call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "devnull": [
+    {
+      "category": "Routine",
+      "url": "/routine/devnull"
+    }
+  ],
+  "gcd": [
+    {
+      "category": "Infix",
+      "url": "/routine/gcd"
+    }
+  ],
+  "Associative": [
+    {
+      "category": "Role",
+      "url": "/type/Associative"
+    }
+  ],
+  "is-approx": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  ":ratchet (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "encapsulation": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "ï½¢ ï½£ (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  ":pos (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "proc": [
+    {
+      "category": "Routine",
+      "url": "/routine/proc"
+    }
+  ],
+  "Version": [
+    {
+      "category": "Class",
+      "url": "/type/Version"
+    }
+  ],
+  "IO::Notification": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Notification"
+    }
+  ],
+  "flip": [
+    {
+      "category": "Routine",
+      "url": "/routine/flip"
+    }
+  ],
+  "get_value": [
+    {
+      "category": "Method",
+      "url": "/routine/get_value"
+    }
+  ],
+  "Lock": [
+    {
+      "category": "Class",
+      "url": "/type/Lock"
+    }
+  ],
+  "~": [
+    {
+      "category": "Twigil",
+      "url": "/syntax/~"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/~"
+    }
+  ],
+  "parent-name": [
+    {
+      "category": "Method",
+      "url": "/routine/parent-name"
+    }
+  ],
+  "rolish": [
+    {
+      "category": "Method",
+      "url": "/routine/rolish"
+    }
+  ],
+  "X::IO::Mkdir": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Mkdir"
+    }
+  ],
+  "before": [
+    {
+      "category": "Infix",
+      "url": "/routine/before"
+    }
+  ],
+  "package-kind": [
+    {
+      "category": "Routine",
+      "url": "/routine/package-kind"
+    }
+  ],
+  "schedule-on": [
+    {
+      "category": "Method",
+      "url": "/routine/schedule-on"
+    }
+  ],
+  "Routine": [
+    {
+      "category": "Class",
+      "url": "/type/Routine"
+    }
+  ],
+  "?|": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3F%7C"
+    }
+  ],
+  "sprintf": [
+    {
+      "category": "Sub",
+      "url": "/routine/sprintf"
+    }
+  ],
+  "?^": [
+    {
+      "category": "Prefix",
+      "url": "/routine/%3F%5E"
+    }
+  ],
+  "id": [
+    {
+      "category": "Method",
+      "url": "/routine/id"
+    }
+  ],
+  "receive": [
+    {
+      "category": "Method",
+      "url": "/routine/receive"
+    }
+  ],
+  "with orwith without": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/with%20orwith%20without"
+    }
+  ],
+  "X::Proc::Async::OpenForWriting": [
+    {
+      "category": "Reference",
+      "url": "/type/X::Proc::Async::OpenForWriting"
+    },
+    {
+      "category": "Class",
+      "url": "/type/X::Proc::Async::OpenForWriting"
+    }
+  ],
+  "//": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2F%2F"
+    }
+  ],
+  "||": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%7C%7C"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%7C%7C"
+    }
+  ],
+  "declarator": [
+    {
+      "category": "Reference",
+      "url": "/language/functions"
+    }
+  ],
+  "lock": [
+    {
+      "category": "Method",
+      "url": "/routine/lock"
+    }
+  ],
+  "narrow": [
+    {
+      "category": "Method",
+      "url": "/routine/narrow"
+    }
+  ],
+  "mix": [
+    {
+      "category": "Sub",
+      "url": "/routine/mix"
+    }
+  ],
+  "DESTROY": [
+    {
+      "category": "Reference",
+      "url": "/type/Metamodel::Finalization"
+    }
+  ],
+  "DEFINITE (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "adverb": [
+    {
+      "category": "Method",
+      "url": "/routine/adverb"
+    }
+  ],
+  "Metamodel::AttributeContainer": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::AttributeContainer"
+    }
+  ],
+  "control flow": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "Unicode versus Texas symbols": [
+    {
+      "category": "Language",
+      "url": "/language/unicode_texas"
+    }
+  ],
+  "day-of-month": [
+    {
+      "category": "Method",
+      "url": "/routine/day-of-month"
+    }
+  ],
+  "elems": [
+    {
+      "category": "Routine",
+      "url": "/routine/elems"
+    }
+  ],
+  "X::Phaser::Multiple": [
+    {
+      "category": "Class",
+      "url": "/type/X::Phaser::Multiple"
+    }
+  ],
+  "proto": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/proto"
+    }
+  ],
+  "-> (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/functions"
+    }
+  ],
+  "os-error": [
+    {
+      "category": "Method",
+      "url": "/routine/os-error"
+    }
+  ],
+  "X::Inheritance::Unsupported": [
+    {
+      "category": "Class",
+      "url": "/type/X::Inheritance::Unsupported"
+    }
+  ],
+  "Thread": [
+    {
+      "category": "Class",
+      "url": "/type/Thread"
+    }
+  ],
+  "minmax": [
+    {
+      "category": "Method",
+      "url": "/routine/minmax"
+    }
+  ],
+  "resume": [
+    {
+      "category": "Method",
+      "url": "/routine/resume"
+    }
+  ],
+  "round": [
+    {
+      "category": "Routine",
+      "url": "/routine/round"
+    }
+  ],
+  "~~": [
+    {
+      "category": "Infix",
+      "url": "/routine/~~"
+    }
+  ],
+  "X::Parameter::Placeholder": [
+    {
+      "category": "Class",
+      "url": "/type/X::Parameter::Placeholder"
+    }
+  ],
+  "Int": [
+    {
+      "category": "Class",
+      "url": "/type/Int"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Int"
+    }
+  ],
+  "eager": [
+    {
+      "category": "Routine",
+      "url": "/routine/eager"
+    }
+  ],
+  "pid": [
+    {
+      "category": "Routine",
+      "url": "/routine/pid"
+    }
+  ],
+  "substr": [
+    {
+      "category": "Routine",
+      "url": "/routine/substr"
+    }
+  ],
+  "Exception": [
+    {
+      "category": "Class",
+      "url": "/type/Exception"
+    }
+  ],
+  "shell": [
+    {
+      "category": "Sub",
+      "url": "/routine/shell"
+    }
+  ],
+  "updir": [
+    {
+      "category": "Routine",
+      "url": "/routine/updir"
+    }
+  ],
+  "so": [
+    {
+      "category": "Routine",
+      "url": "/routine/so"
+    }
+  ],
+  "Left-open range operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ":kv": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Akv"
+    }
+  ],
+  "pack": [
+    {
+      "category": "Sub",
+      "url": "/routine/pack"
+    }
+  ],
+  "Bag": [
+    {
+      "category": "Class",
+      "url": "/type/Bag"
+    }
+  ],
+  "Numeric three-way comparator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "gather take": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/gather%20take"
+    }
+  ],
+  "++": [
+    {
+      "category": "Routine",
+      "url": "/routine/%2B%2B"
+    }
+  ],
+  "\\N (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "source-package": [
+    {
+      "category": "Method",
+      "url": "/routine/source-package"
+    }
+  ],
+  "String inequality operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "BIND-KEY": [
+    {
+      "category": "Method",
+      "url": "/routine/BIND-KEY"
+    }
+  ],
+  ">> (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Buf": [
+    {
+      "category": "Role",
+      "url": "/type/Buf"
+    }
+  ],
+  " bless (objects)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  ":p (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  ".:<prefix>": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%3A%3Cprefix%3E"
+    }
+  ],
+  "invert": [
+    {
+      "category": "Method",
+      "url": "/routine/invert"
+    }
+  ],
+  " . (operators)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "X::Syntax::Regex::Adverb": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Regex::Adverb"
+    }
+  ],
+  "le": [
+    {
+      "category": "Infix",
+      "url": "/routine/le"
+    }
+  ],
+  "udp": [
+    {
+      "category": "Method",
+      "url": "/routine/udp"
+    }
+  ],
+  "Pod::Block::Para": [
+    {
+      "category": "Class",
+      "url": "/type/Pod::Block::Para"
+    }
+  ],
+  "": [
+    {
+      "category": "Empty",
+      "url": "/syntax/"
+    }
+  ],
+  "gist": [
+    {
+      "category": "Routine",
+      "url": "/routine/gist"
+    }
+  ],
+  "is-lazy": [
+    {
+      "category": "Routine",
+      "url": "/routine/is-lazy"
+    }
+  ],
+  ".postfix (postfix)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "\\d (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "packages": [
+    {
+      "category": "Method",
+      "url": "/routine/packages"
+    }
+  ],
+  "rename": [
+    {
+      "category": "Method",
+      "url": "/routine/rename"
+    }
+  ],
+  "X::OS": [
+    {
+      "category": "Role",
+      "url": "/type/X::OS"
+    }
+  ],
+  "get": [
+    {
+      "category": "Routine",
+      "url": "/routine/get"
+    }
+  ],
+  "lcfirst": [
+    {
+      "category": "Method",
+      "url": "/routine/lcfirst"
+    }
+  ],
+  "package": [
+    {
+      "category": "Routine",
+      "url": "/routine/package"
+    }
+  ],
+  "X::Attribute::Package": [
+    {
+      "category": "Class",
+      "url": "/type/X::Attribute::Package"
+    }
+  ],
+  ":c (matching adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "posix": [
+    {
+      "category": "Method",
+      "url": "/routine/posix"
+    }
+  ],
+  "run": [
+    {
+      "category": "Routine",
+      "url": "/routine/run"
+    }
+  ],
+  "X::Sequence::Deduction": [
+    {
+      "category": "Class",
+      "url": "/type/X::Sequence::Deduction"
+    }
+  ],
+  "m (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "add_parent": [
+    {
+      "category": "Method",
+      "url": "/routine/add_parent"
+    }
+  ],
+  "Range": [
+    {
+      "category": "Class",
+      "url": "/type/Range"
+    }
+  ],
+  " accessors (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "Traps to avoid": [
+    {
+      "category": "Language",
+      "url": "/language/traps"
+    }
+  ],
+  "and": [
+    {
+      "category": "Infix",
+      "url": "/routine/and"
+    }
+  ],
+  "Equivalence operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "qw": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    },
+    {
+      "category": "Quote",
+      "url": "/syntax/qw"
+    }
+  ],
+  "Classes and Objects": [
+    {
+      "category": "Language",
+      "url": "/language/classtut"
+    }
+  ],
+  "Metamodel::MROBasedMethodDispatch": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::MROBasedMethodDispatch"
+    }
+  ],
+  "qqw": [
+    {
+      "category": "Quote",
+      "url": "/syntax/qqw"
+    }
+  ],
+  "loop": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/loop"
+    }
+  ],
+  "pass": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "X::Proc::Async::AlreadyStarted": [
+    {
+      "category": "Class",
+      "url": "/type/X::Proc::Async::AlreadyStarted"
+    }
+  ],
+  "Whatever": [
+    {
+      "category": "Class",
+      "url": "/type/Whatever"
+    }
+  ],
+  "( )": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%28%20%29"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%28%20%29"
+    }
+  ],
+  "X::Syntax::P5": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::P5"
+    }
+  ],
+  "bless": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/bless"
+    }
+  ],
+  "later": [
+    {
+      "category": "Routine",
+      "url": "/routine/later"
+    }
+  ],
+  "Supply": [
+    {
+      "category": "Class",
+      "url": "/type/Supply"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Supply"
+    }
+  ],
+  "Union operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "push": [
+    {
+      "category": "Routine",
+      "url": "/routine/push"
+    }
+  ],
+  "X::Inheritance::NotComposed": [
+    {
+      "category": "Class",
+      "url": "/type/X::Inheritance::NotComposed"
+    }
+  ],
+  "Mu": [
+    {
+      "category": "Class",
+      "url": "/type/Mu"
+    }
+  ],
+  "Operators": [
+    {
+      "category": "Language",
+      "url": "/language/operators"
+    }
+  ],
+  "->": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/-%3E"
+    }
+  ],
+  ".?": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%3F"
+    }
+  ],
+  "X::IO": [
+    {
+      "category": "Role",
+      "url": "/type/X::IO"
+    }
+  ],
+  "(|)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%7C%29"
+    }
+  ],
+  "getc": [
+    {
+      "category": "Method",
+      "url": "/routine/getc"
+    }
+  ],
+  "WHERE (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "rule (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/grammars"
+    }
+  ],
+  "Junction": [
+    {
+      "category": "Class",
+      "url": "/type/Junction"
+    }
+  ],
+  "X::Syntax::Variable::Numeric": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Variable::Numeric"
+    }
+  ],
+  "fff": [
+    {
+      "category": "Infix",
+      "url": "/routine/fff"
+    }
+  ],
+  "raw": [
+    {
+      "category": "Method",
+      "url": "/routine/raw"
+    }
+  ],
+  "<<": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%3C%3C"
+    }
+  ],
+  "symbol": [
+    {
+      "category": "Routine",
+      "url": "/routine/symbol"
+    }
+  ],
+  "âŠ†": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%86"
+    }
+  ],
+  "Label": [
+    {
+      "category": "Class",
+      "url": "/type/Label"
+    }
+  ],
+  "Any junction operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Variable": [
+    {
+      "category": "Class",
+      "url": "/type/Variable"
+    }
+  ],
+  "WHICH (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "least common multiple operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ".^": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%5E"
+    }
+  ],
+  "hour": [
+    {
+      "category": "Method",
+      "url": "/routine/hour"
+    }
+  ],
+  "roots": [
+    {
+      "category": "Routine",
+      "url": "/routine/roots"
+    }
+  ],
+  "say": [
+    {
+      "category": "Routine",
+      "url": "/routine/say"
+    }
+  ],
+  "â‰¼": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%89%BC"
+    }
+  ],
+  "*% (parameter)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "qqx (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "compose_type": [
+    {
+      "category": "Method",
+      "url": "/routine/compose_type"
+    }
+  ],
+  "changed": [
+    {
+      "category": "Method",
+      "url": "/routine/changed"
+    }
+  ],
+  "symlink": [
+    {
+      "category": "Method",
+      "url": "/routine/symlink"
+    }
+  ],
+  "X::Pod": [
+    {
+      "category": "Role",
+      "url": "/type/X::Pod"
+    }
+  ],
+  "Subtraction operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "block constructor": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "*@": [
+    {
+      "category": "Parameter",
+      "url": "/syntax/%2A%40"
+    }
+  ],
+  "is pure": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20pure"
+    }
+  ],
+  "$<named> (variable)": [
+    {
+      "category": "Reference",
+      "url": "/language/variables"
+    }
+  ],
+  "Iterable": [
+    {
+      "category": "Role",
+      "url": "/type/Iterable"
+    }
+  ],
+  "Intersection operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "hides": [
+    {
+      "category": "Method",
+      "url": "/routine/hides"
+    }
+  ],
+  "ceiling": [
+    {
+      "category": "Routine",
+      "url": "/routine/ceiling"
+    }
+  ],
+  "total": [
+    {
+      "category": "Routine",
+      "url": "/routine/total"
+    }
+  ],
+  "Metamodel::Trusting": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::Trusting"
+    }
+  ],
+  "List": [
+    {
+      "category": "Class",
+      "url": "/type/List"
+    }
+  ],
+  "Integer bitwise OR operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "qx (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "BIND-POS": [
+    {
+      "category": "Method",
+      "url": "/routine/BIND-POS"
+    }
+  ],
+  "Z": [
+    {
+      "category": "Infix",
+      "url": "/routine/Z"
+    }
+  ],
+  "role-name": [
+    {
+      "category": "Method",
+      "url": "/routine/role-name"
+    }
+  ],
+  "sort": [
+    {
+      "category": "Routine",
+      "url": "/routine/sort"
+    }
+  ],
+  "acosh": [
+    {
+      "category": "Sub",
+      "url": "/routine/acosh"
+    }
+  ],
+  ".( ) (postcircumfix)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "blocks": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/blocks"
+    }
+  ],
+  "Exceptions": [
+    {
+      "category": "Language",
+      "url": "/language/exceptions"
+    }
+  ],
+  ":sigspace": [
+    {
+      "category": "Regex Adverb",
+      "url": "/syntax/%3Asigspace"
+    }
+  ],
+  "floor": [
+    {
+      "category": "Routine",
+      "url": "/routine/floor"
+    }
+  ],
+  "isNaN": [
+    {
+      "category": "Method",
+      "url": "/routine/isNaN"
+    }
+  ],
+  "Channel": [
+    {
+      "category": "Class",
+      "url": "/type/Channel"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Channel"
+    }
+  ],
+  "\\T (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "\\h (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "arity": [
+    {
+      "category": "Routine",
+      "url": "/routine/arity"
+    }
+  ],
+  "s/ / /": [
+    {
+      "category": "Quote",
+      "url": "/syntax/s%2F%20%2F%20%2F"
+    }
+  ],
+  "DEFINITE": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/DEFINITE"
+    }
+  ],
+  "chomp": [
+    {
+      "category": "Routine",
+      "url": "/routine/chomp"
+    }
+  ],
+  "Metamodel::ClassHOW": [
+    {
+      "category": "Class",
+      "url": "/type/Metamodel::ClassHOW"
+    }
+  ],
+  "statements": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/statements"
+    }
+  ],
+  "Divisibility operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "String less than operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "MixHash": [
+    {
+      "category": "Class",
+      "url": "/type/MixHash"
+    }
+  ],
+  "ge": [
+    {
+      "category": "Infix",
+      "url": "/routine/ge"
+    }
+  ],
+  "X::Syntax::Comment::Embedded": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Comment::Embedded"
+    }
+  ],
+  "add_private_method": [
+    {
+      "category": "Method",
+      "url": "/routine/add_private_method"
+    }
+  ],
+  "supply": [
+    {
+      "category": "Method",
+      "url": "/routine/supply"
+    }
+  ],
+  "Module Development Utilities": [
+    {
+      "category": "Language",
+      "url": "/language/modules-extra"
+    }
+  ],
+  "<< (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "is rw (trait)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "Flipflop operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "grouping operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "exitcode": [
+    {
+      "category": "Routine",
+      "url": "/routine/exitcode"
+    }
+  ],
+  "X::Proc::Async": [
+    {
+      "category": "Role",
+      "url": "/type/X::Proc::Async"
+    }
+  ],
+  "$1 (variable)": [
+    {
+      "category": "Reference",
+      "url": "/language/variables"
+    }
+  ],
+  ":delete (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  "X::Syntax::Augment::WithoutMonkeyTyping": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Augment::WithoutMonkeyTyping"
+    }
+  ],
+  "X::Syntax::NoSelf": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::NoSelf"
+    }
+  ],
+  "named": [
+    {
+      "category": "Method",
+      "url": "/routine/named"
+    }
+  ],
+  "eval-lives-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "(<=)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3C%3D%29"
+    }
+  ],
+  "is-hidden": [
+    {
+      "category": "Method",
+      "url": "/routine/is-hidden"
+    }
+  ],
+  "note": [
+    {
+      "category": "Sub",
+      "url": "/routine/note"
+    }
+  ],
+  "âŠ‚": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%82"
+    }
+  ],
+  "e": [
+    {
+      "category": "Term",
+      "url": "/routine/e"
+    }
+  ],
+  ":exists": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Aexists"
+    }
+  ],
+  "payload": [
+    {
+      "category": "Method",
+      "url": "/routine/payload"
+    }
+  ],
+  "plus": [
+    {
+      "category": "Method",
+      "url": "/routine/plus"
+    }
+  ],
+  "substr-eq": [
+    {
+      "category": "Method",
+      "url": "/routine/substr-eq"
+    }
+  ],
+  "skip-rest": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "cos": [
+    {
+      "category": "Sub",
+      "url": "/routine/cos"
+    }
+  ],
+  "fff^": [
+    {
+      "category": "Infix",
+      "url": "/routine/fff%5E"
+    }
+  ],
+  "quietly": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/quietly"
+    }
+  ],
+  "put": [
+    {
+      "category": "Routine",
+      "url": "/routine/put"
+    }
+  ],
+  "routine-type": [
+    {
+      "category": "Method",
+      "url": "/routine/routine-type"
+    }
+  ],
+  "repeat (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "X::Syntax::InfixInTermPosition": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::InfixInTermPosition"
+    }
+  ],
+  "rotor": [
+    {
+      "category": "Routine",
+      "url": "/routine/rotor"
+    }
+  ],
+  "Setty": [
+    {
+      "category": "Role",
+      "url": "/type/Setty"
+    }
+  ],
+  "Boolean logical OR operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "cmp-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "eval-dies-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "filename": [
+    {
+      "category": "Method",
+      "url": "/routine/filename"
+    }
+  ],
+  "flush": [
+    {
+      "category": "Method",
+      "url": "/routine/flush"
+    }
+  ],
+  "\\V (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Testing": [
+    {
+      "category": "Language",
+      "url": "/language/testing"
+    }
+  ],
+  ":r (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "block": [
+    {
+      "category": "Method",
+      "url": "/routine/block"
+    }
+  ],
+  "file": [
+    {
+      "category": "Routine",
+      "url": "/routine/file"
+    }
+  ],
+  "first": [
+    {
+      "category": "Sub",
+      "url": "/routine/first"
+    }
+  ],
+  "accept": [
+    {
+      "category": "Method",
+      "url": "/routine/accept"
+    }
+  ],
+  "all": [
+    {
+      "category": "Method",
+      "url": "/routine/all"
+    }
+  ],
+  "IO::Path": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "Item assignment operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  " right (integer bit shift operator)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "X::TypeCheck::Splice": [
+    {
+      "category": "Class",
+      "url": "/type/X::TypeCheck::Splice"
+    }
+  ],
+  "sink-all": [
+    {
+      "category": "Method",
+      "url": "/routine/sink-all"
+    }
+  ],
+  "** (regex quantifier)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  ":p (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "qqw (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "yield": [
+    {
+      "category": "Method",
+      "url": "/routine/yield"
+    }
+  ],
+  "add_method": [
+    {
+      "category": "Method",
+      "url": "/routine/add_method"
+    }
+  ],
+  "splitpath": [
+    {
+      "category": "Routine",
+      "url": "/routine/splitpath"
+    }
+  ],
+  "Integer modulo operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "error": [
+    {
+      "category": "Method",
+      "url": "/routine/error"
+    }
+  ],
+  "from-loop": [
+    {
+      "category": "Method",
+      "url": "/routine/from-loop"
+    }
+  ],
+  "ObjAt": [
+    {
+      "category": "Class",
+      "url": "/type/ObjAt"
+    }
+  ],
+  "Regexes": [
+    {
+      "category": "Language",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::Syntax::Variable::Match": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Variable::Match"
+    }
+  ],
+  "About the Docs": [
+    {
+      "category": "Language",
+      "url": "/language/about"
+    }
+  ],
+  "Q": [
+    {
+      "category": "Quote",
+      "url": "/syntax/Q"
+    }
+  ],
+  "ASSIGN-POS": [
+    {
+      "category": "Method",
+      "url": "/routine/ASSIGN-POS"
+    }
+  ],
+  "DELETE-KEY": [
+    {
+      "category": "Method",
+      "url": "/routine/DELETE-KEY"
+    }
+  ],
+  "prematch": [
+    {
+      "category": "Method",
+      "url": "/routine/prematch"
+    }
+  ],
+  "target": [
+    {
+      "category": "Routine",
+      "url": "/routine/target"
+    }
+  ],
+  "qx": [
+    {
+      "category": "Quote",
+      "url": "/syntax/qx"
+    }
+  ],
+  ":U (type constraint)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "BUILD": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "::=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3A%3A%3D"
+    }
+  ],
+  "excludes-max": [
+    {
+      "category": "Method",
+      "url": "/routine/excludes-max"
+    }
+  ],
+  ":continue": [
+    {
+      "category": "Matching Adverb",
+      "url": "/syntax/%3Acontinue"
+    }
+  ],
+  "EXISTS-POS": [
+    {
+      "category": "Method",
+      "url": "/routine/EXISTS-POS"
+    }
+  ],
+  "cause": [
+    {
+      "category": "Method",
+      "url": "/routine/cause"
+    }
+  ],
+  "self": [
+    {
+      "category": "Term",
+      "url": "/routine/self"
+    }
+  ],
+  "write-to": [
+    {
+      "category": "Method",
+      "url": "/routine/write-to"
+    }
+  ],
+  "âŠ„": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%84"
+    }
+  ],
+  "^ff^": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5Eff%5E"
+    }
+  ],
+  "earlier": [
+    {
+      "category": "Routine",
+      "url": "/routine/earlier"
+    }
+  ],
+  "X::Augment::NoSuchType": [
+    {
+      "category": "Class",
+      "url": "/type/X::Augment::NoSuchType"
+    }
+  ],
+  ":v (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  "prompt": [
+    {
+      "category": "Sub",
+      "url": "/routine/prompt"
+    }
+  ],
+  "protect": [
+    {
+      "category": "Method",
+      "url": "/routine/protect"
+    }
+  ],
+  "Integer bitwise negation operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "ne": [
+    {
+      "category": "Infix",
+      "url": "/routine/ne"
+    }
+  ],
+  "!!!": [
+    {
+      "category": "Listop",
+      "url": "/routine/%21%21%21"
+    }
+  ],
+  "given": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/given"
+    }
+  ],
+  "???": [
+    {
+      "category": "Listop",
+      "url": "/routine/%3F%3F%3F"
+    }
+  ],
+  "from": [
+    {
+      "category": "Routine",
+      "url": "/routine/from"
+    }
+  ],
+  "offset": [
+    {
+      "category": "Method",
+      "url": "/routine/offset"
+    }
+  ],
+  "Hash": [
+    {
+      "category": "Class",
+      "url": "/type/Hash"
+    }
+  ],
+  "curdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/curdir"
+    }
+  ],
+  "modified": [
+    {
+      "category": "Method",
+      "url": "/routine/modified"
+    }
+  ],
+  "set_name": [
+    {
+      "category": "Method",
+      "url": "/routine/set_name"
+    }
+  ],
+  "<[ ]> (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "?? !!": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3F%3F%20%21%21"
+    }
+  ],
+  "X::Channel::ReceiveOnClosed": [
+    {
+      "category": "Class",
+      "url": "/type/X::Channel::ReceiveOnClosed"
+    }
+  ],
+  "Baggy subset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "rebless": [
+    {
+      "category": "Method",
+      "url": "/routine/rebless"
+    }
+  ],
+  "X::IO::Rmdir": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Rmdir"
+    }
+  ],
+  "the empty set": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "X::Syntax::Malformed": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Malformed"
+    }
+  ],
+  "=>": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3D%3E"
+    }
+  ],
+  "caps": [
+    {
+      "category": "Method",
+      "url": "/routine/caps"
+    }
+  ],
+  "chr": [
+    {
+      "category": "Routine",
+      "url": "/routine/chr"
+    }
+  ],
+  "chunks": [
+    {
+      "category": "Method",
+      "url": "/routine/chunks"
+    }
+  ],
+  "set": [
+    {
+      "category": "Sub",
+      "url": "/routine/set"
+    }
+  ],
+  "Not a subset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  " & (sigils)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  ".+": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%2B"
+    }
+  ],
+  "mkdir": [
+    {
+      "category": "Sub",
+      "url": "/routine/mkdir"
+    }
+  ],
+  "X::Eval::NoSuchLang": [
+    {
+      "category": "Class",
+      "url": "/type/X::Eval::NoSuchLang"
+    }
+  ],
+  "Packages": [
+    {
+      "category": "Language",
+      "url": "/language/packages"
+    }
+  ],
+  "dies-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "local": [
+    {
+      "category": "Method",
+      "url": "/routine/local"
+    }
+  ],
+  "' ' (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "iterator": [
+    {
+      "category": "Routine",
+      "url": "/routine/iterator"
+    }
+  ],
+  "IO::Spec": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Spec"
+    }
+  ],
+  "Superset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "config": [
+    {
+      "category": "Method",
+      "url": "/routine/config"
+    }
+  ],
+  "contains": [
+    {
+      "category": "Method",
+      "url": "/routine/contains"
+    }
+  ],
+  "excludes-min": [
+    {
+      "category": "Method",
+      "url": "/routine/excludes-min"
+    }
+  ],
+  "re": [
+    {
+      "category": "Method",
+      "url": "/routine/re"
+    }
+  ],
+  "<=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3C%3D"
+    }
+  ],
+  "ord": [
+    {
+      "category": "Routine",
+      "url": "/routine/ord"
+    }
+  ],
+  "Addition operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "seek": [
+    {
+      "category": "Method",
+      "url": "/routine/seek"
+    }
+  ],
+  "ins": [
+    {
+      "category": "Method",
+      "url": "/routine/ins"
+    }
+  ],
+  "Backtrace": [
+    {
+      "category": "Class",
+      "url": "/type/Backtrace"
+    }
+  ],
+  "[ ]": [
+    {
+      "category": "Routine",
+      "url": "/routine/%5B%20%5D"
+    }
+  ],
+  "rotate": [
+    {
+      "category": "Sub",
+      "url": "/routine/rotate"
+    }
+  ],
+  "ast": [
+    {
+      "category": "Method",
+      "url": "/routine/ast"
+    }
+  ],
+  "count": [
+    {
+      "category": "Routine",
+      "url": "/routine/count"
+    }
+  ],
+  "âŠ…": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%85"
+    }
+  ],
+  "chdir": [
+    {
+      "category": "Sub",
+      "url": "/routine/chdir"
+    }
+  ],
+  "chrs": [
+    {
+      "category": "Sub",
+      "url": "/routine/chrs"
+    }
+  ],
+  "is required": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20required"
+    }
+  ],
+  "Nil": [
+    {
+      "category": "Class",
+      "url": "/type/Nil"
+    }
+  ],
+  "String greater than operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "encode": [
+    {
+      "category": "Method",
+      "url": "/routine/encode"
+    }
+  ],
+  "grabpairs": [
+    {
+      "category": "Routine",
+      "url": "/routine/grabpairs"
+    }
+  ],
+  ":!": [
+    {
+      "category": "Reference",
+      "url": "/type/Pair"
+    }
+  ],
+  "qw (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "codes": [
+    {
+      "category": "Sub",
+      "url": "/routine/codes"
+    }
+  ],
+  "start": [
+    {
+      "category": "Routine",
+      "url": "/routine/start"
+    }
+  ],
+  "Any": [
+    {
+      "category": "Class",
+      "url": "/type/Any"
+    }
+  ],
+  "Q (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "Contains operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  ". (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "/ / (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "package-name": [
+    {
+      "category": "Method",
+      "url": "/routine/package-name"
+    }
+  ],
+  "squish": [
+    {
+      "category": "Routine",
+      "url": "/routine/squish"
+    }
+  ],
+  "WHAT (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "+&": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2B%26"
+    }
+  ],
+  "Negative numeric context operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Integer division operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "multi (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/functions"
+    }
+  ],
+  "misplaced": [
+    {
+      "category": "Method",
+      "url": "/routine/misplaced"
+    }
+  ],
+  "slip": [
+    {
+      "category": "Sub",
+      "url": "/routine/slip"
+    }
+  ],
+  "is-deeply": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "accessor methods": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "classify": [
+    {
+      "category": "Sub",
+      "url": "/routine/classify"
+    }
+  ],
+  "sub_signature": [
+    {
+      "category": "Method",
+      "url": "/routine/sub_signature"
+    }
+  ],
+  "trusts": [
+    {
+      "category": "Method",
+      "url": "/routine/trusts"
+    }
+  ],
+  "volume": [
+    {
+      "category": "Method",
+      "url": "/routine/volume"
+    }
+  ],
+  "yada": [
+    {
+      "category": "Method",
+      "url": "/routine/yada"
+    }
+  ],
+  "Baggy multiplication operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "conditional operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "|| (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  ":k": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Ak"
+    }
+  ],
+  ":p": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Ap"
+    }
+  ],
+  "dir-sep": [
+    {
+      "category": "Routine",
+      "url": "/routine/dir-sep"
+    }
+  ],
+  "slurpy": [
+    {
+      "category": "Method",
+      "url": "/routine/slurpy"
+    }
+  ],
+  "code": [
+    {
+      "category": "Method",
+      "url": "/routine/code"
+    }
+  ],
+  "dir": [
+    {
+      "category": "Sub",
+      "url": "/routine/dir"
+    }
+  ],
+  "âˆ‰": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%89"
+    }
+  ],
+  "Cursor": [
+    {
+      "category": "Class",
+      "url": "/type/Cursor"
+    }
+  ],
+  "X::Syntax::Augment::Role": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Augment::Role"
+    }
+  ],
+  "X::Bind::NativeType": [
+    {
+      "category": "Class",
+      "url": "/type/X::Bind::NativeType"
+    }
+  ],
+  "X::Placeholder::Mainline": [
+    {
+      "category": "Class",
+      "url": "/type/X::Placeholder::Mainline"
+    }
+  ],
+  "*@ (parameter)": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  ",": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2C"
+    }
+  ],
+  "child-name": [
+    {
+      "category": "Method",
+      "url": "/routine/child-name"
+    }
+  ],
+  "X::Proc::Async::CharsOrBytes": [
+    {
+      "category": "Class",
+      "url": "/type/X::Proc::Async::CharsOrBytes"
+    }
+  ],
+  "do": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/do"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/do"
+    }
+  ],
+  "-A": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "then": [
+    {
+      "category": "Method",
+      "url": "/routine/then"
+    }
+  ],
+  "is-setting": [
+    {
+      "category": "Method",
+      "url": "/routine/is-setting"
+    }
+  ],
+  "share": [
+    {
+      "category": "Method",
+      "url": "/routine/share"
+    }
+  ],
+  "\\D (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "<": [
+    {
+      "category": "Twigil",
+      "url": "/syntax/%3C"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%3C"
+    }
+  ],
+  "attributes": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/attributes"
+    }
+  ],
+  "sec": [
+    {
+      "category": "Method",
+      "url": "/routine/sec"
+    }
+  ],
+  "repeat": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/repeat"
+    }
+  ],
+  " left (integer bit shift operator)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "succ": [
+    {
+      "category": "Routine",
+      "url": "/routine/succ"
+    }
+  ],
+  "hash indexing operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Multiplication operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "uncaught_handler": [
+    {
+      "category": "Method",
+      "url": "/routine/uncaught_handler"
+    }
+  ],
+  "^^ (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::Syntax::Regex::SolitaryQuantifier": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Regex::SolitaryQuantifier"
+    }
+  ],
+  "comb": [
+    {
+      "category": "Routine",
+      "url": "/routine/comb"
+    }
+  ],
+  "(>)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3E%29"
+    }
+  ],
+  "grep": [
+    {
+      "category": "Routine",
+      "url": "/routine/grep"
+    }
+  ],
+  "redo": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/redo"
+    }
+  ],
+  "IO::Spec::Win32": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Spec::Win32"
+    }
+  ],
+  "time": [
+    {
+      "category": "Term",
+      "url": "/routine/time"
+    }
+  ],
+  "Pod::Block::Code": [
+    {
+      "category": "Class",
+      "url": "/type/Pod::Block::Code"
+    }
+  ],
+  ":exists (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  "optional": [
+    {
+      "category": "Method",
+      "url": "/routine/optional"
+    }
+  ],
+  "âˆ–": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%96"
+    }
+  ],
+  "X::Syntax::Confused": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Confused"
+    }
+  ],
+  "configure_destroy": [
+    {
+      "category": "Method",
+      "url": "/routine/configure_destroy"
+    }
+  ],
+  "acosec": [
+    {
+      "category": "Sub",
+      "url": "/routine/acosec"
+    }
+  ],
+  "count-only": [
+    {
+      "category": "Method",
+      "url": "/routine/count-only"
+    }
+  ],
+  "X::Numeric::Real": [
+    {
+      "category": "Class",
+      "url": "/type/X::Numeric::Real"
+    }
+  ],
+  "\\W (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "invocant": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/invocant"
+    }
+  ],
+  "proceed succeed (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "unlock": [
+    {
+      "category": "Method",
+      "url": "/routine/unlock"
+    }
+  ],
+  "scope": [
+    {
+      "category": "Routine",
+      "url": "/routine/scope"
+    }
+  ],
+  "WHO": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/WHO"
+    }
+  ],
+  "call operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "X::TypeCheck::Binding": [
+    {
+      "category": "Class",
+      "url": "/type/X::TypeCheck::Binding"
+    }
+  ],
+  "Object Orientation": [
+    {
+      "category": "Language",
+      "url": "/language/objects"
+    }
+  ],
+  "unival": [
+    {
+      "category": "Routine",
+      "url": "/routine/unival"
+    }
+  ],
+  "constructors": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "^..": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5E.."
+    }
+  ],
+  "can": [
+    {
+      "category": "Method",
+      "url": "/routine/can"
+    }
+  ],
+  "Set": [
+    {
+      "category": "Class",
+      "url": "/type/Set"
+    }
+  ],
+  "X::Signature::Placeholder": [
+    {
+      "category": "Class",
+      "url": "/type/X::Signature::Placeholder"
+    }
+  ],
+  "q": [
+    {
+      "category": "Quote",
+      "url": "/syntax/q"
+    }
+  ],
+  "key": [
+    {
+      "category": "Method",
+      "url": "/routine/key"
+    }
+  ],
+  "unlink": [
+    {
+      "category": "Method",
+      "url": "/routine/unlink"
+    }
+  ],
+  "X::Proc::Async::MustBeStarted": [
+    {
+      "category": "Class",
+      "url": "/type/X::Proc::Async::MustBeStarted"
+    }
+  ],
+  "cmp": [
+    {
+      "category": "Routine",
+      "url": "/routine/cmp"
+    }
+  ],
+  "set_package": [
+    {
+      "category": "Method",
+      "url": "/routine/set_package"
+    }
+  ],
+  "X::Proc::Async::TapBeforeSpawn": [
+    {
+      "category": "Class",
+      "url": "/type/X::Proc::Async::TapBeforeSpawn"
+    }
+  ],
+  "X::Comp": [
+    {
+      "category": "Role",
+      "url": "/type/X::Comp"
+    }
+  ],
+  "add_attribute": [
+    {
+      "category": "Method",
+      "url": "/routine/add_attribute"
+    }
+  ],
+  "Control Flow": [
+    {
+      "category": "Language",
+      "url": "/language/control"
+    }
+  ],
+  "reduce": [
+    {
+      "category": "Routine",
+      "url": "/routine/reduce"
+    }
+  ],
+  "Grammar": [
+    {
+      "category": "Type",
+      "url": "/type/Grammar"
+    }
+  ],
+  "allof": [
+    {
+      "category": "Method",
+      "url": "/routine/allof"
+    }
+  ],
+  "flatmap": [
+    {
+      "category": "Method",
+      "url": "/routine/flatmap"
+    }
+  ],
+  "x": [
+    {
+      "category": "Infix",
+      "url": "/routine/x"
+    }
+  ],
+  "unless": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/unless"
+    }
+  ],
+  "(cont)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28cont%29"
+    }
+  ],
+  "--": [
+    {
+      "category": "Routine",
+      "url": "/routine/--"
+    }
+  ],
+  "rindex": [
+    {
+      "category": "Routine",
+      "url": "/routine/rindex"
+    }
+  ],
+  "roundrobin": [
+    {
+      "category": "Sub",
+      "url": "/routine/roundrobin"
+    }
+  ],
+  "Supplier": [
+    {
+      "category": "Class",
+      "url": "/type/Supplier"
+    }
+  ],
+  "mutating method call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "positional": [
+    {
+      "category": "Method",
+      "url": "/routine/positional"
+    }
+  ],
+  "pairs": [
+    {
+      "category": "Routine",
+      "url": "/routine/pairs"
+    }
+  ],
+  "upto operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "reverse": [
+    {
+      "category": "Routine",
+      "url": "/routine/reverse"
+    }
+  ],
+  "return": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/return"
+    }
+  ],
+  "in": [
+    {
+      "category": "Method",
+      "url": "/routine/in"
+    }
+  ],
+  "month": [
+    {
+      "category": "Method",
+      "url": "/routine/month"
+    }
+  ],
+  "tail": [
+    {
+      "category": "Routine",
+      "url": "/routine/tail"
+    }
+  ],
+  "Negated boolean context operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "@": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/%40"
+    }
+  ],
+  "X::Parameter::Default": [
+    {
+      "category": "Class",
+      "url": "/type/X::Parameter::Default"
+    }
+  ],
+  "require": [
+    {
+      "category": "Compunit",
+      "url": "/syntax/require"
+    }
+  ],
+  " encapsulation (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "perl": [
+    {
+      "category": "Sub",
+      "url": "/routine/perl"
+    }
+  ],
+  "tell": [
+    {
+      "category": "Method",
+      "url": "/routine/tell"
+    }
+  ],
+  "::Bind::Slice": [
+    {
+      "category": "Reference",
+      "url": "/type/X::Bind::Slice"
+    }
+  ],
+  "$0": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%240"
+    }
+  ],
+  "5to6-perlvar": [
+    {
+      "category": "Language",
+      "url": "/language/5to6-perlvar"
+    }
+  ],
+  "meta-method call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "bag": [
+    {
+      "category": "Sub",
+      "url": "/routine/bag"
+    }
+  ],
+  "orig": [
+    {
+      "category": "Method",
+      "url": "/routine/orig"
+    }
+  ],
+  "result": [
+    {
+      "category": "Method",
+      "url": "/routine/result"
+    }
+  ],
+  "sleep": [
+    {
+      "category": "Sub",
+      "url": "/routine/sleep"
+    }
+  ],
+  "Metamodel::C3MRO": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::C3MRO"
+    }
+  ],
+  "HOW (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "-M": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "Â« (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "end": [
+    {
+      "category": "Routine",
+      "url": "/routine/end"
+    }
+  ],
+  "or": [
+    {
+      "category": "Infix",
+      "url": "/routine/or"
+    }
+  ],
+  "X::Promise::CauseOnlyValidOnBroken": [
+    {
+      "category": "Class",
+      "url": "/type/X::Promise::CauseOnlyValidOnBroken"
+    }
+  ],
+  "X::IO::Dir": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Dir"
+    }
+  ],
+  "dirname": [
+    {
+      "category": "Method",
+      "url": "/routine/dirname"
+    }
+  ],
+  "recv": [
+    {
+      "category": "Method",
+      "url": "/routine/recv"
+    }
+  ],
+  "Numeric greater than operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "(+)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%2B%29"
+    }
+  ],
+  "(-)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28-%29"
+    }
+  ],
+  "batch": [
+    {
+      "category": "Method",
+      "url": "/routine/batch"
+    }
+  ],
+  "spawn": [
+    {
+      "category": "Method",
+      "url": "/routine/spawn"
+    }
+  ],
+  " hash subscript operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "truncate": [
+    {
+      "category": "Routine",
+      "url": "/routine/truncate"
+    }
+  ],
+  "X::IO::Rename": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Rename"
+    }
+  ],
+  "default when (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "<=>": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3C%3D%3E"
+    }
+  ],
+  "Array": [
+    {
+      "category": "Class",
+      "url": "/type/Array"
+    }
+  ],
+  "Numeric less than operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  " behavior (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "compunit": [
+    {
+      "category": "Reference",
+      "url": "/language/modules"
+    }
+  ],
+  "accessed": [
+    {
+      "category": "Method",
+      "url": "/routine/accessed"
+    }
+  ],
+  "reserved": [
+    {
+      "category": "Method",
+      "url": "/routine/reserved"
+    }
+  ],
+  "words": [
+    {
+      "category": "Routine",
+      "url": "/routine/words"
+    }
+  ],
+  "Attribute": [
+    {
+      "category": "Class",
+      "url": "/type/Attribute"
+    }
+  ],
+  "X::IO::Chdir": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Chdir"
+    }
+  ],
+  "Cool": [
+    {
+      "category": "Class",
+      "url": "/type/Cool"
+    }
+  ],
+  "while until": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/while%20until"
+    }
+  ],
+  "X::TypeCheck": [
+    {
+      "category": "Class",
+      "url": "/type/X::TypeCheck"
+    }
+  ],
+  "is_type": [
+    {
+      "category": "Method",
+      "url": "/routine/is_type"
+    }
+  ],
+  "msb": [
+    {
+      "category": "Method",
+      "url": "/routine/msb"
+    }
+  ],
+  "split": [
+    {
+      "category": "Routine",
+      "url": "/routine/split"
+    }
+  ],
+  "diag": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "Right-open range operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "behavior": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "X::IO::Copy": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Copy"
+    }
+  ],
+  "%% (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "days-in-month": [
+    {
+      "category": "Method",
+      "url": "/routine/days-in-month"
+    }
+  ],
+  "ends-with": [
+    {
+      "category": "Method",
+      "url": "/routine/ends-with"
+    }
+  ],
+  "need": [
+    {
+      "category": "Compunit",
+      "url": "/syntax/need"
+    }
+  ],
+  "throttle": [
+    {
+      "category": "Method",
+      "url": "/routine/throttle"
+    }
+  ],
+  "Metamodel::Primitives": [
+    {
+      "category": "Class",
+      "url": "/type/Metamodel::Primitives"
+    }
+  ],
+  "augment": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/augment"
+    }
+  ],
+  "Numeric bitwise AND operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "emit": [
+    {
+      "category": "Routine",
+      "url": "/routine/emit"
+    }
+  ],
+  "Macro": [
+    {
+      "category": "Class",
+      "url": "/type/Macro"
+    }
+  ],
+  " quote-words": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "Â« Â» (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "WHICH": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/WHICH"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/WHICH"
+    }
+  ],
+  "regex": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/regex"
+    }
+  ],
+  "with orwith without (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  ">=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3E%3D"
+    }
+  ],
+  "eq": [
+    {
+      "category": "Infix",
+      "url": "/routine/eq"
+    }
+  ],
+  "eqv": [
+    {
+      "category": "Infix",
+      "url": "/routine/eqv"
+    }
+  ],
+  "Potential method call": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "join": [
+    {
+      "category": "Routine",
+      "url": "/routine/join"
+    }
+  ],
+  "subname": [
+    {
+      "category": "Method",
+      "url": "/routine/subname"
+    }
+  ],
+  "Callable": [
+    {
+      "category": "Role",
+      "url": "/type/Callable"
+    }
+  ],
+  "%%": [
+    {
+      "category": "Infix",
+      "url": "/routine/%25%25"
+    }
+  ],
+  "type_captures": [
+    {
+      "category": "Method",
+      "url": "/routine/type_captures"
+    }
+  ],
+  "Native Calling Interface": [
+    {
+      "category": "Language",
+      "url": "/language/nativecall"
+    }
+  ],
+  "X::Syntax::Term::MissingInitializer": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Term::MissingInitializer"
+    }
+  ],
+  "X::Undeclared": [
+    {
+      "category": "Class",
+      "url": "/type/X::Undeclared"
+    }
+  ],
+  "source": [
+    {
+      "category": "Routine",
+      "url": "/routine/source"
+    }
+  ],
+  "X::Placeholder::Block": [
+    {
+      "category": "Class",
+      "url": "/type/X::Placeholder::Block"
+    }
+  ],
+  "Stash": [
+    {
+      "category": "Class",
+      "url": "/type/Stash"
+    }
+  ],
+  "multiness": [
+    {
+      "category": "Method",
+      "url": "/routine/multiness"
+    }
+  ],
+  "quit": [
+    {
+      "category": "Routine",
+      "url": "/routine/quit"
+    }
+  ],
+  "X::Temporal": [
+    {
+      "category": "Class",
+      "url": "/type/X::Temporal"
+    }
+  ],
+  "live": [
+    {
+      "category": "Method",
+      "url": "/routine/live"
+    }
+  ],
+  "X::Composition::NotComposable": [
+    {
+      "category": "Class",
+      "url": "/type/X::Composition::NotComposable"
+    }
+  ],
+  "Neither a superset of nor equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  ":r": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "X::IO::Cwd": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Cwd"
+    }
+  ],
+  "array indexing operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "unshift": [
+    {
+      "category": "Routine",
+      "url": "/routine/unshift"
+    }
+  ],
+  "String less than or equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "catfile": [
+    {
+      "category": "Routine",
+      "url": "/routine/catfile"
+    }
+  ],
+  "fc": [
+    {
+      "category": "Sub",
+      "url": "/routine/fc"
+    }
+  ],
+  "of": [
+    {
+      "category": "Method",
+      "url": "/routine/of"
+    }
+  ],
+  "sin": [
+    {
+      "category": "Sub",
+      "url": "/routine/sin"
+    }
+  ],
+  "Pod::Block": [
+    {
+      "category": "Class",
+      "url": "/type/Pod::Block"
+    }
+  ],
+  "Boolean context operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "token (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/grammars"
+    }
+  ],
+  "bind-udp": [
+    {
+      "category": "Method",
+      "url": "/routine/bind-udp"
+    }
+  ],
+  "Iterator": [
+    {
+      "category": "Role",
+      "url": "/type/Iterator"
+    }
+  ],
+  ":": [
+    {
+      "category": "Reference",
+      "url": "/type/Pair"
+    },
+    {
+      "category": "Twigil",
+      "url": "/syntax/%3A"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%3A"
+    }
+  ],
+  "(^)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%5E%29"
+    }
+  ],
+  "-": [
+    {
+      "category": "Routine",
+      "url": "/routine/-"
+    }
+  ],
+  "read": [
+    {
+      "category": "Routine",
+      "url": "/routine/read"
+    }
+  ],
+  "else elsif (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "rethrow": [
+    {
+      "category": "Method",
+      "url": "/routine/rethrow"
+    }
+  ],
+  "DateTime": [
+    {
+      "category": "Class",
+      "url": "/type/DateTime"
+    }
+  ],
+  "Value identity operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "AT-POS": [
+    {
+      "category": "Method",
+      "url": "/routine/AT-POS"
+    }
+  ],
+  "supersede": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/supersede"
+    }
+  ],
+  "^^": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%5E%5E"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%5E%5E"
+    }
+  ],
+  "illegal": [
+    {
+      "category": "Method",
+      "url": "/routine/illegal"
+    }
+  ],
+  "map": [
+    {
+      "category": "Routine",
+      "url": "/routine/map"
+    }
+  ],
+  "slurp-rest": [
+    {
+      "category": "Method",
+      "url": "/routine/slurp-rest"
+    }
+  ],
+  "Num": [
+    {
+      "category": "Class",
+      "url": "/type/Num"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Num"
+    }
+  ],
+  "Map": [
+    {
+      "category": "Class",
+      "url": "/type/Map"
+    }
+  ],
+  ":z": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "path": [
+    {
+      "category": "Routine",
+      "url": "/routine/path"
+    }
+  ],
+  "List assignment operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "rx (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "variable": [
+    {
+      "category": "Method",
+      "url": "/routine/variable"
+    }
+  ],
+  "AST": [
+    {
+      "category": "Class",
+      "url": "/type/AST"
+    }
+  ],
+  "IO::Socket::Async": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Socket::Async"
+    }
+  ],
+  ":l": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "/": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2F"
+    }
+  ],
+  "X::Anon::Multi": [
+    {
+      "category": "Class",
+      "url": "/type/X::Anon::Multi"
+    }
+  ],
+  ":D": [
+    {
+      "category": "Type Constraint",
+      "url": "/syntax/%3AD"
+    }
+  ],
+  "ThreadPoolScheduler": [
+    {
+      "category": "Class",
+      "url": "/type/ThreadPoolScheduler"
+    }
+  ],
+  "{ }": [
+    {
+      "category": "Routine",
+      "url": "/routine/%7B%20%7D"
+    }
+  ],
+  "permutations": [
+    {
+      "category": "Sub",
+      "url": "/routine/permutations"
+    }
+  ],
+  "^..^": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5E..%5E"
+    }
+  ],
+  "X::ControlFlow": [
+    {
+      "category": "Class",
+      "url": "/type/X::ControlFlow"
+    }
+  ],
+  " has (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "action": [
+    {
+      "category": "Method",
+      "url": "/routine/action"
+    }
+  ],
+  "base": [
+    {
+      "category": "Method",
+      "url": "/routine/base"
+    }
+  ],
+  "lines": [
+    {
+      "category": "Routine",
+      "url": "/routine/lines"
+    }
+  ],
+  "Dateish": [
+    {
+      "category": "Role",
+      "url": "/type/Dateish"
+    }
+  ],
+  "% (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "while until (control flow)": [
+    {
+      "category": "Reference",
+      "url": "/language/control"
+    }
+  ],
+  "new": [
+    {
+      "category": "Routine",
+      "url": "/routine/new"
+    }
+  ],
+  "â‰½": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%89%BD"
+    }
+  ],
+  "Containers": [
+    {
+      "category": "Language",
+      "url": "/language/containers"
+    }
+  ],
+  "5to6-perlfunc": [
+    {
+      "category": "Language",
+      "url": "/language/5to6-perlfunc"
+    }
+  ],
+  "copy": [
+    {
+      "category": "Routine",
+      "url": "/routine/copy"
+    }
+  ],
+  "message": [
+    {
+      "category": "Routine",
+      "url": "/routine/message"
+    }
+  ],
+  "anyof": [
+    {
+      "category": "Method",
+      "url": "/routine/anyof"
+    }
+  ],
+  "set_value": [
+    {
+      "category": "Method",
+      "url": "/routine/set_value"
+    }
+  ],
+  "Backtrace::Frame": [
+    {
+      "category": "Class",
+      "url": "/type/Backtrace::Frame"
+    }
+  ],
+  "Numeric context operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "int": [
+    {
+      "category": "Class",
+      "url": "/type/nativeInt"
+    }
+  ],
+  "(<)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3C%29"
+    }
+  ],
+  "redispatcher": [
+    {
+      "category": "Method",
+      "url": "/routine/redispatcher"
+    }
+  ],
+  "from-list": [
+    {
+      "category": "Method",
+      "url": "/routine/from-list"
+    }
+  ],
+  "Sets, Bags, and Mixes": [
+    {
+      "category": "Language",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "âŠ–": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%96"
+    }
+  ],
+  "X::Role::Initialization": [
+    {
+      "category": "Class",
+      "url": "/type/X::Role::Initialization"
+    }
+  ],
+  "%": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/%25"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%25"
+    }
+  ],
+  "Ï„": [
+    {
+      "category": "Term",
+      "url": "/routine/%CF%84"
+    }
+  ],
+  "X::Package::Stubbed": [
+    {
+      "category": "Class",
+      "url": "/type/X::Package::Stubbed"
+    }
+  ],
+  "calling-package": [
+    {
+      "category": "Method",
+      "url": "/routine/calling-package"
+    }
+  ],
+  "is hidden-from-backtrace": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20hidden-from-backtrace"
+    }
+  ],
+  "closed": [
+    {
+      "category": "Method",
+      "url": "/routine/closed"
+    }
+  ],
+  "im": [
+    {
+      "category": "Method",
+      "url": "/routine/im"
+    }
+  ],
+  "subst-mutate": [
+    {
+      "category": "Method",
+      "url": "/routine/subst-mutate"
+    }
+  ],
+  "&": [
+    {
+      "category": "Infix",
+      "url": "/routine/%26"
+    }
+  ],
+  "infinite": [
+    {
+      "category": "Method",
+      "url": "/routine/infinite"
+    }
+  ],
+  "is-relative": [
+    {
+      "category": "Method",
+      "url": "/routine/is-relative"
+    }
+  ],
+  "X::TypeCheck::Assignment": [
+    {
+      "category": "Class",
+      "url": "/type/X::TypeCheck::Assignment"
+    }
+  ],
+  "^fff": [
+    {
+      "category": "Infix",
+      "url": "/routine/%5Efff"
+    }
+  ],
+  "link": [
+    {
+      "category": "Method",
+      "url": "/routine/link"
+    }
+  ],
+  "Proc::Status": [
+    {
+      "category": "Class",
+      "url": "/type/Proc::Status"
+    }
+  ],
+  "made": [
+    {
+      "category": "Method",
+      "url": "/routine/made"
+    }
+  ],
+  "**": [
+    {
+      "category": "Regex Quantifier",
+      "url": "/syntax/%2A%2A"
+    },
+    {
+      "category": "Infix",
+      "url": "/routine/%2A%2A"
+    }
+  ],
+  "===": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3D%3D%3D"
+    }
+  ],
+  "shift": [
+    {
+      "category": "Sub",
+      "url": "/routine/shift"
+    }
+  ],
+  "=> ": [
+    {
+      "category": "Reference",
+      "url": "/type/Pair"
+    }
+  ],
+  "trim-trailing": [
+    {
+      "category": "Routine",
+      "url": "/routine/trim-trailing"
+    }
+  ],
+  "X::Obsolete": [
+    {
+      "category": "Class",
+      "url": "/type/X::Obsolete"
+    }
+  ],
+  "(.)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28.%29"
+    }
+  ],
+  "send": [
+    {
+      "category": "Method",
+      "url": "/routine/send"
+    }
+  ],
+  "to": [
+    {
+      "category": "Routine",
+      "url": "/routine/to"
+    }
+  ],
+  "Integer bitwise XOR operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "$<capture> = (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "acotan": [
+    {
+      "category": "Sub",
+      "url": "/routine/acotan"
+    }
+  ],
+  "formatter": [
+    {
+      "category": "Method",
+      "url": "/routine/formatter"
+    }
+  ],
+  "Mixy": [
+    {
+      "category": "Role",
+      "url": "/type/Mixy"
+    }
+  ],
+  "type object": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  " methods (classes)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "qq (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "Ï€": [
+    {
+      "category": "Term",
+      "url": "/routine/%CF%80"
+    }
+  ],
+  ":continue (matching adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "Generic, \"smart\" three-way comparator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "( ) (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::NoDispatcher": [
+    {
+      "category": "Class",
+      "url": "/type/X::NoDispatcher"
+    }
+  ],
+  "X::ControlFlow::Return": [
+    {
+      "category": "Class",
+      "url": "/type/X::ControlFlow::Return"
+    }
+  ],
+  ":=": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3A%3D"
+    }
+  ],
+  ":i (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "HOW": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/HOW"
+    }
+  ],
+  "typename": [
+    {
+      "category": "Routine",
+      "url": "/routine/typename"
+    }
+  ],
+  "5to6-perlop": [
+    {
+      "category": "Language",
+      "url": "/language/5to6-perlop"
+    }
+  ],
+  "pair constructor": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "utc": [
+    {
+      "category": "Method",
+      "url": "/routine/utc"
+    }
+  ],
+  "proceed succeed": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/proceed%20succeed"
+    }
+  ],
+  "\\w (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "&&": [
+    {
+      "category": "Infix",
+      "url": "/routine/%26%26"
+    }
+  ],
+  "bounds": [
+    {
+      "category": "Method",
+      "url": "/routine/bounds"
+    }
+  ],
+  "pick": [
+    {
+      "category": "Routine",
+      "url": "/routine/pick"
+    }
+  ],
+  "IO::Handle": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Handle"
+    }
+  ],
+  "Meta-Object Protocol": [
+    {
+      "category": "Language",
+      "url": "/language/mop"
+    }
+  ],
+  ":g (regex adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "\\n (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "X::TypeCheck::Return": [
+    {
+      "category": "Class",
+      "url": "/type/X::TypeCheck::Return"
+    }
+  ],
+  "is cached": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20cached"
+    }
+  ],
+  "rw": [
+    {
+      "category": "Routine",
+      "url": "/routine/rw"
+    }
+  ],
+  "substr-rw": [
+    {
+      "category": "Method",
+      "url": "/routine/substr-rw"
+    }
+  ],
+  "Boolean bitwise negation operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "$_": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%24_"
+    }
+  ],
+  "(>+)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3E%2B%29"
+    }
+  ],
+  "absolute": [
+    {
+      "category": "Method",
+      "url": "/routine/absolute"
+    }
+  ],
+  "in-timezone": [
+    {
+      "category": "Method",
+      "url": "/routine/in-timezone"
+    }
+  ],
+  "numerator": [
+    {
+      "category": "Method",
+      "url": "/routine/numerator"
+    }
+  ],
+  "watch-path": [
+    {
+      "category": "Method",
+      "url": "/routine/watch-path"
+    }
+  ],
+  "X::NYI": [
+    {
+      "category": "Class",
+      "url": "/type/X::NYI"
+    }
+  ],
+  "move": [
+    {
+      "category": "Method",
+      "url": "/routine/move"
+    }
+  ],
+  "pop": [
+    {
+      "category": "Sub",
+      "url": "/routine/pop"
+    }
+  ],
+  "right": [
+    {
+      "category": "Method",
+      "url": "/routine/right"
+    }
+  ],
+  "uc": [
+    {
+      "category": "Routine",
+      "url": "/routine/uc"
+    }
+  ],
+  "Code": [
+    {
+      "category": "Class",
+      "url": "/type/Code"
+    }
+  ],
+  "anon": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/anon"
+    }
+  ],
+  "=": [
+    {
+      "category": "Twigil",
+      "url": "/syntax/%3D"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%3D"
+    }
+  ],
+  "curupdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/curupdir"
+    }
+  ],
+  "delayed": [
+    {
+      "category": "Method",
+      "url": "/routine/delayed"
+    }
+  ],
+  "max": [
+    {
+      "category": "Routine",
+      "url": "/routine/max"
+    }
+  ],
+  "readchars": [
+    {
+      "category": "Method",
+      "url": "/routine/readchars"
+    }
+  ],
+  "Glossary": [
+    {
+      "category": "Language",
+      "url": "/language/glossary"
+    }
+  ],
+  "nok (ok)": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "gt": [
+    {
+      "category": "Infix",
+      "url": "/routine/gt"
+    }
+  ],
+  "is-absolute": [
+    {
+      "category": "Routine",
+      "url": "/routine/is-absolute"
+    }
+  ],
+  "method": [
+    {
+      "category": "Routine",
+      "url": "/routine/method"
+    }
+  ],
+  "native-descriptor": [
+    {
+      "category": "Routine",
+      "url": "/routine/native-descriptor"
+    }
+  ],
+  "trim": [
+    {
+      "category": "Routine",
+      "url": "/routine/trim"
+    }
+  ],
+  "backtrace": [
+    {
+      "category": "Method",
+      "url": "/routine/backtrace"
+    }
+  ],
+  "handle": [
+    {
+      "category": "Routine",
+      "url": "/routine/handle"
+    }
+  ],
+  "parsefile": [
+    {
+      "category": "Method",
+      "url": "/routine/parsefile"
+    }
+  ],
+  "pos": [
+    {
+      "category": "Method",
+      "url": "/routine/pos"
+    }
+  ],
+  "VAR (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "default": [
+    {
+      "category": "Method",
+      "url": "/routine/default"
+    }
+  ],
+  "is export": [
+    {
+      "category": "Routine",
+      "url": "/routine/is%20export"
+    }
+  ],
+  "readonly": [
+    {
+      "category": "Routine",
+      "url": "/routine/readonly"
+    }
+  ],
+  "signature": [
+    {
+      "category": "Method",
+      "url": "/routine/signature"
+    }
+  ],
+  "target-name": [
+    {
+      "category": "Method",
+      "url": "/routine/target-name"
+    }
+  ],
+  "Capture": [
+    {
+      "category": "Class",
+      "url": "/type/Capture"
+    }
+  ],
+  "add_trustee": [
+    {
+      "category": "Method",
+      "url": "/routine/add_trustee"
+    }
+  ],
+  "params": [
+    {
+      "category": "Method",
+      "url": "/routine/params"
+    }
+  ],
+  "Neither subset of nor equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "Container identity operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "use-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "Grammars": [
+    {
+      "category": "Language",
+      "url": "/language/grammars"
+    }
+  ],
+  "String context operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "unpack": [
+    {
+      "category": "Method",
+      "url": "/routine/unpack"
+    }
+  ],
+  "âˆˆ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%88"
+    }
+  ],
+  "unlike": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "WHAT": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/WHAT"
+    }
+  ],
+  "div": [
+    {
+      "category": "Routine",
+      "url": "/routine/div"
+    }
+  ],
+  "keys": [
+    {
+      "category": "Routine",
+      "url": "/routine/keys"
+    }
+  ],
+  "parts": [
+    {
+      "category": "Routine",
+      "url": "/routine/parts"
+    }
+  ],
+  "|": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/%7C"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%7C"
+    }
+  ],
+  "methods": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/methods"
+    }
+  ],
+  "subbuf": [
+    {
+      "category": "Method",
+      "url": "/routine/subbuf"
+    }
+  ],
+  "returns": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/returns"
+    }
+  ],
+  ":delete": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Adelete"
+    }
+  ],
+  "catdir": [
+    {
+      "category": "Routine",
+      "url": "/routine/catdir"
+    }
+  ],
+  "expected": [
+    {
+      "category": "Method",
+      "url": "/routine/expected"
+    }
+  ],
+  "Syntax": [
+    {
+      "category": "Language",
+      "url": "/language/syntax"
+    }
+  ],
+  "ff^": [
+    {
+      "category": "Infix",
+      "url": "/routine/ff%5E"
+    }
+  ],
+  "Scheduler": [
+    {
+      "category": "Role",
+      "url": "/type/Scheduler"
+    }
+  ],
+  "Baggy": [
+    {
+      "category": "Role",
+      "url": "/type/Baggy"
+    }
+  ],
+  "default when": [
+    {
+      "category": "Control Flow",
+      "url": "/syntax/default%20when"
+    }
+  ],
+  ":ignorecase": [
+    {
+      "category": "Regex Adverb",
+      "url": "/syntax/%3Aignorecase"
+    }
+  ],
+  "decrement operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ":f": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "construct": [
+    {
+      "category": "Method",
+      "url": "/routine/construct"
+    }
+  ],
+  "+|": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2B%7C"
+    }
+  ],
+  "basename": [
+    {
+      "category": "Routine",
+      "url": "/routine/basename"
+    }
+  ],
+  "postfix": [
+    {
+      "category": "Method",
+      "url": "/routine/postfix"
+    }
+  ],
+  "String three-way comparator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "old": [
+    {
+      "category": "Method",
+      "url": "/routine/old"
+    }
+  ],
+  "Promise": [
+    {
+      "category": "Class",
+      "url": "/type/Promise"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/Promise"
+    }
+  ],
+  "String greater than or equal to operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "rmdir": [
+    {
+      "category": "Sub",
+      "url": "/routine/rmdir"
+    }
+  ],
+  "second": [
+    {
+      "category": "Method",
+      "url": "/routine/second"
+    }
+  ],
+  "sub": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/sub"
+    }
+  ],
+  "Read-only binding operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "cache": [
+    {
+      "category": "Method",
+      "url": "/routine/cache"
+    }
+  ],
+  "s/ / / (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "add_role": [
+    {
+      "category": "Method",
+      "url": "/routine/add_role"
+    }
+  ],
+  "connect": [
+    {
+      "category": "Method",
+      "url": "/routine/connect"
+    }
+  ],
+  "is rw": [
+    {
+      "category": "Routine",
+      "url": "/routine/is%20rw"
+    }
+  ],
+  "take": [
+    {
+      "category": "Method",
+      "url": "/routine/take"
+    }
+  ],
+  "Range operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ":s": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  ".::": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.%3A%3A"
+    }
+  ],
+  "vow": [
+    {
+      "category": "Method",
+      "url": "/routine/vow"
+    }
+  ],
+  "..": [
+    {
+      "category": "Infix",
+      "url": "/routine/.."
+    }
+  ],
+  "âˆª": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%AA"
+    }
+  ],
+  "Str": [
+    {
+      "category": "Class",
+      "url": "/type/Str"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/Str"
+    }
+  ],
+  "pi": [
+    {
+      "category": "Term",
+      "url": "/routine/pi"
+    }
+  ],
+  "race": [
+    {
+      "category": "Method",
+      "url": "/routine/race"
+    }
+  ],
+  "âŠˆ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%88"
+    }
+  ],
+  "nativecall": [
+    {
+      "category": "Reference",
+      "url": "/language/nativecall"
+    }
+  ],
+  "pred": [
+    {
+      "category": "Routine",
+      "url": "/routine/pred"
+    }
+  ],
+  "started": [
+    {
+      "category": "Method",
+      "url": "/routine/started"
+    }
+  ],
+  "X::Export::NameClash": [
+    {
+      "category": "Class",
+      "url": "/type/X::Export::NameClash"
+    }
+  ],
+  "subtest": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "xx": [
+    {
+      "category": "Infix",
+      "url": "/routine/xx"
+    }
+  ],
+  "âŠŽ": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%8A%8E"
+    }
+  ],
+  ":d": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "ASSIGN-KEY": [
+    {
+      "category": "Method",
+      "url": "/routine/ASSIGN-KEY"
+    }
+  ],
+  "atanh": [
+    {
+      "category": "Sub",
+      "url": "/routine/atanh"
+    }
+  ],
+  "is_trusted": [
+    {
+      "category": "Method",
+      "url": "/routine/is_trusted"
+    }
+  ],
+  "write": [
+    {
+      "category": "Routine",
+      "url": "/routine/write"
+    }
+  ],
+  "assuming": [
+    {
+      "category": "Method",
+      "url": "/routine/assuming"
+    }
+  ],
+  "args": [
+    {
+      "category": "Method",
+      "url": "/routine/args"
+    }
+  ],
+  "rand": [
+    {
+      "category": "Routine",
+      "url": "/routine/rand"
+    }
+  ],
+  " accessors (twigils)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  "chars": [
+    {
+      "category": "Routine",
+      "url": "/routine/chars"
+    }
+  ],
+  "kill": [
+    {
+      "category": "Method",
+      "url": "/routine/kill"
+    }
+  ],
+  "how": [
+    {
+      "category": "Method",
+      "url": "/routine/how"
+    }
+  ],
+  "CREATE": [
+    {
+      "category": "Method",
+      "url": "/routine/CREATE"
+    }
+  ],
+  "trans": [
+    {
+      "category": "Method",
+      "url": "/routine/trans"
+    }
+  ],
+  ":x": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "X::Syntax::NegatedPair": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::NegatedPair"
+    }
+  ],
+  "fmt": [
+    {
+      "category": "Method",
+      "url": "/routine/fmt"
+    }
+  ],
+  "candidates": [
+    {
+      "category": "Method",
+      "url": "/routine/candidates"
+    }
+  ],
+  "classify-list": [
+    {
+      "category": "Method",
+      "url": "/routine/classify-list"
+    }
+  ],
+  "listen": [
+    {
+      "category": "Method",
+      "url": "/routine/listen"
+    }
+  ],
+  "parents": [
+    {
+      "category": "Method",
+      "url": "/routine/parents"
+    }
+  ],
+  "%() (variable)": [
+    {
+      "category": "Reference",
+      "url": "/language/variables"
+    }
+  ],
+  "q (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "Zip operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "lang": [
+    {
+      "category": "Method",
+      "url": "/routine/lang"
+    }
+  ],
+  "replacement": [
+    {
+      "category": "Method",
+      "url": "/routine/replacement"
+    }
+  ],
+  "set_hidden": [
+    {
+      "category": "Method",
+      "url": "/routine/set_hidden"
+    }
+  ],
+  "close": [
+    {
+      "category": "Routine",
+      "url": "/routine/close"
+    }
+  ],
+  "spurt": [
+    {
+      "category": "Sub",
+      "url": "/routine/spurt"
+    }
+  ],
+  "today": [
+    {
+      "category": "Method",
+      "url": "/routine/today"
+    }
+  ],
+  "+<": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2B%3C"
+    }
+  ],
+  "plan": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  "name": [
+    {
+      "category": "Routine",
+      "url": "/routine/name"
+    }
+  ],
+  "unique": [
+    {
+      "category": "Routine",
+      "url": "/routine/unique"
+    }
+  ],
+  "BagHash": [
+    {
+      "category": "Class",
+      "url": "/type/BagHash"
+    }
+  ],
+  "List repetition operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "/ /": [
+    {
+      "category": "Quote",
+      "url": "/syntax/%2F%20%2F"
+    }
+  ],
+  "stable": [
+    {
+      "category": "Method",
+      "url": "/routine/stable"
+    }
+  ],
+  "class": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Declarator",
+      "url": "/syntax/class"
+    }
+  ],
+  "X::Syntax::Missing": [
+    {
+      "category": "Class",
+      "url": "/type/X::Syntax::Missing"
+    }
+  ],
+  "wrap": [
+    {
+      "category": "Method",
+      "url": "/routine/wrap"
+    }
+  ],
+  "Scalar": [
+    {
+      "category": "Class",
+      "url": "/type/Scalar"
+    }
+  ],
+  "$<named>": [
+    {
+      "category": "Variable",
+      "url": "/syntax/%24%3Cnamed%3E"
+    }
+  ],
+  "timezone": [
+    {
+      "category": "Method",
+      "url": "/routine/timezone"
+    }
+  ],
+  "5to6-perlsyn": [
+    {
+      "category": "Language",
+      "url": "/language/5to6-perlsyn"
+    }
+  ],
+  "truncated-to": [
+    {
+      "category": "Routine",
+      "url": "/routine/truncated-to"
+    }
+  ],
+  "smart-match operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "none": [
+    {
+      "category": "Method",
+      "url": "/routine/none"
+    }
+  ],
+  "prepend": [
+    {
+      "category": "Routine",
+      "url": "/routine/prepend"
+    }
+  ],
+  "Metamodel::Naming": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::Naming"
+    }
+  ],
+  "Concurrency": [
+    {
+      "category": "Language",
+      "url": "/language/concurrency"
+    }
+  ],
+  "print-to": [
+    {
+      "category": "Method",
+      "url": "/routine/print-to"
+    }
+  ],
+  "wait": [
+    {
+      "category": "Method",
+      "url": "/routine/wait"
+    }
+  ],
+  "X::Bind::Slice": [
+    {
+      "category": "Class",
+      "url": "/type/X::Bind::Slice"
+    }
+  ],
+  "Metamodel::MethodContainer": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::MethodContainer"
+    }
+  ],
+  "abspath": [
+    {
+      "category": "Method",
+      "url": "/routine/abspath"
+    }
+  ],
+  "sign": [
+    {
+      "category": "Routine",
+      "url": "/routine/sign"
+    }
+  ],
+  "X::Mixin::NotComposable": [
+    {
+      "category": "Class",
+      "url": "/type/X::Mixin::NotComposable"
+    }
+  ],
+  "IO::Pipe": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Pipe"
+    }
+  ],
+  "dd": [
+    {
+      "category": "Sub",
+      "url": "/routine/dd"
+    }
+  ],
+  "flurb": [
+    {
+      "category": "Method",
+      "url": "/routine/flurb"
+    }
+  ],
+  "tan": [
+    {
+      "category": "Sub",
+      "url": "/routine/tan"
+    }
+  ],
+  "uninames": [
+    {
+      "category": "Sub",
+      "url": "/routine/uninames"
+    }
+  ],
+  "regex (declarator)": [
+    {
+      "category": "Reference",
+      "url": "/language/grammars"
+    }
+  ],
+  "(<+)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%3C%2B%29"
+    }
+  ],
+  "conj": [
+    {
+      "category": "Routine",
+      "url": "/routine/conj"
+    }
+  ],
+  "offset-in-minutes": [
+    {
+      "category": "Method",
+      "url": "/routine/offset-in-minutes"
+    }
+  ],
+  "Block": [
+    {
+      "category": "Class",
+      "url": "/type/Block"
+    }
+  ],
+  "act": [
+    {
+      "category": "Method",
+      "url": "/routine/act"
+    }
+  ],
+  "hyper": [
+    {
+      "category": "Method",
+      "url": "/routine/hyper"
+    }
+  ],
+  "is-prime": [
+    {
+      "category": "Sub",
+      "url": "/routine/is-prime"
+    }
+  ],
+  "what": [
+    {
+      "category": "Routine",
+      "url": "/routine/what"
+    }
+  ],
+  "multi": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/multi"
+    },
+    {
+      "category": "Method",
+      "url": "/routine/multi"
+    }
+  ],
+  "\" \" (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "(&)": [
+    {
+      "category": "Infix",
+      "url": "/routine/%28%26%29"
+    }
+  ],
+  "has": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    },
+    {
+      "category": "Declarator",
+      "url": "/syntax/has"
+    }
+  ],
+  "merge": [
+    {
+      "category": "Method",
+      "url": "/routine/merge"
+    }
+  ],
+  "Hyper method call operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "?": [
+    {
+      "category": "Syntax",
+      "url": "/syntax/%3F"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%3F"
+    }
+  ],
+  "norm": [
+    {
+      "category": "Method",
+      "url": "/routine/norm"
+    }
+  ],
+  "sinh": [
+    {
+      "category": "Sub",
+      "url": "/routine/sinh"
+    }
+  ],
+  "Match": [
+    {
+      "category": "Class",
+      "url": "/type/Match"
+    }
+  ],
+  "Contributors": [
+    {
+      "category": "Language",
+      "url": "/language/contributors"
+    }
+  ],
+  "repeated": [
+    {
+      "category": "Sub",
+      "url": "/routine/repeated"
+    }
+  ],
+  "subparse": [
+    {
+      "category": "Method",
+      "url": "/routine/subparse"
+    }
+  ],
+  "Regex": [
+    {
+      "category": "Class",
+      "url": "/type/Regex"
+    }
+  ],
+  "type": [
+    {
+      "category": "Routine",
+      "url": "/routine/type"
+    }
+  ],
+  "Numeric equality operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ":pos": [
+    {
+      "category": "Regex Adverb",
+      "url": "/syntax/%3Apos"
+    }
+  ],
+  "abs2rel": [
+    {
+      "category": "Routine",
+      "url": "/routine/abs2rel"
+    }
+  ],
+  "day-of-year": [
+    {
+      "category": "Method",
+      "url": "/routine/day-of-year"
+    }
+  ],
+  "âˆ©": [
+    {
+      "category": "Infix",
+      "url": "/routine/%E2%88%A9"
+    }
+  ],
+  "-->": [
+    {
+      "category": "Reference",
+      "url": "/type/Signature"
+    }
+  ],
+  "X::Parameter::WrongOrder": [
+    {
+      "category": "Class",
+      "url": "/type/X::Parameter::WrongOrder"
+    }
+  ],
+  "IO::Spec::QNX": [
+    {
+      "category": "Class",
+      "url": "/type/IO::Spec::QNX"
+    }
+  ],
+  "5to6-nutshell": [
+    {
+      "category": "Language",
+      "url": "/language/5to6-nutshell"
+    }
+  ],
+  "is-int": [
+    {
+      "category": "Method",
+      "url": "/routine/is-int"
+    }
+  ],
+  " . (twigils)": [
+    {
+      "category": "Reference",
+      "url": "/language/classtut"
+    }
+  ],
+  " hash constructor": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "ACCEPTS": [
+    {
+      "category": "Routine",
+      "url": "/routine/ACCEPTS"
+    }
+  ],
+  "cotan": [
+    {
+      "category": "Sub",
+      "url": "/routine/cotan"
+    }
+  ],
+  "parse": [
+    {
+      "category": "Method",
+      "url": "/routine/parse"
+    }
+  ],
+  "push-exactly": [
+    {
+      "category": "Method",
+      "url": "/routine/push-exactly"
+    }
+  ],
+  "my": [
+    {
+      "category": "Declarator",
+      "url": "/syntax/my"
+    }
+  ],
+  "break": [
+    {
+      "category": "Method",
+      "url": "/routine/break"
+    }
+  ],
+  "instead": [
+    {
+      "category": "Method",
+      "url": "/routine/instead"
+    }
+  ],
+  ".{ } (postcircumfix)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "asec": [
+    {
+      "category": "Sub",
+      "url": "/routine/asec"
+    }
+  ],
+  "throw": [
+    {
+      "category": "Method",
+      "url": "/routine/throw"
+    }
+  ],
+  "whole-second": [
+    {
+      "category": "Method",
+      "url": "/routine/whole-second"
+    }
+  ],
+  "radix": [
+    {
+      "category": "Method",
+      "url": "/routine/radix"
+    }
+  ],
+  "Metamodel::RoleContainer": [
+    {
+      "category": "Role",
+      "url": "/type/Metamodel::RoleContainer"
+    }
+  ],
+  "AT-KEY": [
+    {
+      "category": "Method",
+      "url": "/routine/AT-KEY"
+    }
+  ],
+  "\\S (regex)": [
+    {
+      "category": "Reference",
+      "url": "/language/regexes"
+    }
+  ],
+  "lives-ok": [
+    {
+      "category": "Reference",
+      "url": "/language/testing"
+    }
+  ],
+  ":e": [
+    {
+      "category": "Reference",
+      "url": "/type/IO::Path"
+    }
+  ],
+  "Subset of operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  ":ratchet": [
+    {
+      "category": "Regex Adverb",
+      "url": "/syntax/%3Aratchet"
+    }
+  ],
+  "operation": [
+    {
+      "category": "Method",
+      "url": "/routine/operation"
+    }
+  ],
+  "phaser": [
+    {
+      "category": "Method",
+      "url": "/routine/phaser"
+    }
+  ],
+  "slurp": [
+    {
+      "category": "Sub",
+      "url": "/routine/slurp"
+    }
+  ],
+  "Lists, Sequences, and Arrays": [
+    {
+      "category": "Language",
+      "url": "/language/list"
+    }
+  ],
+  "andthen": [
+    {
+      "category": "Infix",
+      "url": "/routine/andthen"
+    }
+  ],
+  "combinations": [
+    {
+      "category": "Sub",
+      "url": "/routine/combinations"
+    }
+  ],
+  "w": [
+    {
+      "category": "Method",
+      "url": "/routine/w"
+    }
+  ],
+  "zip": [
+    {
+      "category": "Routine",
+      "url": "/routine/zip"
+    }
+  ],
+  "Does not contain operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "spaceship operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "X::Redeclaration": [
+    {
+      "category": "Class",
+      "url": "/type/X::Redeclaration"
+    }
+  ],
+  "X::IO::Chmod": [
+    {
+      "category": "Class",
+      "url": "/type/X::IO::Chmod"
+    }
+  ],
+  "await": [
+    {
+      "category": "Routine",
+      "url": "/routine/await"
+    }
+  ],
+  "now": [
+    {
+      "category": "Routine",
+      "url": "/routine/now"
+    }
+  ],
+  "watch": [
+    {
+      "category": "Method",
+      "url": "/routine/watch"
+    }
+  ],
+  "Subscripts": [
+    {
+      "category": "Language",
+      "url": "/language/subscripts"
+    }
+  ],
+  "rel2abs": [
+    {
+      "category": "Routine",
+      "url": "/routine/rel2abs"
+    }
+  ],
+  "Blob": [
+    {
+      "category": "Role",
+      "url": "/type/Blob"
+    }
+  ],
+  "< >": [
+    {
+      "category": "Routine",
+      "url": "/routine/%3C%20%3E"
+    }
+  ],
+  "is default": [
+    {
+      "category": "Trait",
+      "url": "/routine/is%20default"
+    }
+  ],
+  "X::Bind": [
+    {
+      "category": "Class",
+      "url": "/type/X::Bind"
+    }
+  ],
+  "antipair": [
+    {
+      "category": "Method",
+      "url": "/routine/antipair"
+    }
+  ],
+  "close-stdin": [
+    {
+      "category": "Method",
+      "url": "/routine/close-stdin"
+    }
+  ],
+  "find_method_qualified": [
+    {
+      "category": "Method",
+      "url": "/routine/find_method_qualified"
+    }
+  ],
+  "indent": [
+    {
+      "category": "Method",
+      "url": "/routine/indent"
+    }
+  ],
+  "X::Anon::Augment": [
+    {
+      "category": "Class",
+      "url": "/type/X::Anon::Augment"
+    }
+  ],
+  ".< > (postcircumfix)": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  ">": [
+    {
+      "category": "Infix",
+      "url": "/routine/%3E"
+    }
+  ],
+  "week": [
+    {
+      "category": "Method",
+      "url": "/routine/week"
+    }
+  ],
+  "X::Parameter::Twigil": [
+    {
+      "category": "Class",
+      "url": "/type/X::Parameter::Twigil"
+    }
+  ],
+  "Submethod": [
+    {
+      "category": "Class",
+      "url": "/type/Submethod"
+    }
+  ],
+  "Non-membership operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  "< > (quote)": [
+    {
+      "category": "Reference",
+      "url": "/language/quoting"
+    }
+  ],
+  "Symmetric set difference operator": [
+    {
+      "category": "Reference",
+      "url": "/language/setbagmix"
+    }
+  ],
+  ".postfix": [
+    {
+      "category": "Postfix",
+      "url": "/routine/.postfix"
+    }
+  ],
+  "sleep-timer": [
+    {
+      "category": "Sub",
+      "url": "/routine/sleep-timer"
+    }
+  ],
+  "log": [
+    {
+      "category": "Routine",
+      "url": "/routine/log"
+    }
+  ],
+  "qqx": [
+    {
+      "category": "Quote",
+      "url": "/syntax/qqx"
+    }
+  ],
+  ":k (subscript adverb)": [
+    {
+      "category": "Reference",
+      "url": "/language/subscripts"
+    }
+  ],
+  "done": [
+    {
+      "category": "Routine",
+      "url": "/routine/done"
+    }
+  ],
+  "status": [
+    {
+      "category": "Routine",
+      "url": "/routine/status"
+    }
+  ],
+  "zip-latest": [
+    {
+      "category": "Method",
+      "url": "/routine/zip-latest"
+    }
+  ],
+  "tanh": [
+    {
+      "category": "Sub",
+      "url": "/routine/tanh"
+    }
+  ],
+  "twigil": [
+    {
+      "category": "Routine",
+      "url": "/routine/twigil"
+    }
+  ],
+  "Division operator": [
+    {
+      "category": "Reference",
+      "url": "/language/operators"
+    }
+  ],
+  "destroyers": [
+    {
+      "category": "Method",
+      "url": "/routine/destroyers"
+    }
+  ],
+  "WHO (syntax)": [
+    {
+      "category": "Reference",
+      "url": "/language/mop"
+    }
+  ],
+  "+": [
+    {
+      "category": "Regex",
+      "url": "/syntax/%2B"
+    },
+    {
+      "category": "Routine",
+      "url": "/routine/%2B"
+    }
+  ],
+  "print": [
+    {
+      "category": "Routine",
+      "url": "/routine/print"
+    }
+  ],
+  ":v": [
+    {
+      "category": "Subscript Adverb",
+      "url": "/syntax/%3Av"
+    }
+  ],
+  "private_method_table": [
+    {
+      "category": "Method",
+      "url": "/routine/private_method_table"
+    }
+  ],
+  "chop": [
+    {
+      "category": "Routine",
+      "url": "/routine/chop"
+    }
+  ],
+  "private": [
+    {
+      "category": "Method",
+      "url": "/routine/private"
+    }
+  ],
+  "+>": [
+    {
+      "category": "Infix",
+      "url": "/routine/%2B%3E"
+    }
+  ],
+  "wordcase": [
+    {
+      "category": "Routine",
+      "url": "/routine/wordcase"
+    }
+  ]
+}
