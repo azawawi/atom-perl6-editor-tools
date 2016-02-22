@@ -1,3 +1,6 @@
+## 0.9.14
+* 
+
 ## 0.9.13
 * Optimize help index for faster load time
 
