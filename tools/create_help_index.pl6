@@ -47,8 +47,7 @@ sub create-perl6-help-index($index-data) {
 
   my $json = to-json(%help-index);
 
-  #my $filename = "data/perl6-help-index.json";
-  my $filename = "data/pretty.json";
+  my $filename = "data/perl6-help-index.json";
   say "Writing to $filename";
   $filename.IO.spurt($json);
 }
