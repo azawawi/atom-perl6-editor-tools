@@ -19,7 +19,7 @@ provides the following tasks (More build tasks will added in the future):
 - Perl 6 test: This will run ``prove -v -e "perl6 -Ilib"`` in your current Perl
 6 project and provide the build log
 
-![Test Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/test-runner-build-task.png)
+![Test Builder Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/test-runner-build-task.gif)
 
 ## Context sensitive help
 
