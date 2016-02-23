@@ -55,7 +55,7 @@ file explorer tree view. A [bug](https://github.com/atom/tree-view/issues/732)
 in the tree view has been reported that prevents showing it on startup. As a
 workaround, please collapse and expand your project for it to work.
 
-![File icons Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/file-icons.png)
+![File icons Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/file-icons.gif)
 
 ## Author
 
