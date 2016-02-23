@@ -9,7 +9,7 @@ This provides a [linter](https://atom.io/packages/linter) that syntax checks
 Perl 6 code and provides error messages. Please note that this will run `BEGIN`
 and `CHECK` blocks.
 
-![Syntax Check Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/syntax-check-linter.png)
+![Syntax Check Linter Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/syntax-check-linter.gif)
 
 ## Build Support
 
@@ -38,7 +38,7 @@ Preview pane to work:
   $ panda install Pod::To::HTML
 ```
 
-![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/pod-preview.png)
+![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/pod-preview.gif)
 
 ## Snippets
 
