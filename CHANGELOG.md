@@ -1,5 +1,5 @@
 ## 0.9.14
-* 
+* Add more animated gif screencasts in README.md
 
 ## 0.9.13
 * Optimize help index for faster load time
