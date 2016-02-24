@@ -1,7 +1,7 @@
 {
   "name": "atom-perl6-editor-tools",
   "main": "./lib/main",
-  "version": "0.9.14",
+  "version": "0.9.15",
   "description": "A collection of useful Perl 6 editor tools",
   "keywords": [],
   "repository": "https://github.com/azawawi/atom-perl6-editor-tools",
