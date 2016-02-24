@@ -1,5 +1,5 @@
 ## 0.9.15
-* 
+* Fix #5: Document snippets in markdown
 
 ## 0.9.14
 * Add more animated gif screencasts in README.md
