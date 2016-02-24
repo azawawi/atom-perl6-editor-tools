@@ -1,3 +1,6 @@
+## 0.9.16
+* Fix markdown for snippet. This is a quick patch release for 0.9.15
+
 ## 0.9.15
 * Fix #5: Document snippets in markdown
 
