@@ -42,10 +42,10 @@ Preview pane to work:
 
 ## Snippets
 
-A collection of useful snippets are now available for Perl 6 files. Please use
-`Alt+Shift+S` to view all of them. Type the name of the snippet and then press
-`Tab`. For example, by typing `script` followed by `Tab`, a hello world script
-is inserted. Please read [Using Atom: Snippets](
+A collection of useful snippets are now available for Perl 6 files. You can find a complete list of the snippets [here](snippets.md).
+
+* Please use `Alt+Shift+S` to view a scrollable list of them.
+* Type the name of the snippet and then press `Tab`. For example, by typing `script` followed by `Tab`, a hello world script is inserted. Please read [Using Atom: Snippets](
 https://atom.io/docs/latest/using-atom-snippets) for more information.
 
 ## File Icons
