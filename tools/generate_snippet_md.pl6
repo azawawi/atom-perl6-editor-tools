@@ -19,6 +19,6 @@ for $snippets_perl6.kv -> $name, $snippet {
   my $body   = $snippet<body>;
   $fh.say(qq{
 #### `$prefix⇥` $name
-````Perl6
+```Perl6
 $body```});
 }
