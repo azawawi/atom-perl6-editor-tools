@@ -1,4 +1,8 @@
 
+### Snippets
+This is a list of supported snippets provided by this plugin.
+
+
 #### `test⇥` test
 ```Perl6
 use v6;
