@@ -1,5 +1,8 @@
 {
   "atom-workspace": {
     "ctrl-alt-o": "main:pod-preview"
+  },
+  "atom-text-editor:not(.mini)": {
+    "ctrl-alt-c": "refactor:rename"
   }
 }
