@@ -14,6 +14,8 @@ Please see https://atom.io/docs/api/v1.5.3/Config#instance-observe
 - Add custom perl6 path setting (Settings)
 - Generate only one temporary file instead of two (POD Preview)
 - Bundle Pod::To::HTML inside our package and provide an option to override
-- Create Perl6 script menu shortcut
-- Create Perl6 module menu shortcut
-- Open example from Perl 6 examples
+- Create Perl6 script menu shortcut (Create a new editor with Perl 6 FE syntax
+  and script<tab>)
+- Create Perl6 module menu shortcut (with travis CI and appveyor YAML files)
+- Open example from Perl 6 examples github repo (through a pregenerated index)
+- Borrow from Padre Outline: Perl 6 class/method/subs/...etc outline
