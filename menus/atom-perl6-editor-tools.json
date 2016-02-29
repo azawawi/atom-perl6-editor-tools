@@ -17,6 +17,15 @@
           "label": "Perl 6 Editor Tools",
           "submenu": [
             {
+              "label": "New Perl 6 Script",
+              "command": "main:new-p6-script"
+            },
+            {
+              "label": "New Perl 6 Project",
+              "command": "main:new-p6-project"
+            },
+            { "type": "separator" },
+            {
               "label": "POD Preview",
               "command": "main:pod-preview"
             }
