@@ -9,6 +9,8 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
+- Add POD snippets
+- Add a Perl6 POD Cheatsheet
 - Listen to configuration events and issue a Atom environment restart?
 Please see https://atom.io/docs/api/v1.5.3/Config#instance-observe
 - Add custom perl6 path setting (Settings)
