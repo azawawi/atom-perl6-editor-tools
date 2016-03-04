@@ -9,6 +9,15 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
+- Use [App::Mi6](https://github.com/skaji/mi6/blob/master/README.md) to do the
+  following:
+  ```
+  > mi6 new Foo::Bar # create Foo-Bar distribution
+  > cd Foo-Bar
+  > mi6 build        # build the distribution and re-generate README.md/META6.json
+  > mi6 test         # run tests
+  > mi6 release      # release!
+  ```
 - Listen to configuration events and issue a Atom environment restart?
 Please see https://atom.io/docs/api/v1.5.3/Config#instance-observe
 - Add custom perl6 path setting (Settings)
