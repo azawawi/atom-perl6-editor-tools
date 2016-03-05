@@ -1,5 +1,6 @@
 ## 0.9.18
-*
+* Fix #16: Standard output in BEGIN {} blocks causes wrong syntax check linter
+  failures
 
 ## 0.9.17
 * Important: Apply workaround to fix Perl 6 file icons not showing up on atom
