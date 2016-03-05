@@ -51,9 +51,7 @@ https://atom.io/docs/latest/using-atom-snippets) for more information.
 ## File Icons
 
 The official camelia buttefly icon is now shown for Perl 6 file types in the
-file explorer tree view. A [bug](https://github.com/atom/tree-view/issues/732)
-in the tree view has been reported that prevents showing it on startup. As a
-workaround, please collapse and expand your project for it to work.
+file explorer tree view.
 
 ![File icons Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/file-icons.gif)
 
