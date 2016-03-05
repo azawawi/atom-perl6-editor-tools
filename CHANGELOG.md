@@ -1,5 +1,8 @@
 ## 0.9.17
-* 
+* Important: Apply workaround to fix Perl 6 file icons not showing up on atom
+  startup (This is related to issue #13)
+* Add initial experimental plumbing for Perl 6 refactor (Not working)
+* Add initial experimental plumbing for "New Perl Script/Project" (Not working)
 
 ## 0.9.16
 * Fix markdown for snippet. This is a quick patch release for 0.9.15
