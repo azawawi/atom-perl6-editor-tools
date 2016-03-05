@@ -1,3 +1,6 @@
+## 0.9.18
+*
+
 ## 0.9.17
 * Important: Apply workaround to fix Perl 6 file icons not showing up on atom
   startup (This is related to issue #13)
