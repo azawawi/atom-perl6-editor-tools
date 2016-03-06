@@ -14,9 +14,7 @@ npm i --save-dev babel-eslint
   ```
   > mi6 new Foo::Bar # create Foo-Bar distribution
   > cd Foo-Bar
-  > mi6 build        # build the distribution and re-generate README.md/META6.json
   > mi6 test         # run tests
-  > mi6 release      # release!
   ```
 - Add POD snippets
 - Add a Perl6 POD Cheatsheet
