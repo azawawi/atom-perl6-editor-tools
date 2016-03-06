@@ -2,6 +2,7 @@
 * Fix #16: Standard output in BEGIN {} blocks causes wrong syntax check linter
   failures
 * Fix missing library include issue with "Run Tests" via prove
+* Add mi6 test build target and check for App::Mi6 and warn if otherwise
 
 ## 0.9.17
 * Important: Apply workaround to fix Perl 6 file icons not showing up on atom
