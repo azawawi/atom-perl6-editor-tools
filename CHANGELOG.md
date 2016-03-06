@@ -1,4 +1,7 @@
 ## 0.9.18
+* 
+
+## 0.9.18
 * Fix #16: Standard output in BEGIN {} blocks causes wrong syntax check linter
   failures
 * Fix missing library include issue with "Run Tests" via prove
