@@ -30,3 +30,4 @@ Please see https://atom.io/docs/api/v1.5.3/Config#instance-observe
 - Borrow from Padre Outline: Perl 6 class/method/subs/...etc outline
 - On opening a new file editor. Read the first few lines and determine the correct Perl/Perl 6 grammar using `use v6`. Slurping the whole file and then matching is a very bad idea for large files.
 - Add Profiling support
+- Add [debugger support](https://atom.io/packages/python-debugger)
