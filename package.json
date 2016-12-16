@@ -43,7 +43,7 @@
   },
   "package-deps": [
     "build",
-    "language-perl6fe",
+    "language-perl6",
     "hyperclick",
     "linter",
     "refactor"
