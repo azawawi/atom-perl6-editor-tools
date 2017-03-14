@@ -1,4 +1,8 @@
-## 0.9.19
+
+## 0.10.1
+* ...
+
+## 0.10.0
 * Remove App::Mi6 experimental feature
 * PR #31: Update package-deps to use the new package for P6 highlighting
 * PR #25: Linter fixes
