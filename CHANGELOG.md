@@ -1,7 +1,7 @@
 
 ## 0.10.1
-* Remove experimental refactor support
-* ...
+* Remove experimental refactor support.
+* Depend on file-icons. Remove atom tree view/css workaround.
 
 ## 0.10.0
 * Remove App::Mi6 experimental feature
