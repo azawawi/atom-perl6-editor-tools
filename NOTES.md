@@ -1,10 +1,22 @@
 This is just a document to store development related notes and TODOs
 
 ## Notes
-To start developing this plugin, please use the following
+
+- To start developing this plugin, please use the following:
+
 ```
-npm i --save-dev eslint
-npm i --save-dev babel-eslint
+$ npm i --save-dev eslint
+$ npm i --save-dev babel-eslint
+```
+
+- Release notes:
+
+```
+# Release as patch
+$ apm publish patch
+
+# Release as minor (release.minor.patch)
+$ apm publish minor
 ```
 
 ## Stuff TODO
