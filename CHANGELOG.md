@@ -2,7 +2,6 @@
 ## 0.10.3
 * Remove unimplemented menu items.
 * Fix context sensitive help not opening the correct doc.perl6.org help url.
-* ...
 
 ## 0.10.2
 * Replace ANSI color escaping with disabling environment variable
