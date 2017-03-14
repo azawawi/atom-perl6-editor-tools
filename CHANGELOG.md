@@ -1,4 +1,8 @@
 
+## 0.10.4
+* Fix context sensitive help to work again https://doc.perl6.org.
+* Remove dead code from unimplemented menu items.
+
 ## 0.10.3
 * Remove unimplemented menu items.
 * Fix context sensitive help not opening the correct doc.perl6.org help url.
