@@ -9,13 +9,6 @@ npm i --save-dev babel-eslint
 
 ## Stuff TODO
 
-- Use [App::Mi6](https://github.com/skaji/mi6/blob/master/README.md) to do the
-  following:
-  ```
-  > mi6 new Foo::Bar # create Foo-Bar distribution
-  > cd Foo-Bar
-  > mi6 test         # run tests
-  ```
 - Add POD snippets
 - Add a Perl6 POD Cheatsheet
 - Listen to configuration events and issue a Atom environment restart?
