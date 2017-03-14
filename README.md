@@ -46,7 +46,7 @@ A collection of useful snippets are now available for Perl 6 files. You can find
 
 * Please use `Alt+Shift+S` to view a scrollable list of them.
 * Type the name of the snippet and then press `Tab`. For example, by typing `script` followed by `Tab`, a hello world script is inserted. Please read [Using Atom: Snippets](
-https://atom.io/docs/latest/using-atom-snippets) for more information.
+http://flight-manual.atom.io/using-atom/sections/snippets) for more information.
 
 ## File Icons
 
