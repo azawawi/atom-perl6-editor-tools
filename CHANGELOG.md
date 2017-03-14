@@ -1,4 +1,8 @@
 
+## 0.10.3
+* Remove unimplemented menu items.
+* ...
+
 ## 0.10.2
 * Replace ANSI color escaping with disabling environment variable
   `RAKUDO_ERROR_COLOR`. This fixes #30.
