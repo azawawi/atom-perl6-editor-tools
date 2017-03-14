@@ -1,5 +1,9 @@
 ## 0.9.19
-* 
+* Remove App::Mi6 experimental feature
+* PR #31: Update package-deps to use the new package for P6 highlighting
+* PR #25: Linter fixes
+* Fix #21: Capture column number from error message
+* Various linter fixes
 
 ## 0.9.18
 * Fix #16: Standard output in BEGIN {} blocks causes wrong syntax check linter
