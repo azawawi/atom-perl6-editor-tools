@@ -1,4 +1,7 @@
 
+## 0.10.5
+* ...
+
 ## 0.10.4
 * Fix context sensitive help to work again https://doc.perl6.org.
 * Remove dead code from unimplemented menu items.
