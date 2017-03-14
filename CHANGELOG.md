@@ -1,4 +1,9 @@
 
+## 0.10.2
+* Replace ANSI color escaping with disabling environment variable
+  `RAKUDO_ERROR_COLOR`. This fixes #30.
+* Fix `atom-linter` missing dependency regression.
+
 ## 0.10.1
 * Remove experimental refactor support.
 * Depend on file-icons. Remove atom tree view/css workaround.
