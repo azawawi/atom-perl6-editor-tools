@@ -1,5 +1,7 @@
 # Atom Perl 6 Editor Tools
 
+[![Dependency Status](https://david-dm.org/azawawi/atom-perl6-editor-tools.svg?style=flat-square)](https://david-dm.org/azawawi/atom-perl6-editor-tools)
+
 This atom plugin provides a collection of useful Perl 6 editor tools that are
 shown below:
 
