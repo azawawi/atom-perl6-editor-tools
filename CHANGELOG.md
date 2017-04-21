@@ -1,6 +1,14 @@
 
+## 0.10.7
+- ...
+
+## 0.10.6
+- Upgrade request dependency to fix possible
+[remote memory exposure security vulnerability](https://nodesecurity.io/advisories/request_remote-memory-exposure).
+
 ## 0.10.5
-* ...
+* Attempt to fix vulnerability. This is a bad release that was fixed in later
+v0.10.6. Sorry for any inconvenience.
 
 ## 0.10.4
 * Fix context sensitive help to work again https://doc.perl6.org.
