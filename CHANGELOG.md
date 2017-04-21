@@ -1,5 +1,6 @@
 
 ## 0.10.7
+- Improve startup performance.
 - ...
 
 ## 0.10.6
