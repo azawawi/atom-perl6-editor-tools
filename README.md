@@ -37,7 +37,7 @@ near real-time. Please remember to install [`Pod::To::HTML`](
 https://github.com/perl6/Pod-To-HTML) via the following command for the POD
 Preview pane to work:
 ```
-  $ panda install Pod::To::HTML
+  $ zef install Pod::To::HTML
 ```
 
 ![POD Preview Screenshot](https://raw.githubusercontent.com/azawawi/atom-perl6-editor-tools/master/screenshots/pod-preview.gif)
