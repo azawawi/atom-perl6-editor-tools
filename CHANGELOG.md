@@ -1,4 +1,7 @@
 
+## 0.10.8
+- ...
+
 ## 0.10.7
 - Improve startup performance.
 - Use `zef` instead of deprecated `panda`.
