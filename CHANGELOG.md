@@ -2,6 +2,7 @@
 ## 0.10.7
 - Improve startup performance.
 - Use `zef` instead of deprecated `panda`.
+- Upgrade nodejs dependencies.
 
 ## 0.10.6
 - Upgrade request dependency to fix possible
