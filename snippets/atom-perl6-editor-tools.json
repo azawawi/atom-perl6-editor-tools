@@ -99,6 +99,566 @@
     "rfile": {
       "prefix": "rfile",
       "body": "for \"${1:filename}\".IO.lines -> $line {\n  ${2}\n}"
-    }
+    },
+    "<<": {
+        "prefix": "<<",
+        "body": "«"
+    },
+    ">>": {
+        "prefix": ">>",
+        "body": "»"
+    },
+    "*": {
+        "prefix": "*",
+        "body": "×"
+    },
+    "/": {
+        "prefix": "/",
+        "body": "÷"
+    },
+    "<=": {
+        "prefix": "<=",
+        "body": "≤"
+    },
+    ">=": {
+        "prefix": ">=",
+        "body": "≥"
+    },
+    "!=": {
+        "prefix": "!=",
+        "body": "≠"
+    },
+    "-": {
+        "prefix": "-",
+        "body": "−"
+    },
+    "o": {
+        "prefix": "o",
+        "body": "∘"
+    },
+    "=~=": {
+        "prefix": "=~=",
+        "body": "≅"
+    },
+    "pi": {
+        "prefix": "pi",
+        "body": "π"
+    },
+    "tau": {
+        "prefix": "tau",
+        "body": "τ"
+    },
+    "e": {
+        "prefix": "e",
+        "body": "𝑒"
+    },
+    "Inf": {
+        "prefix": "Inf",
+        "body": "∞"
+    },
+    "...": {
+        "prefix": "...",
+        "body": "…"
+    },
+    "'": {
+        "prefix": "'",
+        "body": "‘"
+    },
+    "'": {
+        "prefix": "'",
+        "body": "’"
+    },
+    "'": {
+        "prefix": "'",
+        "body": "‚"
+    },
+    "Q//": {
+        "prefix": "Q//",
+        "body": "｢｣"
+    },
+    "+": {
+        "prefix": "+",
+        "body": "⁺"
+    },
+    "-": {
+        "prefix": "-",
+        "body": "⁻"
+    },
+    "-": {
+        "prefix": "-",
+        "body": "¯"
+    },
+    "**0": {
+        "prefix": "**0",
+        "body": "⁰"
+    },
+    "**1": {
+        "prefix": "**1",
+        "body": "¹"
+    },
+    "**2": {
+        "prefix": "**2",
+        "body": "²"
+    },
+    "**3": {
+        "prefix": "**3",
+        "body": "³"
+    },
+    "**4": {
+        "prefix": "**4",
+        "body": "⁴"
+    },
+    "**5": {
+        "prefix": "**5",
+        "body": "⁵"
+    },
+    "**6": {
+        "prefix": "**6",
+        "body": "⁶"
+    },
+    "**7": {
+        "prefix": "**7",
+        "body": "⁷"
+    },
+    "**8": {
+        "prefix": "**8",
+        "body": "⁸"
+    },
+    "**9": {
+        "prefix": "**9",
+        "body": "⁹"
+    },
+    "set()": {
+        "prefix": "set()",
+        "body": "∅"
+    },
+    "(elem)": {
+        "prefix": "(elem)",
+        "body": "∈"
+    },
+    "!(elem)": {
+        "prefix": "!(elem)",
+        "body": "∉"
+    },
+    "(cont)": {
+        "prefix": "(cont)",
+        "body": "∋"
+    },
+    "!(cont)": {
+        "prefix": "!(cont)",
+        "body": "∌"
+    },
+    "(<=)": {
+        "prefix": "(<=)",
+        "body": "⊆"
+    },
+    "!(<=)": {
+        "prefix": "!(<=)",
+        "body": "⊈"
+    },
+    "(<)": {
+        "prefix": "(<)",
+        "body": "⊂"
+    },
+    "!(<)": {
+        "prefix": "!(<)",
+        "body": "⊄"
+    },
+    "(>=)": {
+        "prefix": "(>=)",
+        "body": "⊇"
+    },
+    "!(>=)": {
+        "prefix": "!(>=)",
+        "body": "⊉"
+    },
+    "(>)": {
+        "prefix": "(>)",
+        "body": "⊃"
+    },
+    "!(>)": {
+        "prefix": "!(>)",
+        "body": "⊅"
+    },
+    "(<+)": {
+        "prefix": "(<+)",
+        "body": "≼"
+    },
+    "(>+)": {
+        "prefix": "(>+)",
+        "body": "≽"
+    },
+    "(|)": {
+        "prefix": "(|)",
+        "body": "∪"
+    },
+    "(&)": {
+        "prefix": "(&)",
+        "body": "∩"
+    },
+    "(-)": {
+        "prefix": "(-)",
+        "body": "∖"
+    },
+    "(^)": {
+        "prefix": "(^)",
+        "body": "⊖"
+    },
+    "(.)": {
+        "prefix": "(.)",
+        "body": "⊍"
+    },
+    "(+)": {
+        "prefix": "(+)",
+        "body": "⊎"
+    },
+    "Alpha": {
+        "prefix": "Alpha",
+        "body": "Α"
+    },
+    "Beta": {
+        "prefix": "Beta",
+        "body": "Β"
+    },
+    "Gamma": {
+        "prefix": "Gamma",
+        "body": "Γ"
+    },
+    "Delta": {
+        "prefix": "Delta",
+        "body": "Δ"
+    },
+    "Epsilon": {
+        "prefix": "Epsilon",
+        "body": "Ε"
+    },
+    "Zeta": {
+        "prefix": "Zeta",
+        "body": "Ζ"
+    },
+    "Eta": {
+        "prefix": "Eta",
+        "body": "Η"
+    },
+    "Theta": {
+        "prefix": "Theta",
+        "body": "Θ"
+    },
+    "Theta2": {
+        "prefix": "Theta2",
+        "body": "ϑ"
+    },
+    "Iota": {
+        "prefix": "Iota",
+        "body": "Ι"
+    },
+    "Kappa": {
+        "prefix": "Kappa",
+        "body": "Κ"
+    },
+    "Lambda": {
+        "prefix": "Lambda",
+        "body": "Λ"
+    },
+    "My": {
+        "prefix": "My",
+        "body": "Μ"
+    },
+    "Ny": {
+        "prefix": "Ny",
+        "body": "Ν"
+    },
+    "Xi": {
+        "prefix": "Xi",
+        "body": "Ξ"
+    },
+    "Omikron": {
+        "prefix": "Omikron",
+        "body": "Ο"
+    },
+    "Pi": {
+        "prefix": "Pi",
+        "body": "Π"
+    },
+    "Rho": {
+        "prefix": "Rho",
+        "body": "Ρ"
+    },
+    "Sigma": {
+        "prefix": "Sigma",
+        "body": "Σ"
+    },
+    "Tau": {
+        "prefix": "Tau",
+        "body": "Τ"
+    },
+    "Ypsilon": {
+        "prefix": "Ypsilon",
+        "body": "Υ"
+    },
+    "Phi": {
+        "prefix": "Phi",
+        "body": "ϕ"
+    },
+    "Phi2": {
+        "prefix": "Phi2",
+        "body": "Φ"
+    },
+    "Chi": {
+        "prefix": "Chi",
+        "body": "Χ"
+    },
+    "Psi": {
+        "prefix": "Psi",
+        "body": "Ψ"
+    },
+    "Omega": {
+        "prefix": "Omega",
+        "body": "Ω"
+    },
+    "alpha": {
+        "prefix": "alpha",
+        "body": "α"
+    },
+    "beta": {
+        "prefix": "beta",
+        "body": "β"
+    },
+    "gamma": {
+        "prefix": "gamma",
+        "body": "γ"
+    },
+    "delta": {
+        "prefix": "delta",
+        "body": "δ"
+    },
+    "epsilo": {
+        "prefix": "epsilo",
+        "body": "ϵ"
+    },
+    "epsilon2": {
+        "prefix": "epsilon2",
+        "body": "ε"
+    },
+    "zeta": {
+        "prefix": "zeta",
+        "body": "ζ"
+    },
+    "eta": {
+        "prefix": "eta",
+        "body": "η"
+    },
+    "theta": {
+        "prefix": "theta",
+        "body": "θ"
+    },
+    "iota": {
+        "prefix": "iota",
+        "body": "ι"
+    },
+    "kappa": {
+        "prefix": "kappa",
+        "body": "κ"
+    },
+    "kappa2": {
+        "prefix": "kappa2",
+        "body": "ϰ"
+    },
+    "lambda": {
+        "prefix": "lambda",
+        "body": "λ"
+    },
+    "my": {
+        "prefix": "my",
+        "body": "μ"
+    },
+    "ny": {
+        "prefix": "ny",
+        "body": "ν"
+    },
+    "xi": {
+        "prefix": "xi",
+        "body": "ξ"
+    },
+    "omikron": {
+        "prefix": "omikron",
+        "body": "ο"
+    },
+    "pi": {
+        "prefix": "pi",
+        "body": "π"
+    },
+    "rho": {
+        "prefix": "rho",
+        "body": "ρ"
+    },
+    "rho2": {
+        "prefix": "rho2",
+        "body": "ϱ"
+    },
+    "sigma": {
+        "prefix": "sigma",
+        "body": "σ"
+    },
+    "sigma2": {
+        "prefix": "sigma2",
+        "body": "ς"
+    },
+    "sigma3": {
+        "prefix": "sigma3",
+        "body": "ϲ"
+    },
+    "tau": {
+        "prefix": "tau",
+        "body": "τ"
+    },
+    "ypsilon": {
+        "prefix": "ypsilon",
+        "body": "υ"
+    },
+    "phi": {
+        "prefix": "phi",
+        "body": "φ"
+    },
+    "chi": {
+        "prefix": "chi",
+        "body": "χ"
+    },
+    "psi": {
+        "prefix": "psi",
+        "body": "ψ"
+    },
+    "omega": {
+        "prefix": "omega",
+        "body": "ω"
+    },
+    "Digamma": {
+        "prefix": "Digamma",
+        "body": "Ͷ"
+    },
+    "Digamma2": {
+        "prefix": "Digamma2",
+        "body": "Ϝ"
+    },
+    "digamma": {
+        "prefix": "digamma",
+        "body": "ͷ"
+    },
+    "digamma2": {
+        "prefix": "digamma2",
+        "body": "ϝ"
+    },
+    "Stigma": {
+        "prefix": "Stigma",
+        "body": "Ϛ"
+    },
+    "stigma": {
+        "prefix": "stigma",
+        "body": "ϛ"
+    },
+    "Heta": {
+        "prefix": "Heta",
+        "body": "Ͱ"
+    },
+    "heta": {
+        "prefix": "heta",
+        "body": "ͱ"
+    },
+    "San": {
+        "prefix": "San",
+        "body": "Ϻ"
+    },
+    "san": {
+        "prefix": "san",
+        "body": "ϻ"
+    },
+    "Koppa": {
+        "prefix": "Koppa",
+        "body": "Ϙ"
+    },
+    "Koppa2": {
+        "prefix": "Koppa2",
+        "body": "Ϟ"
+    },
+    "koppa": {
+        "prefix": "koppa",
+        "body": "ϙ"
+    },
+    "koppa2": {
+        "prefix": "koppa2",
+        "body": "ϟ"
+    },
+    "Sampi": {
+        "prefix": "Sampi",
+        "body": "Ͳ"
+    },
+    "Sampi2": {
+        "prefix": "Sampi2",
+        "body": "Ϡ"
+    },
+    "sampi": {
+        "prefix": "sampi",
+        "body": "ͳ"
+    },
+    "sampi2": {
+        "prefix": "sampi2",
+        "body": "ϡ"
+    },
+    "Scho": {
+        "prefix": "Scho",
+        "body": "Ϸ"
+    },
+    "scho": {
+        "prefix": "scho",
+        "body": "ϸ"
+    },
+    "(:-D)": {
+      "prefix": "(:-D)",
+      "body": "😃"
+    },
+    "(XD)": {
+        "prefix": "(XD)",
+        "body": "😆"
+    },
+    "(:-|)": {
+        "prefix": "(:-|)",
+        "body": "😐"
+    },
+    "(:,-|)": {
+        "prefix": "(:,-|)",
+        "body": "😓"
+    },
+    "(:-/)": {
+        "prefix": "(:-/)",
+        "body": "😕"
+    },
+    "(:-P)": {
+        "prefix": "(:-P)",
+        "body": "😛"
+    },
+    "(;-P)": {
+        "prefix": "(;-P)",
+        "body": "😜"
+    },
+    "(:-()": {
+        "prefix": "(:-()",
+        "body": "😞"
+    },
+    "(:,-()": {
+        "prefix": "(:,-(",
+        "body": "😢"
+    },
+    "(:-O)": {
+        "prefix": "(:-O)",
+        "body": "😮"
+    },
+    "(:-)": {
+        "prefix": "(:-)",
+        "body": "😊"
+    },
+    "(:-})": {
+        "prefix": "(:-})",
+        "body": "😖"
+    }    
   }
 }
