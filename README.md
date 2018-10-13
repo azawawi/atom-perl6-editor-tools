@@ -2,6 +2,11 @@
 
 [![Dependency Status](https://david-dm.org/azawawi/atom-perl6-editor-tools.svg?style=flat-square)](https://david-dm.org/azawawi/atom-perl6-editor-tools)
 
+## **Deprecation Notice:**
+
+**This plugin is going to be deprecated in favor of [ide-perl6](https://github.com/azawawi/ide-perl6).
+All the useful features that are found here are going to be moved there slowly. Syntax checker linter is already there.**
+
 This atom plugin provides a collection of useful Perl 6 editor tools that are
 shown below:
 
